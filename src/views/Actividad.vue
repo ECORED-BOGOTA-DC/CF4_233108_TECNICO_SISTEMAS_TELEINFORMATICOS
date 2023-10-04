@@ -10,7 +10,7 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Nombre de la actividad
+          h2 Gestión de hardware y software
         p.mb-4 #[b Objetivo] 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
