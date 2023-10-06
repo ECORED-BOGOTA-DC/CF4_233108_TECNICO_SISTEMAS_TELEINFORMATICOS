@@ -129,7 +129,7 @@
           p.texto-blanco.mb-0 Esta evolución repasó algunas máquinas clásicas de la historia de los dispositivos de cálculo automatizado y se centró en los principales avances que incorporó cada una de ellas. La máquina analítica de Babbage se incluye aquí por los numerosos saltos de ingenio que representa su diseño. Los demás sistemas se analizaron porque incorporaron importantes avances tecnológicos y realizaron una valiosa labor en el mundo real a lo largo de su vida.
 
     separador
-    #t_1_1.titulo-segundo.color-acento-contenido
+    #t_1_1.titulo-segundo.color-acento-botones
        h2 1.1 Características externas
 
     .row.justify-content-center.align-items-center.mb-5
@@ -148,7 +148,7 @@
 
       .col-lg-5
         figure
-          img(src='@/assets/curso/temas/tema1/img12.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema1/img12.svg', alt='Imágen decorativa').img12-tm1
 
     .bg-fondo3
       .row.justify-content-center.align-items-center.mb-5
@@ -161,56 +161,56 @@
             figure
               img(src='@/assets/curso/temas/tema1/img13.svg', alt='Imágen decorativa')
 
-          .tarjeta.color-primario.p-3(x="7.5%" y="45%" numero="+")
+          .tarjeta.color-adicional-1.p-3(x="7.5%" y="45%" numero="+")
             .h5.mb-2.texto-blanco Puerto VGA
             p.texto-blanco Un puerto VGA (Video Graphics Array), también llamado puerto DB-15, puerto DB15, puerto HD15 o puerto DE15, es un puerto hembra de 15 pines en forma de D que transmite vídeo analógico. (Analógico significa una señal continua con infinitas variaciones en comparación con la digital, que es una serie de valores binarios - 1s y 0s). Todos los monitores antiguos utilizan puertos VGA. (Por cierto, el nombre HD15 [alta definición de 15 pines] para el puerto es un nombre antiguo que lo distingue de los primeros puertos VGA de 9 pines).
 
-          .tarjeta.color-primario.p-3(x="24.5%" y="45%" numero="+")
+          .tarjeta.color-adicional-1.p-3(x="24.5%" y="45%" numero="+")
             .h5.mb-2.texto-blanco Puerto DVI
             p.texto-blanco Un puerto DVI (Digital Video Interface) transmite vídeo digital o analógico.
 
-          .tarjeta.color-primario.p-3(x="41.5%" y="45%" numero="+")
+          .tarjeta.color-adicional-1.p-3(x="41.5%" y="45%" numero="+")
             .h5.mb-2.texto-blanco Puerto DisplayPort
             p.texto-blanco Un DisplayPort transmite video y audio digital (no transmisiones analógicas) y está sustituyendo poco a poco a los puertos VGA y DVI de los ordenadores personales.
 
-          .tarjeta.color-primario.p-3(x="58.5%" y="45%" numero="+")
+          .tarjeta.color-adicional-1.p-3(x="58.5%" y="45%" numero="+")
             .h5.mb-2.texto-blanco Puerto Thunderbolt
             p.texto-blanco Un puerto Thunderbolt 3 transmite video, datos y energía en el mismo puerto y cable y es popular entre los ordenadores de Apple. El puerto tiene la misma forma que el puerto USB-C y es compatible con los dispositivos USB-C. Hasta seis periféricos (por ejemplo, monitores y discos duros externos conectados en cadena) pueden utilizar el mismo puerto Thunderbolt. 
 
-          .tarjeta.color-primario.p-3(x="75.5%" y="45%" numero="+")
+          .tarjeta.color-adicional-1.p-3(x="75.5%" y="45%" numero="+")
             .h5.mb-2.texto-blanco Sistema de puertos
             p.texto-blanco Un sistema suele tener tres o más puertos de audio redondos, también llamados puertos de sonido, para un micrófono, una entrada de audio, una salida de audio y una salida de audio estéreo. Estos tipos de puertos de audio pueden transmitir datos analógicos o digitales. Si tienes un cable de audio para conectarlo a un altavoz o a unos auriculares, conéctalo al puerto de sonido verde lima, situado en el centro de los tres puertos. El micrófono utiliza el puerto rosa
 
-          .tarjeta.color-primario.p-3(x="92.5%" y="45%" numero="+")
+          .tarjeta.color-adicional-1.p-3(x="92.5%" y="45%" numero="+")
             .h5.mb-2.texto-blanco Puerto SPDIF
             p.texto-blanco Un puerto de sonido SPDIF (Sony-Philips Digital Interface) se conecta a un sistema de audio de cine en casa externo, proporcionando una salida de audio digital y la mejor calidad de señal. Los puertos SPDIF siempre transmiten audio digital y pueden funcionar con cable eléctrico u óptico. Cuando se conecta a un cable de fibra óptica, el puerto se denomina conector óptico.
 
-          .tarjeta.color-primario.p-3(x="7.5%" y="102%" numero="+")
+          .tarjeta.color-adicional-1.p-3(x="7.5%" y="102%" numero="+")
             .h5.mb-2.texto-blanco Puerto USB
             p.texto-blanco Un puerto USB (Universal Serial Bus) es un puerto de E/S multipropósito que viene en varios tamaños y es utilizado por muchos dispositivos diferentes, incluyendo impresoras, ratones, teclados, escáneres, discos duros externos y unidades flash en varios tamaños y es utilizado por muchos dispositivos diferentes, incluyendo impresoras, ratones, teclados, escáneres, discos duros externos y unidades flash. Algunos puertos USB son más rápidos que otros. El USB 2.0 de alta velocidad es más rápido que el USB normal, y el USB 3.0 de alta velocidad es más rápido que el USB 2.0.
 
-          .tarjeta.color-primario.p-3(x="24.5%" y="102%" numero="+")
+          .tarjeta.color-adicional-1.p-3(x="24.5%" y="102%" numero="+")
             .h5.mb-2.texto-blanco Puerto HD
             p.texto-blanco Un puerto HDMI (High-Definition Multimedia Interface) transmite video y audio digital (no transmisiones analógicas) y suele utilizarse para conectar equipos de cine en casa.
 
-          .tarjeta.color-primario.p-3(x="41.5%" y="102%" numero="+")
+          .tarjeta.color-adicional-1.p-3(x="41.5%" y="102%" numero="+")
             .h5.mb-2.texto-blanco Puerto PS/2
             p.texto-blanco Un puerto PS/2, también llamado puerto mini-DIN, es un puerto redondo de 6 pines utilizado por un teclado o un ratón. Los puertos se parecen, pero no son intercambiables. En un ordenador de sobremesa, el puerto morado es para el teclado y el verde para el ratón. Muchos ordenadores nuevos utilizan puertos USB para el teclado y el ratón en lugar de los antiguos puertos PS/2.
 
-          .tarjeta.color-primario.p-3(x="58.5%" y="102%" numero="+")
+          .tarjeta.color-adicional-1.p-3(x="58.5%" y="102%" numero="+")
             .h5.mb-2.texto-blanco Puerto Serial
             p.texto-blanco Un puerto serie antiguo, a veces llamado puerto DB9, es un puerto macho de 9 pines utilizado en ordenadores antiguos. Ha sido sustituido en su mayoría por puertos USB. Ocasionalmente, se ve un puerto serie en un router, donde el puerto se utiliza para conectar el router a un dispositivo que un técnico puede utilizar para supervisar y gestionar el router.
 
-          .tarjeta.color-primario.p-3(x="75.5%" y="102%" numero="+")
+          .tarjeta.color-adicional-1.p-3(x="75.5%" y="102%" numero="+")
             .h5.mb-2.texto-blanco Puerto de red
             p.texto-blanco Un puerto de red, también llamado puerto Ethernet o puerto RJ-45, es utilizado por un cable de red para conectarse a la red alámbrica. Los puertos Fast Ethernet funcionan a 100 Mbps (megabits por segundo), y Gigabit Ethernet funciona a 1000 Mbps o 1 Gbps (gigabits por segundo). Un megabit es un millón de bits y un gigabit es mil millones de bits. Un bit es un valor binario de 1 o 0.
 
-          .tarjeta.color-primario.p-3(x="92.5%" y="102%" numero="+")
+          .tarjeta.color-adicional-1.p-3(x="92.5%" y="102%" numero="+")
             .h5.mb-2.texto-blanco Puerto modem
-            p.texto-blanco Un puerto de módem, también llamado puerto RJ-11, se utiliza para conectar líneas telefónicas de acceso telefónico a los ordenadores. Un puerto de módem se parece a un puerto de red, pero no es tan amplio. 
+            p.texto-blanco Un puerto de módem, también llamado puerto RJ-11, se utiliza para conectar líneas telefónicas de acceso telefónico a los ordenadores. Un puerto de módem se parece a un puerto de red, pero no es tan amplio.
 
     separador
-    #t_1_2.titulo-segundo.color-acento-contenido
+    #t_1_2.titulo-segundo.color-acento-botones
        h2 1.2 Componentes mecánicos
 
     .bg-fondo4
@@ -233,34 +233,33 @@
             figure
               img(src='@/assets/curso/temas/tema1/img15.svg', alt='Imágen decorativa')
 
-          .tarjeta.color-primario.p-3(x="13%" y="102%" numero="+")
+          .tarjeta.color-adicional-1.p-3(x="13%" y="102%" numero="+")
             .h5.mb-2.texto-blanco Tarjetas de expansión	
             p.texto-blanco Una placa base tiene ranuras de expansión para ser utilizadas por las tarjetas de expansión. Una tarjeta de expansión, también llamada tarjeta adaptadora, es una placa de circuito que proporciona más puertos que los proporcionados por la placa base. La imagen muestra una tarjeta de video que proporciona tres puertos para este fin. Observe el ventilador y el disipador de calor de la tarjeta, que ayudan a evitar que se sobrecaliente. La tendencia actual es que la mayoría de los puertos de un sistema sean proporcionados por la placa base (llamados puertos de la placa) y que se utilicen menos las tarjetas de expansión.	 
 
-          .tarjeta.color-primario.p-3(x="38%" y="102%" numero="+")
+          .tarjeta.color-adicional-1.p-3(x="38%" y="102%" numero="+")
             .h5.mb-2.texto-blanco Módulos de memoria
             p.texto-blanco Una placa base de sobremesa dispone de ranuras de memoria, denominadas ranuras DIMM (módulo de memoria dual en línea), para alojar módulos de memoria. Un módulo de memoria instalado en una ranura DIMM y tres ranuras DIMM vacías. La memoria, también llamada RAM (Random Access Memory) es el almacenamiento temporal de datos e instrucciones mientras son procesados por la CPU. Las tarjetas de vídeo también contienen algunos chips de RAM integrados para la memoria de vídeo
 
-          .tarjeta.color-primario.p-3(x="63%" y="102%" numero="+")
+          .tarjeta.color-adicional-1.p-3(x="63%" y="102%" numero="+")
             .h5.mb-2.texto-blanco Fuente de alimentación
             p.texto-blanco Un sistema puede tener uno o más discos duros y una unidad óptica. Un disco duro, también llamado unidad de disco duro (HDD), es un almacenamiento permanente que se utiliza para guardar datos y programas. Por ejemplo, el sistema operativo Windows 10 y las aplicaciones se instalan en el disco duro. Todas las unidades de un sistema se instalan en una pila de bahías de unidades en la parte delantera de la caja. El disco duro más grande es una unidad magnética y el más pequeño es una unidad de estado sólido (SSD). Cada unidad tiene dos conexiones para cables: El cable de alimentación se conecta a la fuente de alimentación, y otro cable, utilizado para los datos y las instrucciones, se conecta a la placa base.
 
-          .tarjeta.color-primario.p-3(x="88%" y="102%" numero="+")
+          .tarjeta.color-adicional-1.p-3(x="88%" y="102%" numero="+")
             .h5.mb-2.texto-blanco Discos duros y otras unidades.
             p.texto-blanco La fuente de alimentación del ordenador, también conocida como fuente de alimentación (PSU), es una caja instalada en una esquina de la caja del ordenador que recibe y convierte la corriente de la casa para que los componentes del interior de la caja puedan utilizarla. La mayoría de las fuentes de alimentación tienen un interruptor selector de voltaje Duval. en la parte posterior de la caja del ordenador donde se puede cambiar el voltaje de entrada a la fuente de alimentación si es necesario-115 V se utiliza en los Estados Unidos y 220 V se utiliza en otros países.
 
     separador
-    #t_1_3.titulo-segundo.color-acento-contenido
+    #t_1_3.titulo-segundo.color-acento-botones
        h2 1.3 Periféricos
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-11
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img16.svg')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 Un portátil está diseñado para ser transportable y puede ser tan potente como un ordenador de sobremesa. Más de la mitad de los computadores personales que se compran hoy en día son portátiles, y casi el 30% de los computadores personales que se utilizan actualmente son de esta categoría. Los portátiles utilizan la misma tecnología que los ordenadores de sobremesa, pero con modificaciones para consumir menos energía, ocupar menos espacio y funcionar en movimiento.
+      .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img16.svg')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 Un portátil está diseñado para ser transportable y puede ser tan potente como un ordenador de sobremesa. Más de la mitad de los computadores personales que se compran hoy en día son portátiles, y casi el 30% de los computadores personales que se utilizan actualmente son de esta categoría. Los portátiles utilizan la misma tecnología que los ordenadores de sobremesa, pero con modificaciones para consumir menos energía, ocupar menos espacio y funcionar en movimiento.
 
     p.mb-5 Los portátiles se presentan en distintas variedades, incluyendo algunos con una pantalla táctil que permite escribir a mano en ella con un lápiz óptico y otros con una pantalla giratoria o extraíble que permite utilizar el portátil como una tableta. Otra variante de un portátil es un notebook, que es más pequeño y menos caro que un portátil y tiene menos funciones. Un computador “todo en uno” tiene el monitor y la carcasa del ordenador juntos y utiliza componentes que son comunes a un portátil y a un ordenador de sobremesa. Dado que los ordenadores todo en uno utilizan muchos componentes de los portátiles y su mantenimiento es similar, se incluye en esta temática. La siguiente infografía presenta el panel de periféricos de un portátil.
 
