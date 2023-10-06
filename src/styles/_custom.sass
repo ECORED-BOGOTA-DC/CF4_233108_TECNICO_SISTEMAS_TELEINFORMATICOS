@@ -169,3 +169,31 @@
   background-size: 30% 90%
   @media (max-width: 500px)
     background-size: 100% 100%
+
+//Estilos Tema 6
+
+.lista-ol--separador li, .lista-ul--separador li 
+  border-bottom: dotted 1px #b0c0d2 !important;
+
+.bg1-tema6
+  background-image: url("../assets/curso/temas/tema6/bg1.png")
+  background-repeat: no-repeat
+  background-size: 100% 100%
+
+.bg-fondo_tema6
+  position: relative
+  .row, figure, p, h3,
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 20px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema6/bg2.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+    @media (max-width: 991px)
+      background-repeat: no-repeat
