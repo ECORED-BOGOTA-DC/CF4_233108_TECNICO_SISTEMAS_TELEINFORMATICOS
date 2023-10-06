@@ -121,9 +121,10 @@
     p.mb-5 Básicamente, el mantenimiento preventivo implica la sustitución planificada de los componentes, diseñada en torno a la siguiente información:
 
     .bg-fondo3
-      .col-lg-10
-        figure
-          img(src='@/assets/curso/temas/tema2/img7.svg', alt='Imágen decorativa')
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-10
+          figure
+            img(src='@/assets/curso/temas/tema2/img7.svg', alt='Imágen decorativa')
 
     separador
     #t_2_1.titulo-segundo.color-acento-botones
