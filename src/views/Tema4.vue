@@ -405,16 +405,189 @@
 
     .bg-fondo3
       .row.justify-content-center.align-items-center.mb-5
-        .col-10.col-lg-4
+        .col-10.col-lg-4.mt-5.mb-3
           figure
             img(src='@/assets/curso/temas/tema4/img29.svg', alt='Imágen decorativa')
 
+        .col-lg-8.mt-4
+          SlyderF(columnas="col-lg-6 col-xl-4")
+            .tarjeta.tarjeta-blanca2.p-4
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/curso/temas/tema4/img30.svg' alt='Imágen decorativa')
+              p.text-center Ofrece una diferenciación competitiva al demostrar fiabilidad y alta calidad de servicio.
 
+            .tarjeta.tarjeta-blanca2.p-4
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/curso/temas/tema4/img31.svg' alt='Imágen decorativa')
+              p.text-center Da acceso a mercados clave, ya que muchas organizaciones del sector público exigen que sus proveedores de servicios de TI demuestren el cumplimiento de la norma ISO 20000.
 
+            .tarjeta.tarjeta-blanca2.p-4
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/curso/temas/tema4/img32.svg' alt='Imágen decorativa')
+              p.text-center Asegura a los clientes que se cumplirán sus requisitos de servicio.
 
+            .tarjeta.tarjeta-blanca2.p-4
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/curso/temas/tema4/img33.svg' alt='Imágen decorativa')
+              p.text-center Impone un nivel de eficacia medible y una cultura de mejora continua al permitir a los proveedores de servicios supervisar, medir y revisar sus procesos y servicios de gestión de servicios.
 
+            .tarjeta.tarjeta-blanca2.p-4
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/curso/temas/tema4/img34.svg' alt='Imágen decorativa')
+              p.text-center Reduce los costes de conformidad con muchas leyes y normas, como la PCI DSS (Payment Card Industry Data Security Standard) y la Ley Sarbanes-Oxley.
 
+            .tarjeta.tarjeta-blanca2.p-4
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/curso/temas/tema4/img35.svg' alt='Imágen decorativa')
+              p.text-center Ayuda a aprovechar las prácticas de ITIL para optimizar los recursos y los procesos.
 
+    .row.justify-content-center.align-items-center.mb-5
+      .cajon.color-primario.p-4
+        p.mb-0 ISO 20000 e ITIL tienen una estrecha relación. ITIL ofrece asesoramiento sobre las mejores prácticas de ITSM, incluyendo las opciones adoptadas y adaptadas por las organizaciones según las necesidades del negocio, las circunstancias locales y la madurez del proveedor de servicios. La ISO 20000, por su parte, establece los estándares a los que deben aspirar los procesos de gestión de servicios. Las organizaciones pueden obtener una certificación independiente de la norma para demostrar que siguen las mejores prácticas.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10.col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema4/img36.svg', alt='Imágen decorativa')
+
+      .col-lg-8
+        p ITIL (Information Technology Infrastructure Library) es un conjunto de prácticas detalladas para la ITSM (gestión de servicios de TI) que se centra en alinear los servicios de TI con las necesidades del negocio. ITIL describe procesos, procedimientos, tareas y listas de comprobación que no son específicos de una organización, pero que pueden ser aplicados por una organización para establecer la integración con la estrategia de la organización, ofrecer valor y mantener un nivel mínimo de competencia.
+
+        p ITIL 4 se basa en las versiones anteriores del marco introduciendo un nuevo modelo operativo digital de extremo a extremo, que ha sido diseñado para ayudar a los equipos de TI a crear, entregar y operar productos y servicios técnicos que se ajusten a la estrategia empresarial más amplia de su organización. Este modelo se denomina “sistema de valor del servicio” o “SVS”. Gunawan, H. (2019). En el siguiente recurso se puede apreciar el paso a paso de esta operación.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7.mb-4
+        LineaTiempoD.color-acento-botones
+          .row(numero="1" titulo="Proceso de adquisición")
+            ul.lista-ul--color.fa-ul2
+              li 
+                i.fas.fa-check-circle
+                p.mb-0 Preparar las especificaciones genéricas en consulta con los usuarios finales; éstas deben incluir tanto las especificaciones funcionales como las técnicas.
+              li 
+                i.fas.fa-check-circle
+                p.mb-0 Preparar una lista de posibles proveedores.
+              li 
+                i.fas.fa-check-circle
+                p.mb-0 Publicar un anuncio de licitación en el que se especifique la provisión de manuales de servicio técnico, formación (para el operador y el personal de mantenimiento), garantía de los accesorios y las piezas de repuesto, así como una fianza para que el licitador se comprometa a cumplir las ofertas en caso de ser aceptadas.
+              li 
+                i.fas.fa-check-circle
+                p.mb-0 Es preferible obtener las ofertas en dos partes: técnica y financiera/comercial. Evaluar primero las ofertas técnicas y después las financieras. Considerar sólo las ofertas financieras que satisfagan las especificaciones técnicas establecidas.
+              li 
+                i.fas.fa-check-circle
+                p.mb-0 Elabore recomendaciones claras sobre el equipo que se va a adquirir, junto con los accesorios y las piezas de repuesto recomendadas. No olvide mencionar el manual de servicio en la orden de compra.
+              li 
+                i.fas.fa-check-circle
+                p.mb-0 Solicite una lista de los servicios que deben establecerse y que son necesarios para la instalación del equipo.
+
+          .row(numero="2" titulo="Planificación de los servicios públicos")
+            p El equipo puede requerir servicios como una fuente de alimentación trifásica, gas comprimido, una línea de agua a cierta presión, una disposición de eliminación de fluidos, recintos especiales, etc. Estos servicios deben estar bien planificados e implementados en consulta con el proveedor de equipos mucho antes de que se reciba el equipo, ya que de lo contrario se quedaría en los pasillos embalado en cajas de madera, bloqueando un espacio y un capital preciosos.
+
+          .row(numero="3" titulo="Pruebas de aceptación (inspección de entrada)")
+            p Es necesario un procedimiento formal de aceptación para garantizar que la entrada en servicio de todos los equipos se controla adecuadamente. Las pruebas de aceptación y la puesta en servicio de los equipos incluyen las pruebas eléctricas y mecánicas iniciales, las pruebas de seguridad radiológica adecuadas y la calibración. A continuación, se realizan controles para verificar el cumplimiento de las especificaciones técnicas y funcionales. También es necesario realizar comprobaciones para garantizar el cumplimiento de las normas y reglamentos adecuados, especialmente en el caso de los equipos médicos y los que se van a utilizar en condiciones peligrosas. Hay que comprobar que los manuales técnicos, los repuestos y los accesorios están completos y son funcionales. Debe prepararse y firmarse un certificado de prueba de aceptación formal.
+
+          .row(numero="4" titulo="Praesent")
+            p Una vez firmado el certificado de aceptación del equipo, este debe incluirse en el inventario mantenido en forma de “Registro de bienes”. En el inventario debe incluirse la siguiente información:
+
+            ul.lista-ul--color.fa-ul2.mb-3
+              li 
+                i.fas.fa-check-circle
+                p.mb-0 Nombre y categoría del equipo.
+              li 
+                i.fas.fa-check-circle
+                p.mb-0 N.º de modelo.
+              li 
+                i.fas.fa-check-circle
+                p.mb-0 Número de serie.
+              li 
+                i.fas.fa-check-circle
+                p.mb-0 Fecha de compra.
+              li 
+                i.fas.fa-check-circle
+                p.mb-0 Coste.
+              li 
+                i.fas.fa-check-circle
+                p.mb-0 Disposiciones de mantenimiento: interno, contrato de mantenimiento.
+              li 
+                i.fas.fa-check-circle
+                p.mb-0 Ubicación del equipo: departamento, sección, persona (usuario) responsable.
+
+            .cajon.color-primario.p-4
+              p.mb-0 Es probable que los requisitos de un inventario exhaustivo sólo puedan cumplirse mediante el uso de un sistema informático.
+
+          .row(numero="5" titulo="Formación del usuario")
+            p Debe llevarse a cabo in situ en forma de demostraciones en vivo basadas en el manual de usuario. Deben explicarse los posibles errores y fallos que se encuentran habitualmente, junto con los detalles de las medidas correctoras adecuadas. Se debe prohibir a las personas que no estén familiarizadas con el equipo que lo manejen a menos que estén supervisadas o hasta que se consideren competentes en su uso. Son muchas las ocasiones en las que el mal funcionamiento del equipo puede atribuirse a un manejo incorrecto, intentando culpar a la máquina o a problemas inexistentes de funcionamiento del equipo.
+
+      .col-lg-5.mb-4
+        figure
+          img(src='@/assets/curso/temas/tema4/img37.svg', alt='Imágen decorativa')
+        
+      .col-lg-5.mb-4
+        figure
+          img(src='@/assets/curso/temas/tema4/img38.svg', alt='Imágen decorativa')
+
+      .col-lg-7.mb-4
+        LineaTiempoD.color-acento-botones
+          .row(numero="6" titulo="Formación técnica")
+            p Es esencial que las personas empleadas en el mantenimiento y la reparación de equipos realicen un curso o una formación. Los técnicos de mantenimiento y reparación no deben, bajo ningún concepto, ser enviados o permitirse trabajar en cualquier aparato en el que no hayan recibido la formación adecuada.
+
+          .row(numero="7" titulo="Comprobación de la calibración")
+            p Para algunos tipos de equipos, la calibración es particularmente importante, ya sea periódicamente o después de las reparaciones. Por lo tanto, es esencial que el personal de mantenimiento confirme los procedimientos y las normas y los lleve a cabo según las recomendaciones.
+
+          .row(numero="8" titulo="Mantenimiento preventivo")
+            p Implica la inspección y la sustitución oportuna de los componentes vulnerables. Aumenta la fiabilidad del equipo y reduce la probabilidad de que se produzcan fallos importantes. Normalmente se traduce en una mayor vida útil del equipo. Se debe establecer, documentar y aplicar una disposición adecuada para el mantenimiento preventivo, ya sea interno o a través de empresas. El mantenimiento preventivo debe abarcar tanto las pruebas de rendimiento como las de seguridad.
+
+          .row(numero="9" titulo="Cuestión de ALERTA")
+            p Los departamentos de mantenimiento deben documentar todo tipo de accidentes, incidentes y productos potencialmente dañinos, incluso si se sospecha de ellos. Dicha información debe distribuirse a todos los interesados en forma de “Cuestiones de alerta” para evitar que se repita el incidente o el problema. Además, todos los incidentes de este tipo deben ser investigados para crear una amplia base de datos que sirva de correlación en el futuro.
+
+          .row(numero="10" titulo="Garantía de calidad")
+            p Debe establecerse un procedimiento para llevar a cabo los servicios de gestión de equipos, especialmente con referencia a alguna norma aprobada como la ISO 9000. En general, los manuales de garantía de calidad deben definir los procedimientos de la política y las instrucciones de trabajo. Todos los equipos de prueba deben estar calibrados, y dicha calibración debe ser trazable a las normas nacionales. El concepto básico es que el nivel de servicio que se debe prestar debe estar definido y debidamente auditado.
+
+    separador
+    #t_4_4.titulo-segundo.color-acento-contenido
+       h2 4.4 Licenciamiento
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10.col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema4/img39.svg', alt='Imágen decorativa')
+
+      .col-lg-8
+        .cajon.color-primario.p-4
+          p.mb-0 La documentación es un requisito esencial en un laboratorio de servicio y mantenimiento. Ayuda a supervisar los programas y a obtener datos en los que basar las decisiones de mantenimiento de los equipos. Además, la documentación permite generar informes para los distintos departamentos de usuarios y la administración y puede utilizarse para demostrar el cumplimiento de los requisitos del gobierno y otros organismos reguladores y para cumplir los requisitos de gestión de riesgos. Es necesario disponer de pruebas adecuadas y aceptables de las reparaciones, inspecciones y calibraciones en caso de que la planta se vea involucrada en un caso de responsabilidad. Aunque la documentación exhaustiva suele considerarse segura, su coste es elevado, ya que incluye el tiempo dedicado a registrar y archivar la información, así como el espacio de almacenamiento físico para los registros.
+
+    p.mb-5 Los registros informatizados pueden reducir en gran medida el tiempo y el espacio necesarios para la documentación, por lo que son preferibles. Sin embargo, es necesario garantizar la exactitud y la seguridad de la información almacenada en el ordenador. También es una buena práctica tener copias de seguridad periódicas de todos los datos en un medio de almacenamiento adecuado .
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        .cajon.color-primario.p-4
+          p.mb-0 El laboratorio debe llevar un registro de todos los equipos que entran para ser reparados, los detalles sobre la mano de obra desplegada en los trabajos de reparación y mantenimiento, las piezas de repuesto utilizadas, el mantenimiento del inventario de piezas de repuesto, los equipos de prueba y su calibración periódica, el cálculo de los costes de los trabajos realizados, los programas de inspección y mantenimiento preventivo y su aplicación, etc. La siguiente figura ofrece una visión general del sistema de mantenimiento.
+
+      .col-10.col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema4/img40.svg', alt='Imágen decorativa')
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .titulo-sexto.color-acento-botones.mb-3
+          h5 Figura 1.
+          span Ejemplo de evaluación del valor de un activo de información
+
+        figure
+          img(src='@/assets/curso/temas/tema4/img41.svg', alt='Imágen decorativa')
+
+    .row.justify-content-center.align-items-center.mb-5
+      .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img42.svg')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 El laboratorio de servicios tiene que llevar a cabo múltiples actividades, como la inspección de los equipos que llegan, su instalación y su incorporación al inventario; la reparación de los equipos defectuosos recibidos en el laboratorio y la realización de actividades de mantenimiento preventivo. En aras de un funcionamiento y una gestión eficaces de los activos de una organización, es necesario llevar un registro informático adecuado de todas estas actividades. 
 
 
 
