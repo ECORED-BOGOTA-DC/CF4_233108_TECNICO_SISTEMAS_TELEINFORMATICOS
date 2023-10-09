@@ -12,7 +12,7 @@
         img(src='@/assets/curso/temas/tema4/img1.png', alt='Imágen decorativa')    
 
       .col-lg-11
-        .tarjeta.tarjeta-gris-degrade.p-3
+        .tarjeta.tarjeta-gris-degrade.p-3(data-aos="fade-up")
           p.mb-0 El desgaste físico con el paso del tiempo y la acción de los elementos ambientales es inevitable, tanto en el caso de las instalaciones como de los equipos. El objetivo del mantenimiento es prolongar la vida de los equipos/sistemas y aumentar el tiempo medio entre fallos (MTBF) Algunosde los objetivos generales de un programa de gestión del mantenimiento son:
 
     .row.justify-content-center.align-items-center.mb-5
@@ -54,7 +54,7 @@
           p.text-center Minimizar el tiempo de inactividad.
 
     .row.justify-content-center.align-items-center.mb-5
-      .cajon.color-primario.p-4
+      .cajon.color-primario.p-4(data-aos="flip-up")
         p.mb-0 Una mejor organización del mantenimiento, de controles adecuados y de una planificación y programación eficaces, debe apoyarse en un mayor uso de las nuevas tecnologías y en un enfoque sistemático.
 
     separador
@@ -66,7 +66,7 @@
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img8.svg')})`}"
         )
-        .bloque-texto-g__texto.p-4
+        .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 Con la introducción de equipos electrónicos en casi todos los campos de actividad, se considera esencial que las organizaciones desarrollen una política sólida de mantenimiento de equipos para garantizar la continuidad del servicio de los mismos. Los objetivos de la gestión del mantenimiento de los equipos son los siguientes:
 
       .row.justify-content-center.align-items-center.mb-5
@@ -74,19 +74,19 @@
           .tarjeta-gris1.p-4
             .row.align-items-center
               .col-3.col-md-2.col-lg-1
-                figure
+                figure(data-aos="fade-right")
                   img(src='@/assets/curso/temas/tema2/img3.svg', alt='Imágen decorativa').img3-4-tm2
               
-              .col-lg-10.col-md-10
+              .col-lg-10.col-md-10(data-aos="fade-left")
                 b Un sistema de mantenimiento manejable y económico, minimizando el tiempo necesario para el mantenimiento. 
 
           .tarjeta-gris2.p-4
             .row.align-items-center
               .col-3.col-md-2.col-lg-1
-                figure
+                figure(data-aos="fade-right")
                   img(src='@/assets/curso/temas/tema2/img4.svg', alt='Imágen decorativa').img3-4-tm2
               
-              .col-lg-10.col-md-10
+              .col-lg-10.col-md-10(data-aos="fade-left")
                 b Documentación esencial necesaria para todos los equipos.
 
         .col-8.col-lg-4
@@ -117,19 +117,19 @@
               p Servicio por contrato, en el que el proveedor del equipo y el usuario acuerdan las condiciones del contrato para los servicios de mantenimiento preventivo y correctivo.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-7.col-lg-4
+      .col-7.col-lg-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema4/img10.svg', alt='Imágen decorativa')
 
       .col-lg-8
-        .tarjeta-verde.p-5
-          p.mb-0 Los grandes establecimientos como los servicios de defensa, los departamentos de telecomunicaciones y los hospitales no pueden depender únicamente de los servicios ofrecidos por los fabricantes. A menudo, estos servicios suelen ser caros y pueden no estar disponibles cuando se necesitan durante una avería de emergencia del sistema. Por lo tanto, es necesario crear instalaciones de servicio internas y sólo en el caso de una avería muy compleja se solicitan los servicios de los fabricantes .
+        .tarjeta-verde.p-5(data-aos="fade-left")
+          b Los grandes establecimientos como los servicios de defensa, los departamentos de telecomunicaciones y los hospitales no pueden depender únicamente de los servicios ofrecidos por los fabricantes. A menudo, estos servicios suelen ser caros y pueden no estar disponibles cuando se necesitan durante una avería de emergencia del sistema. Por lo tanto, es necesario crear instalaciones de servicio internas y sólo en el caso de una avería muy compleja se solicitan los servicios de los fabricantes .
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        p En algunas situaciones, en las que los equipos son pesados y no pueden ser transportados al centro de reparación, es imprescindible disponer de unas instalaciones de servicio móviles. Mientras que en algunos casos es suficiente con llevar una caja de herramientas y una buena gama de componentes electrónicos para atender las necesidades de mantenimiento correctivo y preventivo, en otros casos puede ser necesario transportar equipos de prueba como un osciloscopio, fuentes de alimentación, generador de impulsos y multímetro digital, etc. Las furgonetas de mantenimiento móvil especialmente diseñadas pueden estar dotadas de equipos de prueba electrónicos adecuados y de instalaciones de taller mecánico para atender estos requisitos especializados.
+        p(data-aos="fade-right") En algunas situaciones, en las que los equipos son pesados y no pueden ser transportados al centro de reparación, es imprescindible disponer de unas instalaciones de servicio móviles. Mientras que en algunos casos es suficiente con llevar una caja de herramientas y una buena gama de componentes electrónicos para atender las necesidades de mantenimiento correctivo y preventivo, en otros casos puede ser necesario transportar equipos de prueba como un osciloscopio, fuentes de alimentación, generador de impulsos y multímetro digital, etc. Las furgonetas de mantenimiento móvil especialmente diseñadas pueden estar dotadas de equipos de prueba electrónicos adecuados y de instalaciones de taller mecánico para atender estos requisitos especializados.
 
-        .cajon.color-primario.p-4
+        .cajon.color-primario.p-4(data-aos="flip-up")
           p.mb-0 La política de mantenimiento aplicable a una situación concreta dependerá obviamente de varios factores. Algunos de estos son:
 
       .col-10.col-lg-4
@@ -146,14 +146,14 @@
         img(src='@/assets/curso/temas/tema4/img13.svg', alt='Imágen decorativa')
 
       .col-lg-6
-        .tarjeta.tarjeta-azul3.p-4
+        .tarjeta.tarjeta-azul3.p-4(data-aos="flip-down")
           p.mb-0.texto-blanco Para la localización de averías en los equipos electrónicos, se debe emplear personal cualificado. A diferencia de los equipos mecánicos, en los que a veces basta con aceitar y engrasar para restablecer el funcionamiento del sistema defectuoso, los equipos electrónicos necesitan una comprensión profunda de la teoría de funcionamiento del sistema y el conocimiento de las pruebas de los componentes activos y pasivos antes de poder ser manipulados. También hay que tener en cuenta que cualquier intento de reparación de un equipo electrónico por parte de personas no cualificadas puede acarrear mayores problemas por su mala manipulación y dificultaría el trabajo del técnico cualificado si posteriormente se le remite .
 
     separador
-    #t_4_2.titulo-segundo.color-acento-contenido
+    #t_4_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
        h2 4.2 Elementos de protección
 
-    p.mb-5 Las organizaciones suelen tener la opción de establecer instalaciones internas para el mantenimiento de los equipos o depender de los proveedores/fabricantes para el mantenimiento programado y por avería. A continuación, se explica cada uno de los posibles servicios.
+    p.mb-5(data-aos="fade-left") Las organizaciones suelen tener la opción de establecer instalaciones internas para el mantenimiento de los equipos o depender de los proveedores/fabricantes para el mantenimiento programado y por avería. A continuación, se explica cada uno de los posibles servicios.
 
     .row.justify-content-center.align-items-center.mb-5
       .tarjeta.tarjeta--blanca.bg-linea-tiempo.p-5
@@ -212,47 +212,46 @@
     .row.mb-5
       .col-lg-6
         ul.lista-ul--color.fa-ul2
-          li 
+          li(data-aos="fade-up")
             i.fas.fa-check-circle
             p.mb-0 #[b Alcance del servicio:] mantenimiento preventivo, reparación de equipos, mejoras de ingeniería, sustitución rutinaria de piezas, etc.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-check-circle
             p.mb-0 #[b Tiempo de respuesta:] tiempo de desplazamiento, gastos de dietas.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-check-circle
             p.mb-0 #[b Condiciones de pago:] plazos.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-check-circle
             p.mb-0 #[b Duración del contrato:] fecha de inicio y finalización del contrato.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-check-circle
             p.mb-0 #[b Limitaciones del servicio:] elementos de servicio/reparación/reemplazos no incluidos en el contrato.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-check-circle
             p.mb-0 #[b Rescisión del contrato:] condiciones para definir las situaciones que exigen la rescisión del contrato, como el impago de los honorarios acordados, la inadecuación de los servicios de mantenimiento, etc.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-check-circle
             p.mb-0 #[b Seguro de responsabilidad civil:] cobertura de la responsabilidad civil contratada, productos y operaciones.
-
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-check-circle
             p.mb-0 #[b Garantías:] la empresa proporcionará una garantía para que todos los productos o servicios cumplan con todas las leyes, reglamentos y normas locales, estatales y federales aplicables.
 
       .col-lg-6
         ul.lista-ul--color.fa-ul2
-          li 
+          li(data-aos="fade-up")
             i.fas.fa-check-circle
             p.mb-0 #[b Indemnización:] la responsabilidad del proveedor de servicios de indemnizar y mantener a la instalación y a sus empleados por cualquier reclamación, pérdida, daño, responsabilidad o gasto que la instalación pueda sufrir como resultado de los actos u omisiones de la empresa contratante o sus empleados.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-check-circle
             p.mb-0 #[b Documentación:] todas las actividades contempladas en el contrato con las acciones periódicas realizadas deben estar bien documentadas en el informe de servicio.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-check-circle
             p.mb-0 #[b Garantía de tiempo de funcionamiento:] debe estar bien definida y se debe especificar la penalización en caso de incumplimiento.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-check-circle
             p.mb-0 #[b Conflictos:] autoridad competente para decidir los casos de litigio.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-check-circle
             p.mb-0 #[b Firmantes autorizados:] a especificar por ambas partes.
 
@@ -261,7 +260,7 @@
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img18.svg')})`}"
         )
-        .bloque-texto-g__texto.p-4
+        .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 Luego, de comprender las opciones de servicio se hace necesario también entender los elementos de protección personal, ya que unas condiciones de trabajo seguras ayudan a evitar lesiones a las personas y daños a los equipos informáticos. Un espacio de trabajo seguro está limpio, organizado y adecuadamente iluminado. Por tanto, todo el mundo debe entender y seguir los procedimientos de seguridad. El siguiente recurso expone algunas precauciones básicas, pautas de seguridad y herramientas esenciales que suelen usarse cuando se trabaja con un computador son:
 
     .row.justify-content-center.align-items-center.my-5
@@ -360,37 +359,37 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        p Siga las pautas de seguridad eléctrica para evitar incendios, lesiones y muertes por electricidad en el hogar y en el lugar de trabajo. Las fuentes de alimentación y los monitores CRT contienen alta tensión.
+        p(data-aos="fade-right") Siga las pautas de seguridad eléctrica para evitar incendios, lesiones y muertes por electricidad en el hogar y en el lugar de trabajo. Las fuentes de alimentación y los monitores CRT contienen alta tensión.
 
-        .tarjeta-amarilla.p-4.mb-3
+        .tarjeta-amarilla.p-4.mb-3(data-aos="fade-left")
           p.mb-0 <b>PRECAUCIÓN:</b> no utilice la muñequera antiestática cuando repare fuentes de alimentación o monitores CRT. Sólo los técnicos experimentados deben intentar reparar las fuentes de alimentación y los monitores CRT. Los dispositivos eléctricos tienen ciertos requisitos de energía. Por ejemplo, los adaptadores de CA se fabrican para ordenadores portátiles específicos. Intercambiar los cables de alimentación con un tipo diferente de portátil o dispositivo puede causar daños tanto en el adaptador de CA como en el portátil.
 
       h4.text-center Algunas herramientas más esenciales
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .tarjeta.bg-tarjeta.p-4.mb-3
+        .tarjeta.bg-tarjeta.p-4.mb-3(data-aos="fade-up")
           .row.justify-content-center.align-items-center
             .col-2
               h1.texto-blanco 01
             .col-10
               p Un multímetro digital: se utiliza para comprobar las tensiones de alimentación y la conectividad de los cables. Muchos procedimientos de resolución de problemas requieren que se compruebe la tensión y la resistencia. Los valores se miden con un multímetro manual. El medidor puede tener una lectura analógica o digital (LCD) y utilizará un par de sondas para conectarse al dispositivo que se está probando.
 
-        .tarjeta.bg-tarjeta.p-4.mb-3
+        .tarjeta.bg-tarjeta.p-4.mb-3(data-aos="fade-up")
           .row.justify-content-center.align-items-center
             .col-2
               h1.texto-blanco 02
             .col-10
               p Equipos y materiales de limpieza: por ejemplo, productos químicos de limpieza de contacto, aire comprimido, cepillo de cerdas, aspirador de mano.
 
-        .tarjeta.bg-tarjeta.p-4.mb-3
+        .tarjeta.bg-tarjeta.p-4.mb-3(data-aos="fade-up")
           .row.justify-content-center.align-items-center
             .col-2
               h1.texto-blanco 03
             .col-10
               p Enchufes de envoltura: se utilizan para diagnosticar los problemas de los puertos serie y paralelo.
 
-        .tarjeta.bg-tarjeta.p-4.mb-3
+        .tarjeta.bg-tarjeta.p-4.mb-3(data-aos="fade-up")
           .row.justify-content-center.align-items-center
             .col-2
               h1.texto-blanco 04
@@ -398,10 +397,10 @@
               p Muñequeras, alfombrillas y bolsas antiestáticas: La descarga estática puede dañar las placas de circuitos, por lo que el equipo antiestático es vital. Los componentes de repuesto del PC deben guardarse siempre en bolsas antiestáticas de protección, como las que utilizan los fabricantes para suministrar las tarjetas de interfaz.
 
     separador
-    #t_4_3.titulo-segundo.color-acento-contenido
+    #t_4_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
        h2 4.3 Normativa
 
-    p.mb-5 La norma ISO 20000 puede ayudar a su organización a evaluar su ITSM, mejorar los servicios, demostrar su capacidad para cumplir los requisitos de los clientes y crear un marco para la evaluación independiente. Ventajas de la certificación ISO 20000 para los proveedores de servicios son:
+    p.mb-5(data-aos="fade-left") La norma ISO 20000 puede ayudar a su organización a evaluar su ITSM, mejorar los servicios, demostrar su capacidad para cumplir los requisitos de los clientes y crear un marco para la evaluación independiente. Ventajas de la certificación ISO 20000 para los proveedores de servicios son:
 
     .bg-fondo3
       .row.justify-content-center.align-items-center.mb-5
@@ -448,18 +447,18 @@
               p.text-center Ayuda a aprovechar las prácticas de ITIL para optimizar los recursos y los procesos.
 
     .row.justify-content-center.align-items-center.mb-5
-      .cajon.color-primario.p-4
+      .cajon.color-primario.p-4(data-aos="flip-up")
         p.mb-0 ISO 20000 e ITIL tienen una estrecha relación. ITIL ofrece asesoramiento sobre las mejores prácticas de ITSM, incluyendo las opciones adoptadas y adaptadas por las organizaciones según las necesidades del negocio, las circunstancias locales y la madurez del proveedor de servicios. La ISO 20000, por su parte, establece los estándares a los que deben aspirar los procesos de gestión de servicios. Las organizaciones pueden obtener una certificación independiente de la norma para demostrar que siguen las mejores prácticas.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-10.col-lg-4
+      .col-10.col-lg-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema4/img36.svg', alt='Imágen decorativa')
 
       .col-lg-8
-        p ITIL (Information Technology Infrastructure Library) es un conjunto de prácticas detalladas para la ITSM (gestión de servicios de TI) que se centra en alinear los servicios de TI con las necesidades del negocio. ITIL describe procesos, procedimientos, tareas y listas de comprobación que no son específicos de una organización, pero que pueden ser aplicados por una organización para establecer la integración con la estrategia de la organización, ofrecer valor y mantener un nivel mínimo de competencia.
+        p(data-aos="fade-left") ITIL (Information Technology Infrastructure Library) es un conjunto de prácticas detalladas para la ITSM (gestión de servicios de TI) que se centra en alinear los servicios de TI con las necesidades del negocio. ITIL describe procesos, procedimientos, tareas y listas de comprobación que no son específicos de una organización, pero que pueden ser aplicados por una organización para establecer la integración con la estrategia de la organización, ofrecer valor y mantener un nivel mínimo de competencia.
 
-        p ITIL 4 se basa en las versiones anteriores del marco introduciendo un nuevo modelo operativo digital de extremo a extremo, que ha sido diseñado para ayudar a los equipos de TI a crear, entregar y operar productos y servicios técnicos que se ajusten a la estrategia empresarial más amplia de su organización. Este modelo se denomina “sistema de valor del servicio” o “SVS”. Gunawan, H. (2019). En el siguiente recurso se puede apreciar el paso a paso de esta operación.
+        p(data-aos="fade-left") ITIL 4 se basa en las versiones anteriores del marco introduciendo un nuevo modelo operativo digital de extremo a extremo, que ha sido diseñado para ayudar a los equipos de TI a crear, entregar y operar productos y servicios técnicos que se ajusten a la estrategia empresarial más amplia de su organización. Este modelo se denomina “sistema de valor del servicio” o “SVS”. Gunawan, H. (2019). En el siguiente recurso se puede apreciar el paso a paso de esta operación.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-4
@@ -517,18 +516,18 @@
                 i.fas.fa-check-circle
                 p.mb-0 Ubicación del equipo: departamento, sección, persona (usuario) responsable.
 
-            .cajon.color-primario.p-4
+            .cajon.color-primario.p-4(data-aos="flip-up")
               p.mb-0 Es probable que los requisitos de un inventario exhaustivo sólo puedan cumplirse mediante el uso de un sistema informático.
 
           .row(numero="5" titulo="Formación del usuario")
             p Debe llevarse a cabo in situ en forma de demostraciones en vivo basadas en el manual de usuario. Deben explicarse los posibles errores y fallos que se encuentran habitualmente, junto con los detalles de las medidas correctoras adecuadas. Se debe prohibir a las personas que no estén familiarizadas con el equipo que lo manejen a menos que estén supervisadas o hasta que se consideren competentes en su uso. Son muchas las ocasiones en las que el mal funcionamiento del equipo puede atribuirse a un manejo incorrecto, intentando culpar a la máquina o a problemas inexistentes de funcionamiento del equipo.
 
       .col-lg-5.mb-4
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema4/img37.svg', alt='Imágen decorativa')
         
       .col-lg-5.mb-4
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema4/img38.svg', alt='Imágen decorativa')
 
       .col-lg-7.mb-4
@@ -549,27 +548,27 @@
             p Debe establecerse un procedimiento para llevar a cabo los servicios de gestión de equipos, especialmente con referencia a alguna norma aprobada como la ISO 9000. En general, los manuales de garantía de calidad deben definir los procedimientos de la política y las instrucciones de trabajo. Todos los equipos de prueba deben estar calibrados, y dicha calibración debe ser trazable a las normas nacionales. El concepto básico es que el nivel de servicio que se debe prestar debe estar definido y debidamente auditado.
 
     separador
-    #t_4_4.titulo-segundo.color-acento-contenido
+    #t_4_4.titulo-segundo.color-acento-botones(data-aos="fade-right")
        h2 4.4 Licenciamiento
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-4
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema4/img39.svg', alt='Imágen decorativa')
 
       .col-lg-8
-        .cajon.color-primario.p-4
+        .cajon.color-primario.p-4(data-aos="flip-up")
           p.mb-0 La documentación es un requisito esencial en un laboratorio de servicio y mantenimiento. Ayuda a supervisar los programas y a obtener datos en los que basar las decisiones de mantenimiento de los equipos. Además, la documentación permite generar informes para los distintos departamentos de usuarios y la administración y puede utilizarse para demostrar el cumplimiento de los requisitos del gobierno y otros organismos reguladores y para cumplir los requisitos de gestión de riesgos. Es necesario disponer de pruebas adecuadas y aceptables de las reparaciones, inspecciones y calibraciones en caso de que la planta se vea involucrada en un caso de responsabilidad. Aunque la documentación exhaustiva suele considerarse segura, su coste es elevado, ya que incluye el tiempo dedicado a registrar y archivar la información, así como el espacio de almacenamiento físico para los registros.
 
-    p.mb-5 Los registros informatizados pueden reducir en gran medida el tiempo y el espacio necesarios para la documentación, por lo que son preferibles. Sin embargo, es necesario garantizar la exactitud y la seguridad de la información almacenada en el ordenador. También es una buena práctica tener copias de seguridad periódicas de todos los datos en un medio de almacenamiento adecuado .
+    p.mb-5(data-aos="fade-left") Los registros informatizados pueden reducir en gran medida el tiempo y el espacio necesarios para la documentación, por lo que son preferibles. Sin embargo, es necesario garantizar la exactitud y la seguridad de la información almacenada en el ordenador. También es una buena práctica tener copias de seguridad periódicas de todos los datos en un medio de almacenamiento adecuado .
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        .cajon.color-primario.p-4
+        .cajon.color-primario.p-4(data-aos="flip-up")
           p.mb-0 El laboratorio debe llevar un registro de todos los equipos que entran para ser reparados, los detalles sobre la mano de obra desplegada en los trabajos de reparación y mantenimiento, las piezas de repuesto utilizadas, el mantenimiento del inventario de piezas de repuesto, los equipos de prueba y su calibración periódica, el cálculo de los costes de los trabajos realizados, los programas de inspección y mantenimiento preventivo y su aplicación, etc. La siguiente figura ofrece una visión general del sistema de mantenimiento.
 
       .col-10.col-lg-4
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema4/img40.svg', alt='Imágen decorativa')
 
     .row.justify-content-center.align-items-center.mb-5
@@ -586,7 +585,7 @@
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img42.svg')})`}"
         )
-        .bloque-texto-g__texto.p-4
+        .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 El laboratorio de servicios tiene que llevar a cabo múltiples actividades, como la inspección de los equipos que llegan, su instalación y su incorporación al inventario; la reparación de los equipos defectuosos recibidos en el laboratorio y la realización de actividades de mantenimiento preventivo. En aras de un funcionamiento y una gestión eficaces de los activos de una organización, es necesario llevar un registro informático adecuado de todas estas actividades. 
 
 

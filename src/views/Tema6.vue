@@ -8,13 +8,13 @@
       h1 Documentación técnica
 
     .row.justify-content-center.align-items-center
-      .col-lg-3
+      .col-10.col-lg-3
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema6/img1.svg', alt='imagen decorativa')
       .col-lg-8
         p Todas las empresas de todos los sectores necesitan documentación técnica. No importa si está orientada al consumidor, como las instrucciones para montar una cómoda, o a su personal interno sobre las mejores prácticas para archivar facturas: todo proceso estandarizado necesita una documentación adecuada. Los documentos técnicos muestran al usuario una descripción del producto o proceso, le explican lo que hay por delante y le enseñan a superar cada paso o reto, lo que le lleva al resultado deseado.
 
-        .cajon.cajon-tema6.p-4
+        .cajon.cajon-tema6.p-4(data-aos="flip-up")
           p Todos los tipos de documentación técnica se dividen en tres categorías principales: documentación de productos, documentación de procesos y documentos de ventas y marketing. A continuación, se detallan los dos primeros.
 
     TabsB.color-primario.mt-5
@@ -43,7 +43,7 @@
               i.fas.fa-check-circle
               | Preguntas frecuentes (FAQ) o base de conocimientos.
 
-          .cajon.cajon-tema6.p-4
+          .cajon.cajon-tema6.p-4(data-aos="flip-up")
             p Para la documentación del producto, se recomienda aprovechar el software de escritura técnica y las herramientas de documentación de software para crear una documentación fácil de usar y de ayuda.
 
       .py-4.py-md-5(titulo="Documentación de procesos")
@@ -77,7 +77,7 @@
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img4.svg')})`}"
         )
-        .bloque-texto-g__texto.p-4
+        .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 Una hoja de datos técnicos (TDS), es un documento proporcionado con un producto que enumera varios elementos de información sobre el mismo. A menudo, las hojas de datos técnicos incluyen la composición del producto, los métodos de uso, los requisitos de funcionamiento, las aplicaciones habituales, las advertencias y las imágenes del producto.
 
     .bg-fondo3.mt-5
@@ -93,11 +93,11 @@
 
 
     .row.justify-content-center.align-items-center
-      .col-lg-3
+      .col-10.col-lg-3
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema6/img6.svg', alt='imagen decorativa')
       .col-lg-8
-        .cajon.cajon-tema6.p-4
+        .cajon.cajon-tema6.p-4(data-aos="flip-up")
           p Una hoja de datos técnicos (TDS) se utiliza tanto con fines informativos como publicitarios. Desde el punto de vista informativo, una TDS contiene consejos útiles sobre el producto, por ejemplo: cómo utilizarlo, de qué está hecho, qué cosas hay que tener en cuenta al utilizar el producto, y su nombre oficial y las especificaciones estándar de la industria. Desde el punto de vista del marketing, puede contener fotos e ilustraciones en color, así como secciones enteras en las que se describen los beneficios que el producto aportará al usuario final .
 
         p.mt-3 Una TDS no debe confundirse con una hoja de datos de seguridad de los materiales (MSDS). El objetivo de la MSDS es informar específicamente al usuario final de los peligros que puede presentar el producto. Este no es el objetivo de la TDS, aunque puede incluir varias consideraciones de seguridad. Además, las hojas de datos de seguridad de los materiales deben seguir una plantilla determinada guiada por una norma industrial, mientras que una hoja de datos técnicos puede presentarse a discreción del fabricante del producto y contener la información que considere oportuna. Muchos países exigen que un material o producto tenga una ficha de datos de seguridad; la mayoría no exige una ficha técnica.
@@ -127,7 +127,7 @@
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img8.svg')})`}"
         )
-        .bloque-texto-g__texto.p-4
+        .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 A grandes rasgos, la obsolescencia tecnológica puede considerarse como una devaluación de un artículo debido al progreso tecnológico y, por lo tanto, suele producirse cuando una nueva tecnología o producto sustituye a otro más antiguo que no tiene por qué ser necesariamente disfuncional. La literatura tiene muchos ejemplos: el telégrafo, la máquina de vapor y los faxes, entre otros.
 
       p.mt-5 Uno de los retos de la literatura es medir adecuadamente la obsolescencia tecnológica. El flujo de conocimientos no deja ningún rastro que seguir, lo que puede suponer un grave problema para medir la obsolescencia tecnológica más allá de los estudios de casos. Sin embargo, las citas de patentes son una excepción a este problema. Por lo tanto, la literatura ha utilizado las citas de patentes para relacionar la relevancia de la difusión del conocimiento con las tecnologías pasadas. En este sentido, el número de citas que recibe una patente en un periodo de tiempo determinado puede reflejar su utilidad e impacto en la generación de nuevas innovaciones.
@@ -190,7 +190,7 @@
 
 
     .row.justify-content-center.align-items-center.mt-5
-      .cajon.cajon-tema6.p-4
+      .cajon.cajon-tema6.p-4(data-aos="flip-up")
           p Es importante que cuando haya que hacer cambios en el calendario, se aseguren de llevar a cabo y se comuniquen de acuerdo con el plan establecido en el Paso 1. A lo largo del proyecto, se asegurará de que cada actividad se ajuste al calendario y determinará si es necesario adoptar medidas correctivas en caso de que se produzcan retrasos.
 
     separador
@@ -202,7 +202,7 @@
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img11.svg')})`}"
         )
-        .bloque-texto-g__texto.p-4
+        .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 Los formatos de la documentación técnica se refieren a cualquier documento que explique el uso, la funcionalidad, la creación o la arquitectura de un producto. Hay que pensar en esos formatos como una guía práctica para los usuarios, los nuevos empleados, los administradores y cualquier otra persona que necesite saber cómo funciona un producto. Pero, aunque parezca bastante sencillo, los resultados rara vez lo son.
 
       p.mt-5 Los formatos de la documentación técnica no consisten sólo en capturar información. Se trata de presentarla de forma que sea fácil de leer, utilizable y realmente útil para la audiencia. A continuación, muestra una breve guía para hacer formatos de documentación técnica que sean realmente útiles.
@@ -250,11 +250,11 @@
         img(src='@/assets/curso/temas/tema6/img13.png', alt='Imágen decorativa')    
 
       .col-lg-11
-        .tarjeta.tarjeta-gris-degrade.p-3
+        .tarjeta.tarjeta-gris-degrade.p-3(data-aos="fade-up")
           p.mb-0 Un informe técnico debe ser claro, completo y conciso, con conceptos claramente expuestos y hechos presentados de forma lógica. La escritura técnica se caracteriza por un tema que requiere una presentación de la información precisa y directa. Esto permite al lector reconocer el mensaje exacto que el escritor intenta expresar. En la siguiente infografía, se describen genéricamente algunas características de un excelente informe técnico:
 
     .row.justify-content-center.align-items-center
-      .col-lg-4
+      .col-10.col-lg-4
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema6/img14.svg', alt='imagen decorativa')
 
@@ -304,7 +304,7 @@
               img(src='@/assets/curso/temas/tema6/bg9.svg', alt='imagen decorativa')
 
     .row.justify-content-center.align-items-center.bg9-tema6.mt-5
-      .col-lg-3
+      .col-10.col-lg-3
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema6/img15.svg', alt='imagen decorativa')
 

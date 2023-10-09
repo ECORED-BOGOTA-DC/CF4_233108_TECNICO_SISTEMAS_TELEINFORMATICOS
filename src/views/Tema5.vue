@@ -12,7 +12,7 @@
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img1.svg')})`}"
         )
-        .bloque-texto-g__texto.p-4
+        .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 Así como se espera tener un mantenimiento preventivo en los equipos y en una organización como tal, en ocasiones, se tendrán situaciones en que las medidas deben ser correctivas, lo que permite luego, una oportunidad para mejorar el plan inicial de mantenimiento. El proceso de localización de averías comprende los siguientes pasos:
 
     ImagenInfograficaB.color-primario.mt-5
@@ -38,14 +38,14 @@
        h2 5.1 Protocolos 
 
     .row.justify-content-center.align-items-center
-      .col-lg-4
+      .col-10.col-lg-4
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema5/img3.svg', alt='imagen decorativa')
 
       .col-lg-8
         p Para la localización de averías, es aconsejable seguir un enfoque sistemático y lógico, ya que a menudo es fácil llegar al punto de avería procediendo paso a paso. Sin embargo, el grado de éxito en la localización de una avería concreta dependerá del conocimiento del equipo por parte del técnico y de su capacidad para solucionar problemas. Hay que tener claro que no hay nada que sustituya a la familiaridad con el equipo cuando se trata de localizar una avería en un sistema. Por ejemplo, si no se conoce un microordenador hasta el punto de poder analizar su funcionamiento, interpretar sus indicaciones, leer sus impresiones y analizar su programa, sin duda será difícil aislar un fallo en ese equipo.
 
-        .cajon.cajon-tema6.p-4
+        .cajon.cajon-tema6.p-4(data-aos="flip-up")
           p El procedimiento de resolución de problemas debe comenzar siempre con un análisis preliminar de los síntomas del problema, del que se deducen varias posibilidades de mal funcionamiento. Estas se analizan por orden de probabilidad y se suelen hacer varias comprobaciones rápidas para eliminar o verificar las deducciones mutuas.
 
     .row.justify-content-center.align-items-center.mt-5.mb-3
@@ -88,7 +88,7 @@
     .row.justify-content-center.align-items-center.mt-5
       .col-10
         .row.justify-content-center.align-items-center
-          .col-lg-4
+          .col-10.col-lg-4
             figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema5/img8.svg', alt='imagen decorativa')
 
@@ -96,7 +96,7 @@
             p La resolución eficaz de problemas requiere una mezcla de arte y ciencia. Siempre hay una forma segura y una forma técnicamente precisa de hacer algo, pero la elección precisa de las técnicas y estrategias utilizadas para solucionar el problema la decide en gran medida la propia experiencia y formación del técnico.
 
     .row.justify-content-center.align-items-center.mt-5
-      .cajon.cajon-tema6.p-4
+      .cajon.cajon-tema6.p-4(data-aos="flip-up")
         p Para lograr una rápida localización de la avería y su posterior reparación, el técnico buscará obviamente ciertas ayudas para complementar sus habilidades técnicas. Las ayudas más necesarias son:
 
     .row.justify-content-center.align-items-center
@@ -105,7 +105,7 @@
           img(src='@/assets/curso/temas/tema5/img9.svg', alt='imagen decorativa')
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-lg-4
+      .col-10.col-lg-4
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema5/img10.svg', alt='imagen decorativa')
 
@@ -156,9 +156,9 @@
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-8
-        .cajon.cajon-tema6.p-4
+        .cajon.cajon-tema6.p-4(data-aos="flip-up")
           p Después de comprobar las cosas obvias, si no se encuentra una pista sobre la avería, es el momento de consultar el manual de servicio y tratar de entender, en primer lugar, el resultado que se debería obtener y, en segundo lugar, el resultado que se está obteniendo. Al hacer esto, ya sea por medición u observación, el técnico que realiza la búsqueda de la avería se guía hasta el componente defectuoso.
-      .col-lg-4
+      .col-10.col-lg-4
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema5/img11.svg', alt='imagen decorativa')
 
@@ -169,7 +169,7 @@
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img12.svg')})`}"
         )
-        .bloque-texto-g__texto.p-4
+        .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 El manual de instrucciones o manual del usuario o del operador proporciona la información necesaria para el funcionamiento del equipo, las instrucciones de puesta en marcha y parada, los conceptos generales de diseño, las especificaciones y el procedimiento de instalación. Las instrucciones de mantenimiento a nivel de operador, incluidos los manuales de mantenimiento preventivo, son útiles para realizar diagnósticos preliminares y establecer programas de mantenimiento preventivo .
 
     separador
@@ -206,7 +206,7 @@
       
 
     .row.justify-content-center.align-items-center.mt-5
-      .cajon.cajon-tema6.p-4
+      .cajon.cajon-tema6.p-4(data-aos="flip-up")
         p El tipo de mediciones que se suelen realizar en los circuitos electrónicos son básicamente las de tensión continua y alterna. Además de éstas, es necesario realizar una serie de mediciones en términos de amplitud, frecuencia y fase, así como un análisis detallado de la forma de onda en las funciones complejas de los circuitos, con el fin de ayudar al procedimiento de resolución de problemas .
 
 
@@ -215,11 +215,11 @@
         img(src='@/assets/curso/temas/tema5/img16.png', alt='Imágen decorativa')    
 
       .col-lg-11
-        .tarjeta.tarjeta-gris-degrade.p-3
+        .tarjeta.tarjeta-gris-degrade.p-3(data-aos="fade-up")
           p.mb-0 Cuando se recibe un equipo para su reparación, es fundamental realizar algunas comprobaciones preliminares en él antes de comenzar el trabajo propiamente dicho. Estas comprobaciones son necesarias para su seguridad y, a menudo, ayudan a acercarse rápidamente al lugar del problema. Las comprobaciones son las siguientes:
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-lg-5
+      .col-10.col-lg-5
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema5/img17.svg', alt='imagen decorativa')
 
@@ -299,7 +299,7 @@
             .col-md-12.mb-4.mb-md-0.text-small
               p Después de retirar la cubierta del equipo, inspeccione todos los tornillos expuestos para comprobar su apriete. Compruebe que todas las placas de circuito impreso están firmemente asentadas en sus conectores o están en posición. Compruebe el estado de todos los cables externos, especialmente en busca de roturas o grietas y signos de torsión. Si se observa algún daño grave, el cable debe ser sustituido inmediatamente.
 
-      .col-lg-5
+      .col-10.col-lg-5
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema5/img18.svg', alt='imagen decorativa')
 
@@ -343,7 +343,7 @@
        h2 5.3 Correcciones
 
     .row.justify-content-center.align-items-center
-      .col-lg-4
+      .col-10.col-lg-4
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema5/img22.svg', alt='imagen decorativa')
 
@@ -358,16 +358,16 @@
           .bloque-texto-g1__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img23.svg')})`}"
           )
-          .bloque-texto-g1__texto.p-4
+          .bloque-texto-g1__texto.p-4(data-aos="flip-down")
             p.mb-0 A la hora de seleccionar piezas de repuesto equivalentes, hay que tener en cuenta que el tamaño y la forma física de un componente pueden afectar a veces a su rendimiento en el equipo, sobre todo a altas frecuencias. Por lo tanto, es imperativo que todas las piezas de repuesto sean sustituciones directas, a menos que se establezca que un componente diferente no afectará negativamente al rendimiento del equipo .
 
 
     .row.justify-content-center.align-items-center
-      .col-lg-4
+      .col-10.col-lg-4
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema5/img24.svg', alt='imagen decorativa')
       .col-lg-8
-        .cajon.cajon-tema6.p-4
+        .cajon.cajon-tema6.p-4(data-aos="flip-up")
           p Además de los componentes electrónicos estándar, el equipo puede contener algunas piezas especiales. Dichos componentes son fabricados o seleccionados por los fabricantes de los equipos para cumplir con requisitos específicos de rendimiento. Las piezas mecánicas son, en su mayoría, de fabricación especial y, por tanto, deben obtenerse directamente del fabricante del equipo.
 
         p.mt-3 Al pedir las piezas de repuesto a los proveedores de equipos, estos suelen necesitar la siguiente información para realizar los primeros suministros:

@@ -13,11 +13,11 @@
           img(src='@/assets/curso/temas/tema1/img1.png', alt='Imágen decorativa')    
 
         .col-lg-11
-          .tarjeta.tarjeta-gris-degrade.p-3
+          .tarjeta.tarjeta-gris-degrade.p-3(data-aos="fade-up")
             p.mb-0 En la actualidad, existen numerosas arquitecturas informáticas especializadas para satisfacer las más diversas necesidades de los usuarios. Llevamos computadores en miniatura en nuestros bolsillos que pueden realizar llamadas telefónicas, grabar video y funcionar como participantes de pleno derecho en Internet. Los computadores personales siguen siendo populares en un formato exteriormente similar a los PC de décadas pasadas. Sin embargo, los PC actuales son órdenes de magnitud más capaces que las primeras generaciones en términos de potencia de cálculo, tamaño de la memoria, espacio en disco, rendimiento gráfico y capacidad de comunicación. Estas capacidades permiten a los PC modernos realizar fácilmente tareas que habrían sido inconcebibles en los primeros PC, como la generación en tiempo real de imágenes 3D de alta resolución.
 
     .row.justify-content-center.align-items-center.mb-5
-      .cajon.color-acento-botones.p-4
+      .cajon.color-acento-botones.p-4(data-aos="flip-up")
         p.mb-0 Las empresas que ofrecen servicios web a cientos de millones de usuarios construyen vastos almacenes repletos de miles de sistemas informáticos estrechamente coordinados, capaces de responder a un flujo constante de peticiones de los usuarios con extraordinaria rapidez y precisión. Los sistemas de aprendizaje automático se entrenan mediante el análisis de enormes cantidades de datos para realizar actividades complejas como la conducción de automóviles. Todo esto, como se mencionó, ha sido producto de una evolución constante de los   dispositivos informáticos automatizados, tal como se evidencia en el siguiente recurso.
 
     .row.justify-content-center.align-items-center.mb-5
@@ -138,12 +138,12 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img11.svg')})`}"
           )
-          .bloque-texto-g__texto.p-4
+          .bloque-texto-g__texto.p-4(data-aos="flip-down")
             p.mb-0 El director de información o el director de tecnología suele supervisar la gestión de los sistemas de TI. El departamento responsable de diseñar y administrar los sistemas a veces se conoce como sistemas de información de administración, sistemas de información corporativos o infraestructura y operaciones de TI. 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
-        .tarjeta-blanca1.p-5
+        .tarjeta-blanca1.p-5(data-aos="fade-right")
           p.mb-0 Una carcasa de torre se coloca en posición vertical, puede tener hasta 60 centímetros de altura y tiene espacio para varias unidades de disco. Aunque se suele utilizar para servidores, este tipo de carcasa también es buena para los usuarios de computadores de sobremesa que prevén una actualización, ya que las carcasas tipo torre ofrecen el máximo espacio para trabajar dentro de un computador y para mover los componentes.
 
       .col-lg-5
@@ -219,7 +219,7 @@
           img(src='@/assets/curso/temas/tema1/img14.png', alt='Imágen decorativa')    
 
         .col-lg-11
-          .tarjeta.tarjeta-gris-degrade.p-3
+          .tarjeta.tarjeta-gris-degrade.p-3(data-aos="fade-up")
             p.mb-0 La placa base, también llamada placa principal, placa del sistema o, en la jerga tecnológica, mobo, es la placa de circuito más grande e importante del ordenador. La placa base contiene un zócalo para alojar el procesador o la CPU. La unidad central de procesamiento (CPU), también llamada procesador o microprocesador, realiza la mayor parte del procesamiento de datos e instrucciones para todo el sistema. Dado que la CPU genera calor, es posible que se instale un ventilador y un disipador de calor en la parte superior para mantenerla refrigerada.
 
       .row.justify-content-center.align-items-center.mb-3
@@ -258,26 +258,26 @@
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img16.svg')})`}"
         )
-        .bloque-texto-g__texto.p-4
+        .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 Un portátil está diseñado para ser transportable y puede ser tan potente como un ordenador de sobremesa. Más de la mitad de los computadores personales que se compran hoy en día son portátiles, y casi el 30% de los computadores personales que se utilizan actualmente son de esta categoría. Los portátiles utilizan la misma tecnología que los ordenadores de sobremesa, pero con modificaciones para consumir menos energía, ocupar menos espacio y funcionar en movimiento.
 
-    p.mb-5 Los portátiles se presentan en distintas variedades, incluyendo algunos con una pantalla táctil que permite escribir a mano en ella con un lápiz óptico y otros con una pantalla giratoria o extraíble que permite utilizar el portátil como una tableta. Otra variante de un portátil es un notebook, que es más pequeño y menos caro que un portátil y tiene menos funciones. Un computador “todo en uno” tiene el monitor y la carcasa del ordenador juntos y utiliza componentes que son comunes a un portátil y a un ordenador de sobremesa. Dado que los ordenadores todo en uno utilizan muchos componentes de los portátiles y su mantenimiento es similar, se incluye en esta temática. La siguiente infografía presenta el panel de periféricos de un portátil.
+    p.mb-5(data-aos="fade-right") Los portátiles se presentan en distintas variedades, incluyendo algunos con una pantalla táctil que permite escribir a mano en ella con un lápiz óptico y otros con una pantalla giratoria o extraíble que permite utilizar el portátil como una tableta. Otra variante de un portátil es un notebook, que es más pequeño y menos caro que un portátil y tiene menos funciones. Un computador “todo en uno” tiene el monitor y la carcasa del ordenador juntos y utiliza componentes que son comunes a un portátil y a un ordenador de sobremesa. Dado que los ordenadores todo en uno utilizan muchos componentes de los portátiles y su mantenimiento es similar, se incluye en esta temática. La siguiente infografía presenta el panel de periféricos de un portátil.
 
     .row.bg-titulo1.align-items-center.p-1(data-aos="fade-right")
       h3.my-3 Panel de periféricos de un portátil
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
-        p Un portátil dispone de puertos en sus laterales, en la parte trasera o en la frontal, para conectar periféricos. Los puertos comunes a los portátiles, así como a los sistemas de sobremesa, incluye puertos USB, de red y de audio (ya sea para un micrófono, auriculares o altavoces externos). Los puertos de vídeo pueden incluir uno o varios puertos VGA, DisplayPort, Thunderbolt (en los portátiles Apple) o HDMI para conectar un proyector, un segundo monitor o un televisor. Adicionalmente a ello, en el lateral o la parte trasera del portátil, existe un conector de bloqueo que se utiliza para asegurar físicamente el portátil con un bloqueo de cable y una toma de CC para recibir energía del adaptador de CA.
+        p(data-aos="fade-right") Un portátil dispone de puertos en sus laterales, en la parte trasera o en la frontal, para conectar periféricos. Los puertos comunes a los portátiles, así como a los sistemas de sobremesa, incluye puertos USB, de red y de audio (ya sea para un micrófono, auriculares o altavoces externos). Los puertos de vídeo pueden incluir uno o varios puertos VGA, DisplayPort, Thunderbolt (en los portátiles Apple) o HDMI para conectar un proyector, un segundo monitor o un televisor. Adicionalmente a ello, en el lateral o la parte trasera del portátil, existe un conector de bloqueo que se utiliza para asegurar físicamente el portátil con un bloqueo de cable y una toma de CC para recibir energía del adaptador de CA.
 
-        .cajon.color-acento-botones.p-4
+        .cajon.color-acento-botones.p-4(data-aos="flip-up")
           p.mb-0 En la imagen aparecen dos ranuras que se utilizan para las tarjetas de memoria flash: una ranura MagicGate y una ranura para tarjetas SD. Cada una de ellas puede admitir varios tipos de tarjetas de memoria flash. Cuando a un portátil le falta un puerto o una ranura que necesita, normalmente puede encontrar un dongle USB que le proporcione el puerto o la ranura.
 
       .col-10.col-lg-6
         figure
           img(src='@/assets/curso/temas/tema1/img17.svg', alt='Imágen decorativa')
 
-    p.mb-5 Ahora bien, existen otros periféricos adicionales como:
+    p.mb-5(data-aos="fade-right") Ahora bien, existen otros periféricos adicionales como:
 
     .bg-linea-tiempo.p-4
       .row.justify-content-center.align-items-center.mb-5
@@ -289,7 +289,7 @@
           
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema1/img19.svg', alt='Imágen decorativa')
+                img(src='@/assets/curso/temas/tema1/img18.svg', alt='Imágen decorativa')
 
           .row
             .col-md-6.mb-4.mb-md-0
@@ -356,26 +356,8 @@
 <script>
 export default {
   name: 'Tema1',
-  components: {},
   data: () => ({
-    datosSlyder: [
-      {
-        titulo:
-          'Never, never assume that what you have achieved is good enough',
-        texto:
-          'Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original.',
-        imagen: require('@/assets/curso/temas/tema1/img18.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo:
-          'Never, never assume that what you have achieved is good enough',
-        texto:
-          'Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original.',
-        imagen: require('@/assets/template/img-placeholder.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-    ],
+    // variables de vue
   }),
   mounted() {
     this.$nextTick(() => {

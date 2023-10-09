@@ -12,7 +12,7 @@
         .bloque-texto-g1__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img1.png')})`}"
         )
-        .bloque-texto-g1__texto.p-4
+        .bloque-texto-g1__texto.p-4(data-aos="flip-down")
           p.mb-0 Un programa que se ejecuta hace una cosa muy sencilla: ejecuta instrucciones. Muchos millones (y hoy en día, incluso miles de millones) de veces por segundo, el procesador obtiene una instrucción de la memoria, la decodifica (es decir, averigua de qué instrucción se trata) y la ejecuta (es decir, hace lo que se supone que debe hacer, como sumar dos números, acceder a la memoria, comprobar una condición, saltar a una función, etc.). Una vez que ha terminado con esta instrucción, el procesador pasa a la siguiente, y así sucesivamente, hasta que el programa finalmente se completa.
 
     .row.justify-content-center.align-items-center.mb-5
@@ -21,15 +21,15 @@
           img(src='@/assets/curso/temas/tema3/img2.svg', alt='Imágen decorativa')
 
       .col-lg-8
-        .tarjeta-azul2.p-5
+        .tarjeta-azul2.p-5(data-aos="fade-left")
           p.mb-0.texto-blanco Así pues, se acaban de describir los fundamentos del modelo Von Neumann de computación. Suena sencillo, ¿verdad? Pero, en esta temática, se aprenderá que mientras un programa se ejecuta, un montón de otras cosas salvajes están sucediendo con el objetivo principal de hacer que el sistema sea fácil de usar. Hay un cuerpo de <i>software</i>, de hecho, que es responsable de facilitar la ejecución de programas (incluso permitiendo aparentemente ejecutar muchos al mismo tiempo), permitiendo que los programas compartan memoria, permitiendo que los programas interactúen con los dispositivos, y otras cosas divertidas como esa. Ese cuerpo de <i>software</i> se llama sistema operativo (SO), ya que se encarga de garantizar que el sistema funcione correctamente y de forma eficiente y fácil de usar.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        .cajon.color-primario.p-4.mb-3
+        .cajon.color-primario.p-4.mb-3(data-aos="flip-up")
           p.mb-4 La principal forma en que el SO hace esto es a través de una técnica general que se llama virtualización. Es decir, el SO toma un recurso físico (como el procesador, o la memoria, o un disco) y lo transforma en una forma virtual más genérica, potente y fácil de usar. Por eso, a veces se hace referencia al sistema operativo como una máquina virtual.
 
-        p Por supuesto, para permitir que los usuarios le digan al SO qué hacer y así hacer uso de las características de la máquina virtual (como ejecutar un programa, o asignar memoria, o acceder a un archivo) el SO también proporciona algunas interfaces (APIs) que se pueden llamar. Un SO típico, de hecho, exporta unos cientos de llamadas al sistema que están disponibles para las aplicaciones. Dado que el SO proporciona estas llamadas para ejecutar programas, acceder a la memoria y a los dispositivos, y otras acciones relacionadas, a veces, se dice que el SO proporciona una biblioteca estándar a las aplicaciones.
+        p(data-aos="fade-left") Por supuesto, para permitir que los usuarios le digan al SO qué hacer y así hacer uso de las características de la máquina virtual (como ejecutar un programa, o asignar memoria, o acceder a un archivo) el SO también proporciona algunas interfaces (APIs) que se pueden llamar. Un SO típico, de hecho, exporta unos cientos de llamadas al sistema que están disponibles para las aplicaciones. Dado que el SO proporciona estas llamadas para ejecutar programas, acceder a la memoria y a los dispositivos, y otras acciones relacionadas, a veces, se dice que el SO proporciona una biblioteca estándar a las aplicaciones.
 
       .col-lg-4
         figure(data-aos="fade-right")
@@ -41,13 +41,13 @@
           img(src='@/assets/curso/temas/tema3/img4.svg', alt='Imágen decorativa')
 
       .col-lg-6
-        .tarjeta-gris.p-4
+        .tarjeta-gris.p-4(data-aos="fade-left")
           p Dado que la virtualización permite que muchos programas se ejecuten (compartiendo así la CPU), y que muchos programas accedan simultáneamente a sus propias estructuras y datos (compartiendo así la memoria), y que muchos programas accedan a los dispositivos (compartiendo así los discos, etc.), el sistema operativo se conoce a veces como un gestor de recursos. 
 
           p Cada una de las CPU, la memoria y el disco es un recurso del sistema; por lo tanto, <b>el papel del sistema operativo es gestionar esas fuentes,</b> haciéndolo de manera eficiente o justa o, de hecho, con muchos otros objetivos posibles en mente.
 
     separador
-    #t_3_1.titulo-segundo.color-acento-botones
+    #t_3_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
        h2 3.1 Características 
 
     p.mb-5 Para entender un poco mejor el papel del sistema operativo, se exponen algunos ejemplos.
@@ -65,7 +65,7 @@
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img5.svg')})`}"
         )
-        .bloque-texto-g__texto.p-4
+        .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 También se puede notar que la posibilidad de ejecutar varios programas a la vez plantea todo tipo de preguntas nuevas. Por ejemplo, si dos programas quieren ejecutarse en un momento determinado, ¿cuál debería ejecutarse? Esta pregunta se responde con una política del SO; las políticas se utilizan en muchos lugares diferentes dentro de un SO para responder a este tipo de preguntas, y por ello se estudiarán mientras se aprende sobre los mecanismos básicos que implementan los sistemas operativos (como la capacidad de ejecutar múltiples programas a la vez). De ahí el papel del SO como gestor de recursos.
 
     .row.bg-titulo2.align-items-center.p-2.mb-4
@@ -77,7 +77,7 @@
           img(src='@/assets/curso/temas/tema3/img6.png', alt='Imágen decorativa')    
 
         .col-lg-11
-          .tarjeta.tarjeta-gris-degrade.p-3
+          .tarjeta.tarjeta-gris-degrade.p-3(data-aos="fade-up")
             p.mb-0 El modelo de memoria física presentada por las máquinas modernas es muy simple. La memoria es sólo una matriz de bytes; para leer la memoria, hay que especificar una dirección para poder acceder a los datos almacenados en ella; para escribir (o actualizar) la memoria, también hay que especificar los datos que se escribirán en la dirección dada. Se accede a la memoria todo el tiempo cuando se ejecuta un programa. Un programa mantiene todas sus estructuras de datos en la memoria, y accede a ellas a través de varias instrucciones, como loads y stores u otras instrucciones explícitas que acceden a la memoria al hacer su trabajo.
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="flip-down")
@@ -94,20 +94,20 @@
           img(src='@/assets/curso/temas/tema3/img7.svg', alt='Imágen decorativa')
 
       .col-lg-8
-        .tarjeta-azul2.p-5
+        .tarjeta-azul2.p-5(data-aos="fade-left")
           p.mb-0.texto-blanco Otro tema principal es la concurrencia. Se usa este término conceptual para hacer referencia a una serie de problemas que surgen, y deben ser abordados, cuando se trabaja en muchas cosas a la vez (es decir, de forma concurrente) en el mismo programa. Resulta que hacer esto conduce a algunos problemas profundos e interesantes. Por desgracia, los problemas de concurrencia ya no se limitan sólo al propio sistema operativo. De hecho, los modernos programas multihilo presentan los mismos problemas.
 
     .row.bg-titulo2.align-items-center.p-2.mb-4
       h3.mb-3.mt-2.texto-derecha Persistencia
 
-    p.mb-5 En la memoria del sistema, los datos pueden perderse fácilmente, ya que dispositivos como la DRAM almacenan valores de forma volátil; cuando se va la corriente o el sistema se bloquea, cualquier dato en la memoria se pierde. Por tanto, necesitamos <i>hardware</i> y <i>software</i> para poder almacenar los datos de forma persistente; este almacenamiento es, por tanto, fundamental para cualquier sistema, ya que los usuarios se preocupan mucho por sus datos. El <i>hardware</i> se presenta en forma de algún tipo de dispositivo de entrada/salida o E/S; en los sistemas modernos, un disco duro es un depósito común para la información de larga duración, aunque las unidades de estado sólido (SSD) también se están abriendo paso en este ámbito.
+    p.mb-5(data-aos="fade-right") En la memoria del sistema, los datos pueden perderse fácilmente, ya que dispositivos como la DRAM almacenan valores de forma volátil; cuando se va la corriente o el sistema se bloquea, cualquier dato en la memoria se pierde. Por tanto, necesitamos <i>hardware</i> y <i>software</i> para poder almacenar los datos de forma persistente; este almacenamiento es, por tanto, fundamental para cualquier sistema, ya que los usuarios se preocupan mucho por sus datos. El <i>hardware</i> se presenta en forma de algún tipo de dispositivo de entrada/salida o E/S; en los sistemas modernos, un disco duro es un depósito común para la información de larga duración, aunque las unidades de estado sólido (SSD) también se están abriendo paso en este ámbito.
 
     .row.justify-content-center.align-items-center.mb-5
       figure(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema3/img8.svg', alt='Imágen decorativa')
 
     .row.justify-content-center.align-items-center.mb-5
-      .cajon.color-primario.p-4
+      .cajon.color-primario.p-4(data-aos="flip-up")
         p.mb-0 El <i>software</i> del sistema operativo que suele gestionar el disco se denomina sistema de archivos, por lo que se encarga de almacenar los archivos que el usuario crea de forma fiable y eficiente en los discos del sistema. A diferencia de las abstracciones proporcionadas por el SO para la CPU y la memoria, el SO no crea un disco privado y virtualizado para cada aplicación. Más bien, se asume que, a menudo, los usuarios querrán compartir información que está en archivo; de ahí el ejemplo que se expone a continuación.
 
     .bg-fondo5
@@ -117,7 +117,7 @@
             img(src='@/assets/curso/temas/tema3/img9.svg', alt='Imágen decorativa')
 
         .col-lg-8
-          .tarjeta.tarjeta--blanca.px-4.py-2.mb-5
+          .tarjeta.tarjeta--blanca.px-4.py-2.mb-5(data-aos="fade-left")
             .row.justify-content-center.align-items-center
               .col-5.col-lg-2
                 figure.mb-lg-0.mb-3
@@ -130,7 +130,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema3/img11.svg', alt='Imágen decorativa').img-numeros2
 
-          .tarjeta.tarjeta--blanca.px-4.py-2.mb-5
+          .tarjeta.tarjeta--blanca.px-4.py-2.mb-5(data-aos="fade-left")
             .row.justify-content-center.align-items-center
               .col-10.col-md-8.col-lg-2
                 figure.mb-lg-0.mb-5
@@ -143,7 +143,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema3/img12.svg', alt='Imágen decorativa').img-numeros
 
-          .tarjeta.tarjeta--blanca.px-4.py-2.mb-5
+          .tarjeta.tarjeta--blanca.px-4.py-2.mb-5(data-aos="fade-left")
             .row.justify-content-center.align-items-center
               .col-5.col-lg-2
                 figure.mb-lg-0.mb-3
@@ -158,11 +158,11 @@
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10
-          .tarjeta.tarjeta-azul2.p-4
+          .tarjeta.tarjeta-azul2.p-4(data-aos="flip-down")
             p.mb-0.texto-blanco De este modo, se comparten los archivos entre diferentes procesos. Primero, Emacs crea un archivo que sirve de entrada al compilador; el compilador utiliza ese archivo de entrada para crear un nuevo archivo ejecutable (en muchos pasos - toma un curso de compiladores para conocer los detalles); finalmente, el nuevo ejecutable se ejecuta. Y así nace un nuevo programa.
 
     separador
-    #t_3_2.titulo-segundo.color-acento-contenido
+    #t_3_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
        h2 3.2 <i>Software</i> utilitario
 
     .row.justify-content-center.align-items-center.mb-5
@@ -171,7 +171,7 @@
           .bloque-texto-g1__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img16.svg')})`}"
           )
-          .bloque-texto-g1__texto.p-4
+          .bloque-texto-g1__texto.p-4(data-aos="flip-down")
             p.mb-0 Ahora, una vez, estudiado las características de un SO, se hace necesario conocer los software utilitarios, como herramientas de soporte y mejora en la ejecución de programas o en la realización de una función específica. Existen tanto licenciados como aquellos de código abierto. Se expone en qué consiste cada una de estas categorías.
 
     .row.justify-content-center.align-items-center.mb-5
@@ -222,7 +222,7 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .cajon.color-primario.p-4
+      .cajon.color-primario.p-4(data-aos="flip-up")
         p.pmb-0 Para elegir el tipo de licencia que conviene, la pregunta que debe hacerse en última instancia es: ¿cuál le permitirá servir mejor a sus clientes? En el panorama competitivo actual, atender las necesidades de TI de sus clientes significa no sólo satisfacer y superar sus expectativas, sino también mejorar en todo momento y anticiparse a sus necesidades de TI antes de que sean conscientes de ellas. Es por ello que conocer los SO también de código abierto, como Linux, debe ser parte del trabajo.
 
       p.mb-5 En el panorama competitivo actual, atender las necesidades de TI de sus clientes significa no sólo satisfacer y superar sus expectativas, sino también mejorar en todo momento y anticiparse a sus necesidades de TI antes de que sean conscientes de ellas. Es por ello que conocer los SO también de código abierto, como Linux, debe ser parte del trabajo.
@@ -268,7 +268,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        .cajon.color-primario.p-4
+        .cajon.color-primario.p-4(data-aos="flip-up")
           p.mb-0 Sumado a esto, se debe tener presente también que los softwares licenciados y utilidades de monitoreo le ayudan a gestionar los recursos de los equipos con los que se cuenta dentro de la red de una organización.
 
         p El software de monitorización está diseñado para hacer un seguimiento de las operaciones y actividades de los usuarios que trabajan en los sistemas de la empresa. Básicamente, supervisa las operaciones que realizan los usuarios en su sistema y proporciona servicios de información al administrador del sistema o de la red. Este software de supervisión también se conoce como software de vigilancia informática. Entre estos se encuentran:
@@ -282,7 +282,7 @@
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img24.svg')})`}"
         )
-        .bloque-texto-g__texto.p-4
+        .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 Básicamente, supervisa las operaciones que realizan los usuarios en su sistema y proporciona servicios de información al administrador del sistema o de la red. Este software de supervisión también se conoce como software de vigilancia informática. Entre estos se encuentran:
 
       .row.justify-content-center.align-items-center.my-5
@@ -334,12 +334,12 @@
                   img(src='@/assets/curso/temas/tema3/img29.svg', alt='Imágen decorativa')
 
     .row.justify-content-center.align-items-center.mb-5
-      .cajon.color-primario.p-4
+      .cajon.color-primario.p-4(data-aos="flip-up")
         p.mb-0 Después de conocer los beneficios del software de monitorización de computadores y las breves reseñas presentadas anteriormente, se puede elegir fácilmente el software que sea eficiente, beneficioso y adecuado para la organización. 
 
 
     separador
-    #t_3_3.titulo-segundo.color-acento-contenido
+    #t_3_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
        h2 3.3 Seguridad
 
     p.mb-5 Ahora que ya se tiene una idea de lo que hace un sistema operativo, (toma recursos físicos, como la CPU, la memoria o el disco, y los virtualiza). Maneja cuestiones difíciles y complicadas relacionadas con la concurrencia y almacena los archivos de forma persistente, haciéndolos seguros a largo plazo. Dado que se quiere construir un sistema de este tipo, se deben tener algunos objetivos en mente que ayuden a enfocar el diseño e implementación y a hacer las compensaciones necesarias (encontrar el conjunto correcto de compensaciones es una clave para construir sistemas).
@@ -375,25 +375,25 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-4
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/img31.svg', alt='Imágen decorativa')
 
       .col-lg-8
-        .cajon.color-primario.p-4
+        .cajon.color-primario.p-4(data-aos="flip-up")
           p.mb-0 El sistema operativo también debe funcionar sin parar; cuando falla, todas las aplicaciones que se ejecutan en el sistema también fallan. Debido a esta dependencia, los sistemas operativos suelen esforzarse por ofrecer un alto grado de fiabilidad. Como los sistemas operativos son cada vez más complejos (a veces contienen millones de líneas de código), construir un sistema operativo fiable es todo un reto y, de hecho, gran parte de la investigación en curso en este campo (incluyendo algunos de nuestros propios trabajos [BS+09, SS+10]) se centra precisamente en este problema.
 
-    p.mb-5 No obstante, existen otras cuestiones a considerar, por ejemplo, una entrada incorrecta dada inocentemente a un programa de usuario o incluso al sistema operativo probablemente hará que se bloquee, pero no es peor. Sin embargo, los programadores malintencionados pueden elaborar cuidadosamente la entrada que desborda el búfer para inyectar su propio código en el sistema objetivo, permitiéndoles esencialmente tomar el control y hacer su propia voluntad. Si tiene éxito en un programa de usuario conectado a la red, los atacantes pueden ejecutar cálculos arbitrarios o incluso alquilar ciclos en el sistema comprometido; si tiene éxito en el propio sistema operativo, el ataque puede acceder incluso a más recursos, y es una forma de lo que se llama escalada de privilegios (es decir, código de usuario que obtiene derechos de acceso al núcleo). Si no se adivina, todas estas cosas son malas.
+    p.mb-5(data-aos="fade-left") No obstante, existen otras cuestiones a considerar, por ejemplo, una entrada incorrecta dada inocentemente a un programa de usuario o incluso al sistema operativo probablemente hará que se bloquee, pero no es peor. Sin embargo, los programadores malintencionados pueden elaborar cuidadosamente la entrada que desborda el búfer para inyectar su propio código en el sistema objetivo, permitiéndoles esencialmente tomar el control y hacer su propia voluntad. Si tiene éxito en un programa de usuario conectado a la red, los atacantes pueden ejecutar cálculos arbitrarios o incluso alquilar ciclos en el sistema comprometido; si tiene éxito en el propio sistema operativo, el ataque puede acceder incluso a más recursos, y es una forma de lo que se llama escalada de privilegios (es decir, código de usuario que obtiene derechos de acceso al núcleo). Si no se adivina, todas estas cosas son malas.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        .cajon.color-primario.p-4
+        .cajon.color-primario.p-4(data-aos="flip-up")
           p.mb-0 La primera y más sencilla defensa contra el desbordamiento de búfer, es impedir la ejecución de cualquier código que se encuentre dentro de ciertas regiones de un espacio de direcciones (por ejemplo, dentro de la pila). El bit NX (para No-eXecute), introducido por AMD en su versión de x86 (un bit XD similar está ahora disponible en la de Intel), es una de estas defensas; simplemente impide la ejecución de cualquier página que tenga este bit establecido en su correspondiente entrada de la tabla de páginas. El enfoque evita que se ejecute el código inyectado por un atacante en la pila del objetivo, y por lo tanto mitiga el problema.
 
       .col-10.col-lg-4
         figure
           img(src='@/assets/curso/temas/tema3/img32.svg', alt='Imágen decorativa')
 
-    p.mb-5 Sin embargo, los atacantes inteligentes son … inteligentes…, e incluso cuando el código inyectado no puede ser añadido explícitamente por el atacante, secuencias de código arbitrarias pueden ser ejecutadas por el código malicioso. La idea se conoce, en su forma más general, como programación orientada al retorno (ROP), y realmente es bastante brillante. 
+    p.mb-5(data-aos="fade-right") Sin embargo, los atacantes inteligentes son … inteligentes…, e incluso cuando el código inyectado no puede ser añadido explícitamente por el atacante, secuencias de código arbitrarias pueden ser ejecutadas por el código malicioso. La idea se conoce, en su forma más general, como programación orientada al retorno (ROP), y realmente es bastante brillante. 
 
     .bg-fondo3
       .row.justify-content-center.align-items-center.mb-5
@@ -407,9 +407,9 @@
           .row.justify-content-center.align-items-center.mb-5
             .col-1
             .col-lg-7
-              p #[b La observación detrás de ROP es que hay muchos bits de código (gadgets, en la terminología de ROP) dentro del espacio de direcciones de cualquier programa, especialmente los programas C que se enlazan con la voluminosa biblioteca C. Por lo tanto, un atacante puede sobrescribir la pila de manera que la dirección de retorno en la función que se está ejecutando apunte a una instrucción maliciosa deseada (o una serie de instrucciones), seguida de una instrucción de retorno.] 
+              p(data-aos="fade-right") #[b La observación detrás de ROP es que hay muchos bits de código (gadgets, en la terminología de ROP) dentro del espacio de direcciones de cualquier programa, especialmente los programas C que se enlazan con la voluminosa biblioteca C. Por lo tanto, un atacante puede sobrescribir la pila de manera que la dirección de retorno en la función que se está ejecutando apunte a una instrucción maliciosa deseada (o una serie de instrucciones), seguida de una instrucción de retorno.] 
 
-              p #[b Al encadenar un gran número de gadgets (es decir, asegurándose de que cada retorno salta al siguiente gadget), el atacante puede ejecutar código arbitrario.] 
+              p(data-aos="fade-right") #[b Al encadenar un gran número de gadgets (es decir, asegurándose de que cada retorno salta al siguiente gadget), el atacante puede ejecutar código arbitrario.] 
 
             .col-4.col-lg-3
               figure
@@ -421,7 +421,7 @@
               figure
                 img(src='@/assets/curso/temas/tema3/img36.svg', alt='Imágen decorativa')
             .col-lg-7
-              p.texto-blanco.mb-5 Para defenderse de ROP (incluyendo su forma anterior, el ataque return-to-libc), Linux (y otros sistemas) añaden otra defensa, conocida como distribución aleatoria del espacio de direcciones (ASLR). En lugar de colocar el código, la pila y la pila en ubicaciones fijas dentro del espacio de direcciones virtual, el sistema operativo aleatoriza su colocación, lo que hace bastante difícil elaborar la intrincada secuencia de código necesaria para implementar esta clase de ataques. La mayoría de los ataques a programas de usuario vulnerables causarán, por tanto, caídas, pero no podrán obtener el control del programa en ejecución.
+              p.texto-blanco.mb-5(data-aos="fade-left") Para defenderse de ROP (incluyendo su forma anterior, el ataque return-to-libc), Linux (y otros sistemas) añaden otra defensa, conocida como distribución aleatoria del espacio de direcciones (ASLR). En lugar de colocar el código, la pila y la pila en ubicaciones fijas dentro del espacio de direcciones virtual, el sistema operativo aleatoriza su colocación, lo que hace bastante difícil elaborar la intrincada secuencia de código necesaria para implementar esta clase de ataques. La mayoría de los ataques a programas de usuario vulnerables causarán, por tanto, caídas, pero no podrán obtener el control del programa en ejecución.
             .col-2
 
     .row.justify-content-center.align-items-center.mb-5
@@ -429,7 +429,7 @@
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img37.svg')})`}"
         )
-        .bloque-texto-g__texto.p-4
+        .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 Adicionalmente, el mundo de la seguridad de los sistemas se ha puesto patas arriba por dos nuevos ataques relacionados. El primero se llama Meltdown, y el segundo Spectre. Fueron descubiertos casi al mismo tiempo por cuatro grupos diferentes de investigadores/ingenieros, y han llevado a un profundo cuestionamiento de las protecciones fundamentales ofrecidas por el hardware de los ordenadores y el SO anterior.
 
     .row.align-items-center.mb-5
@@ -474,9 +474,9 @@
           img(src='@/assets/curso/temas/tema3/img41.svg', alt='Imágen decorativa')
 
       .col-lg-8
-        p Lamentablemente, KPTI no resuelve todos los problemas de seguridad expuestos anteriormente, sólo algunos de ellos. Y las soluciones simples, como desactivar la especulación, no tendrían mucho sentido, porque los sistemas funcionarían miles de veces más lento. Por lo tanto, es un momento interesante para estar vivo, si la seguridad de los sistemas es lo tuyo.
+        p(data-aos="fade-left") Lamentablemente, KPTI no resuelve todos los problemas de seguridad expuestos anteriormente, sólo algunos de ellos. Y las soluciones simples, como desactivar la especulación, no tendrían mucho sentido, porque los sistemas funcionarían miles de veces más lento. Por lo tanto, es un momento interesante para estar vivo, si la seguridad de los sistemas es lo tuyo.
 
-        .cajon.color-primario.p-4
+        .cajon.color-primario.p-4(data-aos="flip-up")
           p.mb-0 Para entender realmente estos ataques, se hace necesario aprender sobre la arquitectura de los ordenadores modernos, como se encuentra en los libros avanzados sobre el tema, centrándose en la especulación y en todos los mecanismos necesarios para implementarla. Definitivamente, leer sobre los ataques Meltdown y Spectre, en los sitios web mencionados anteriormente; de hecho, también incluyen un manual útil sobre la especulación, por lo que quizás no sea un mal lugar para empezar .
 
 

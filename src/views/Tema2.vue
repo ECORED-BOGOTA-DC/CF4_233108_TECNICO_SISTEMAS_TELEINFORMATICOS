@@ -12,10 +12,10 @@
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img1.svg')})`}"
         )
-        .bloque-texto-g__texto.p-4
+        .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 El mantenimiento preventivo es una actividad organizada para evitar el desgaste o el fallo repentino de los componentes de los equipos. Los fallos mecánicos, de proceso, de control o de cualquier otro tipo del equipo pueden tener efectos adversos tanto en términos humanos como económicos. Además del tiempo de inactividad y de los costes que supone reparar y/o sustituir las piezas o componentes del equipo, existe el riesgo de que los operarios se lesionen y de que se exponen a agentes químicos y/o físicos. Por lo tanto, el mantenimiento preventivo es muy importante y la actividad de prevención de accidentes en los lugares de trabajo debe integrarse en el proceso de operación/fabricación del producto.
 
-    p.mb-5 El mantenimiento preventivo de los equipos debe realizarse, por tanto, para:
+    p.mb-5(data-aos="fade-left") El mantenimiento preventivo de los equipos debe realizarse, por tanto, para:
 
     .bg-fondo3
       .row.justify-content-center.align-items-center.mb-5
@@ -31,7 +31,7 @@
                 figure(data-aos="fade-right")
                   img(src='@/assets/curso/temas/tema2/img3.svg', alt='Imágen decorativa').img3-4-tm2
               
-              .col-lg-11.col-md-10
+              .col-lg-11.col-md-10(data-aos="fade-left")
                 b Aumentar la fiabilidad del sistema disminuyendo las posibilidades de fallo.
 
           .tarjeta-gris2.p-4
@@ -40,7 +40,7 @@
                 figure(data-aos="fade-right")
                   img(src='@/assets/curso/temas/tema2/img4.svg', alt='Imágen decorativa').img3-4-tm2
               
-              .col-lg-11.col-md-10
+              .col-lg-11.col-md-10(data-aos="fade-left")
                 b Proporcionar un mejor rendimiento funcional. 
 
           .tarjeta-gris3.p-4
@@ -49,7 +49,7 @@
                 figure(data-aos="fade-right")
                   img(src='@/assets/curso/temas/tema2/img3.svg', alt='Imágen decorativa').img3-4-tm2
               
-              .col-lg-11.col-md-10
+              .col-lg-11.col-md-10(data-aos="fade-left")
                 b Garantizar un equipo de aspecto presentable en todo momento.
 
         .col-8.col-lg-4
@@ -69,9 +69,9 @@
             .row
               .col-1
               .col-11
-                p.mb-0.texto-blanco El mantenimiento preventivo implica una política de sustitución de componentes de un sistema antes de que el componente falle realmente. Se trata de una acción anticipada y a menudo exige la predicción fiable de los componentes que se desgastan. 
+                p.mb-0.texto-blanco(data-aos="fade-left") El mantenimiento preventivo implica una política de sustitución de componentes de un sistema antes de que el componente falle realmente. Se trata de una acción anticipada y a menudo exige la predicción fiable de los componentes que se desgastan. 
 
-    p.mb-5 En algunos casos, cuando los componentes están sometidos a un desgaste continuo, es posible hacerlo, por ejemplo, en el caso de los rodillos de un accionamiento de papel en los registradores gráficos, los servi potenciadores, los motores, las lámparas de filamento y los contactos de los relés. Si se actúa a tiempo, la fiabilidad de un sistema puede mejorar considerablemente.
+    p.mb-5(data-aos="fade-right") En algunos casos, cuando los componentes están sometidos a un desgaste continuo, es posible hacerlo, por ejemplo, en el caso de los rodillos de un accionamiento de papel en los registradores gráficos, los servi potenciadores, los motores, las lámparas de filamento y los contactos de los relés. Si se actúa a tiempo, la fiabilidad de un sistema puede mejorar considerablemente.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-7.col-lg-4
@@ -79,7 +79,7 @@
           img(src='@/assets/curso/temas/tema2/img6.svg', alt='Imágen decorativa')
 
       .col-lg-6
-        .tarjeta-azul2.p-5
+        .tarjeta-azul2.p-5(data-aos="fade-left")
           p.mb-0.texto-blanco La frecuencia del mantenimiento viene determinada por la severidad del entorno al que está sometido el equipo durante su funcionamiento. Por lo general, un momento conveniente para realizar el mantenimiento preventivo es el que precede a los ajustes eléctricos del equipo si son necesarios.
 
 
@@ -127,14 +127,14 @@
             img(src='@/assets/curso/temas/tema2/img7.svg', alt='Imágen decorativa')
 
     separador
-    #t_2_1.titulo-segundo.color-acento-botones
+    #t_2_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
        h2 2.1 Precauciones y recomendaciones
 
 
-    p.mb-5 Además de las rutinas de mantenimiento programadas, se utilizan muchos tipos de dispositivos para proporcionar indicadores que ayuden a los técnicos de mantenimiento a identificar o adelantarse a los problemas que puedan estar desarrollándose. Algunos de ellos son:
+    p.mb-5(data-aos="fade-left") Además de las rutinas de mantenimiento programadas, se utilizan muchos tipos de dispositivos para proporcionar indicadores que ayuden a los técnicos de mantenimiento a identificar o adelantarse a los problemas que puedan estar desarrollándose. Algunos de ellos son:
 
     .row.justify-content-center.align-items-center.mb-5
-      figure(data-aos="fade-right")
+      figure(data-aos="flip-up")
         img(src='@/assets/curso/temas/tema2/img8.svg', alt='Imágen decorativa')
 
     .bg-fondo4          
@@ -143,7 +143,7 @@
           img(src='@/assets/curso/temas/tema2/img9.png', alt='Imágen decorativa')    
 
         .col-lg-11
-          .tarjeta.tarjeta-gris-degrade.p-3
+          .tarjeta.tarjeta-gris-degrade.p-3(data-aos="fade-up")
             p.mb-0 Las tareas en estas áreas están relacionadas con las partes mecánicas y eléctricas del equipo electrónico. Por lo tanto, el técnico debe conocer el funcionamiento del sistema mecánico empleado habitualmente en los equipos electrónicos. Es importante conocer y ser capaz de identificar la información relativa al desmontaje y sustitución de los componentes mecánicos en la literatura técnica. Dicha información suele figurar en el manual de servicio del equipo.
 
       .row.justify-content-center.align-items-center.mb-5
@@ -187,7 +187,7 @@
 
 
     separador
-    #t_2_2.titulo-segundo.color-acento-botones
+    #t_2_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
        h2 2.2 Manejo de la electricidad
 
     .row.justify-content-center.align-items-center.mb-5
@@ -196,9 +196,9 @@
           img(src='@/assets/curso/temas/tema2/img13.svg', alt='Imágen decorativa')
 
       .col-lg-8
-        p La suciedad y el polvo son grandes enemigos de los circuitos electrónicos. La acumulación de polvo en las placas de circuitos impresos, formadas por dispositivos integrados y otros dispositivos de estado sólido, provoca el mal funcionamiento de los circuitos de varias maneras.
+        p(data-aos="fade-left") La suciedad y el polvo son grandes enemigos de los circuitos electrónicos. La acumulación de polvo en las placas de circuitos impresos, formadas por dispositivos integrados y otros dispositivos de estado sólido, provoca el mal funcionamiento de los circuitos de varias maneras.
 
-        .cajon.color-primario.p-4
+        .cajon.color-primario.p-4(data-aos="flip-up")
           p.mb-0 La suciedad puede ocasionar un sobrecalentamiento y la rotura de los componentes. Actúa como una manta aislante y provoca una disipación de calor ineficaz. También proporciona una vía de conducción eléctrica que puede provocar fallos en el equipo. Por lo tanto, el equipo debe limpiarse periódicamente tanto en el exterior como en el interior. El siguiente video presenta aspectos a tener en cuenta en la limpieza del equipo.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-down")
@@ -212,7 +212,7 @@
           .bloque-texto-g1__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img14.svg')})`}"
           )
-          .bloque-texto-g1__texto.p-4
+          .bloque-texto-g1__texto.p-4(data-aos="flip-down")
             p.mb-0 Llevar un plan de trabajo siempre es buena idea a la hora de realizar los mantenimientos preventivos, sobre todo con la manipulación de los componentes electrónicos, los cuales pueden generar una descarga electrostática. 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -221,11 +221,11 @@
           img(src='@/assets/curso/temas/tema2/img15.svg', alt='Imágen decorativa')
 
       .col-lg-8
-        p La protección contra las descargas electrostáticas (ESD) forma parte de los requisitos de Inmunidad CEM (Compatibilidad Electromagnética) Se trata de la capacidad de los equipos de funcionar correctamente en su entorno electromagnético limitando la recepción de energía electromagnética que pueda causar daños físicos. La ESD puede ser conducida bajo la forma de un voltaje transitorio o puede ser radiada debido a su rápido tiempo de subida: los armónicos potentes generarán un comportamiento errático por parte de la aplicación al acoplarse con otras señales. Las placas de circuito impreso deben estar protegidas contra los efectos de las descargas electrostáticas.
+        p(data-aos="fade-left") La protección contra las descargas electrostáticas (ESD) forma parte de los requisitos de Inmunidad CEM (Compatibilidad Electromagnética) Se trata de la capacidad de los equipos de funcionar correctamente en su entorno electromagnético limitando la recepción de energía electromagnética que pueda causar daños físicos. La ESD puede ser conducida bajo la forma de un voltaje transitorio o puede ser radiada debido a su rápido tiempo de subida: los armónicos potentes generarán un comportamiento errático por parte de la aplicación al acoplarse con otras señales. Las placas de circuito impreso deben estar protegidas contra los efectos de las descargas electrostáticas.
 
-        p A medida que el área de funcionamiento seguro de los procesos CMOS actuales se hace más estrecha, son cada vez más sensibles a la ESD. Los fabricantes de silicio suelen utilizar el modelo de cuerpo humano (HBM) para caracterizar la susceptibilidad a la ESD en un entorno controlado; sin embargo, esta es mucho mayor en el mundo real a nivel de sistema.
+        p(data-aos="fade-left") A medida que el área de funcionamiento seguro de los procesos CMOS actuales se hace más estrecha, son cada vez más sensibles a la ESD. Los fabricantes de silicio suelen utilizar el modelo de cuerpo humano (HBM) para caracterizar la susceptibilidad a la ESD en un entorno controlado; sin embargo, esta es mucho mayor en el mundo real a nivel de sistema.
 
-        .cajon.color-primario.p-4
+        .cajon.color-primario.p-4(data-aos="flip-up")
           p.mb-0 Para proteger las piezas eléctricas o electrónicas, los conjuntos y los equipos susceptibles de sufrir daños por ESD, los dispositivos de protección externa contra ESD deben respetar dos puntos principales para cumplir con las normativas y los estándares de seguridad nacionales e internacionales:
 
     .row.justify-content-center.align-items-center.mb-5
