@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span 3
       h1 Mantenimiento de equipos informáticos
@@ -17,7 +17,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-7.col-lg-4
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/img2.svg', alt='Imágen decorativa')
 
       .col-lg-8
@@ -32,12 +32,12 @@
         p Por supuesto, para permitir que los usuarios le digan al SO qué hacer y así hacer uso de las características de la máquina virtual (como ejecutar un programa, o asignar memoria, o acceder a un archivo) el SO también proporciona algunas interfaces (APIs) que se pueden llamar. Un SO típico, de hecho, exporta unos cientos de llamadas al sistema que están disponibles para las aplicaciones. Dado que el SO proporciona estas llamadas para ejecutar programas, acceder a la memoria y a los dispositivos, y otras acciones relacionadas, a veces, se dice que el SO proporciona una biblioteca estándar a las aplicaciones.
 
       .col-lg-4
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/img3.svg', alt='Imágen decorativa')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-5
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/img4.svg', alt='Imágen decorativa')
 
       .col-lg-6
@@ -56,7 +56,7 @@
       h3.mb-3.mt-2.texto-derecha Virtualización de la CPU
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-down")
-      figure
+      figure(data-aos="fade-right")
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/123456789" title="Comunicación de marketing digital" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
@@ -73,7 +73,7 @@
 
     .bg-fondo4          
       .row.justify-content-center.align-items-center.mb-5
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/img6.png', alt='Imágen decorativa')    
 
         .col-lg-11
@@ -81,7 +81,7 @@
             p.mb-0 El modelo de memoria física presentada por las máquinas modernas es muy simple. La memoria es sólo una matriz de bytes; para leer la memoria, hay que especificar una dirección para poder acceder a los datos almacenados en ella; para escribir (o actualizar) la memoria, también hay que especificar los datos que se escribirán en la dirección dada. Se accede a la memoria todo el tiempo cuando se ejecuta un programa. Un programa mantiene todas sus estructuras de datos en la memoria, y accede a ellas a través de varias instrucciones, como loads y stores u otras instrucciones explícitas que acceden a la memoria al hacer su trabajo.
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="flip-down")
-        figure
+        figure(data-aos="fade-right")
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/123456789" title="Comunicación de marketing digital" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
@@ -90,7 +90,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-7.col-lg-4
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/img7.svg', alt='Imágen decorativa')
 
       .col-lg-8
@@ -103,7 +103,7 @@
     p.mb-5 En la memoria del sistema, los datos pueden perderse fácilmente, ya que dispositivos como la DRAM almacenan valores de forma volátil; cuando se va la corriente o el sistema se bloquea, cualquier dato en la memoria se pierde. Por tanto, necesitamos <i>hardware</i> y <i>software</i> para poder almacenar los datos de forma persistente; este almacenamiento es, por tanto, fundamental para cualquier sistema, ya que los usuarios se preocupan mucho por sus datos. El <i>hardware</i> se presenta en forma de algún tipo de dispositivo de entrada/salida o E/S; en los sistemas modernos, un disco duro es un depósito común para la información de larga duración, aunque las unidades de estado sólido (SSD) también se están abriendo paso en este ámbito.
 
     .row.justify-content-center.align-items-center.mb-5
-      figure
+      figure(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema3/img8.svg', alt='Imágen decorativa')
 
     .row.justify-content-center.align-items-center.mb-5
@@ -113,7 +113,7 @@
     .bg-fondo5
       .row.justify-content-center.align-items-center.mb-5
         .col-10.col-lg-4.mb-4
-          figure
+          figure(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema3/img9.svg', alt='Imágen decorativa')
 
         .col-lg-8

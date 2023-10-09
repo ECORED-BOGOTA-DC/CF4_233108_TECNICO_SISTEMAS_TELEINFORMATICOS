@@ -2,26 +2,26 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span 6
       h1 Documentación técnica
 
     .row.justify-content-center.align-items-center
       .col-lg-3
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema6/img1.svg', alt='imagen decorativa')
       .col-lg-8
         p Todas las empresas de todos los sectores necesitan documentación técnica. No importa si está orientada al consumidor, como las instrucciones para montar una cómoda, o a su personal interno sobre las mejores prácticas para archivar facturas: todo proceso estandarizado necesita una documentación adecuada. Los documentos técnicos muestran al usuario una descripción del producto o proceso, le explican lo que hay por delante y le enseñan a superar cada paso o reto, lo que le lleva al resultado deseado.
 
-        .cajon.color-acento-contenido.p-4
+        .cajon.cajon-tema6.p-4
           p Todos los tipos de documentación técnica se dividen en tres categorías principales: documentación de productos, documentación de procesos y documentos de ventas y marketing. A continuación, se detallan los dos primeros.
 
     TabsB.color-primario.mt-5
       .py-4.py-md-5(titulo="Documentación de producto")
         .row
           .col-md-4
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema6/img2.svg', alt='Texto que describa la imagen')
 
           .col-md-8.mb-4.mb-md-0
@@ -30,7 +30,7 @@
             p Cuando la mayoría de la gente dice “documentación técnica”, se refiere a la documentación del producto. Los documentos de producto suelen incluir instrucciones y tutoriales para ayudar a los usuarios finales a realizar una tarea. Incluyen guías, ilustraciones y hojas de referencia que cubren:
 
         .row.justify-content-center.align-items-center
-          ul.lista-ul--color.lista-ul--separador
+          ul.lista-ul--color.lista-ul--separador.fa-ul2
             li 
               i.fas.fa-check-circle
               | Información sobre los requisitos o las especificaciones del sistema que los usuarios necesitan para que el producto funcione eficazmente.
@@ -43,19 +43,19 @@
               i.fas.fa-check-circle
               | Preguntas frecuentes (FAQ) o base de conocimientos.
 
-          .cajon.color-acento-contenido.p-4
+          .cajon.cajon-tema6.p-4
             p Para la documentación del producto, se recomienda aprovechar el software de escritura técnica y las herramientas de documentación de software para crear una documentación fácil de usar y de ayuda.
 
       .py-4.py-md-5(titulo="Documentación de procesos")
         .row
           .col-md-4.mb-4.mb-md-0
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema6/img3.svg', alt='Texto que describa la imagen')
 
           .col-md-8
             p La documentación de procesos, por otro lado, es un documento que muestra a un equipo interno lo que necesita saber para ejecutar correctamente una tarea. Abarca información que ayuda a crear consistencia y responsabilidad dentro de su organización, incluyendo:
 
-            ul.lista-ul--color.lista-ul--separador
+            ul.lista-ul--color.lista-ul--separador.fa-ul2
               li 
                 i.fas.fa-check-circle
                 | Planes, calendarios y notas que establecen normas y patrones para diferentes procesos.
@@ -88,16 +88,16 @@
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8
-          figure
+          figure(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema6/img5.svg', alt='imagen decorativa')
 
 
     .row.justify-content-center.align-items-center
       .col-lg-3
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema6/img6.svg', alt='imagen decorativa')
       .col-lg-8
-        .cajon.color-acento-contenido.p-4
+        .cajon.cajon-tema6.p-4
           p Una hoja de datos técnicos (TDS) se utiliza tanto con fines informativos como publicitarios. Desde el punto de vista informativo, una TDS contiene consejos útiles sobre el producto, por ejemplo: cómo utilizarlo, de qué está hecho, qué cosas hay que tener en cuenta al utilizar el producto, y su nombre oficial y las especificaciones estándar de la industria. Desde el punto de vista del marketing, puede contener fotos e ilustraciones en color, así como secciones enteras en las que se describen los beneficios que el producto aportará al usuario final .
 
         p.mt-3 Una TDS no debe confundirse con una hoja de datos de seguridad de los materiales (MSDS). El objetivo de la MSDS es informar específicamente al usuario final de los peligros que puede presentar el producto. Este no es el objetivo de la TDS, aunque puede incluir varias consideraciones de seguridad. Además, las hojas de datos de seguridad de los materiales deben seguir una plantilla determinada guiada por una norma industrial, mientras que una hoja de datos técnicos puede presentarse a discreción del fabricante del producto y contener la información que considere oportuna. Muchos países exigen que un material o producto tenga una ficha de datos de seguridad; la mayoría no exige una ficha técnica.
@@ -113,7 +113,7 @@
         .titulo-sexto.color-acento-botones.mb-3
           h5 Figura 2.
           span Ejemplo de una hoja de vida para un equipo de computo  
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema6/img7.svg', alt='imagen decorativa')
           figcaption <b>Nota.</b> Tomado de ICBF (2022)
 
@@ -136,7 +136,7 @@
       .col-10
         .row.justify-content-center.align-items-center.mt-3
           .col-lg-4
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema6/img9.svg', alt='imagen decorativa')
 
           .col-lg-8.bg1-tema6
@@ -153,7 +153,7 @@
       .row.justify-content-center.align-items-center
         ImagenInfograficaB.color-acento-botones
           template(v-slot:imagen)
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema6/img10.svg', alt='Texto que describa la imagen')
         
           div(x="14%" y="42%" )
@@ -190,7 +190,7 @@
 
 
     .row.justify-content-center.align-items-center.mt-5
-      .cajon.color-acento-contenido.p-4
+      .cajon.cajon-tema6.p-4
           p Es importante que cuando haya que hacer cambios en el calendario, se aseguren de llevar a cabo y se comuniquen de acuerdo con el plan establecido en el Paso 1. A lo largo del proyecto, se asegurará de que cada actividad se ajuste al calendario y determinará si es necesario adoptar medidas correctivas en caso de que se produzcan retrasos.
 
     separador
@@ -210,11 +210,11 @@
     .row.justify-content-center.align-items-center
       ImagenInfograficaB.color-acento-botones
         template(v-slot:imagen)
-          figure
+          figure(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema6/img12.svg', alt='Texto que describa la imagen')
       
         div(x="30.5%" y="50%" )
-          ul.lista-ul--color.lista-ul--separador
+          ul.lista-ul--color.lista-ul--separador.fa-ul2
             li 
               i.fas.fa-check-circle
               | Utilizar plantillas o “esquemas” para un diseño coherente en la página.
@@ -224,7 +224,7 @@
               | Crear una estructura de navegación sencilla y lógica
 
         div(x="50%" y="50%" )
-          ul.lista-ul--color.lista-ul--separador
+          ul.lista-ul--color.lista-ul--separador.fa-ul2
             li 
               i.fas.fa-check-circle
               | Empezar con un borrador.
@@ -246,7 +246,7 @@
        h2 6.5 Reportes técnicos
 
     .row.justify-content-center.align-items-center.mb-5
-      figure
+      figure(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema6/img13.png', alt='Imágen decorativa')    
 
       .col-lg-11
@@ -255,7 +255,7 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-4
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema6/img14.svg', alt='imagen decorativa')
 
       .col-lg-8
@@ -289,7 +289,7 @@
       .col-10.bg8-tema6
         .row.justify-content-center.align-items-center
           .col-4
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema6/bg8.svg', alt='imagen decorativa')
           .col-8
             p <b>Enfoque descendente:</b> estructurar el informe completo de principio a fin, desde el título a los subtítulos y la conclusión, y añadir los detalles en las secciones correspondientes. El enfoque descendente crea un flujo estructurado para su proceso mental, lo que ayuda a la gestión del tiempo.
@@ -300,61 +300,61 @@
           .col-8
             p <b>Entrega evolutiva:</b> este método es adecuado para alguien a quien le gusta ir con la corriente. A medida que el proyecto se desarrolla, el autor escribe y toma decisiones. La entrega evolutiva amplía las capacidades de pensamiento. Cuando surge una nueva idea o inspiración, se puede incluso añadir y modificar ciertas áreas.
           .col-4
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema6/bg9.svg', alt='imagen decorativa')
 
     .row.justify-content-center.align-items-center.bg9-tema6.mt-5
       .col-lg-3
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema6/img15.svg', alt='imagen decorativa')
 
       .col-lg-9
         SlyderF(columnas="col-lg-6 col-xl-6")
-          .tarjeta.color-acento-botones.p-4.w_t_s
+          .tarjeta.color-acento-botones.p-4.w_t_s.text-white
             h4.text-center Portada
             p.text-center La portada es la cara del proyecto. Por lo tanto, debe tener detalles como el título, el nombre del autor y el nombre de la organización junto con su símbolo. Debe ser un diseño sencillo pero atractivo.
         
-          .tarjeta.color-acento-botones.p-4.w_t_s
+          .tarjeta.color-acento-botones.p-4.w_t_s.text-white
             h4.text-center Página del título
             p.text-center En la página del título se indica el número de palabras. Con frecuencia se exige la longitud de las palabras y el recuento de palabras del texto principal. En la página del título también se informa al lector sobre el estado del proyecto. Esta página también incluye el nombre del mentor o supervisor.
         
-          .tarjeta.color-acento-botones.p-4.w_t_s
+          .tarjeta.color-acento-botones.p-4.w_t_s.text-white
             h4.text-center Resumen
             p.text-center Proporciona una descripción clara y breve del proyecto.  Está escrito de manera que una persona que sólo lea el resumen pueda enterarse de todo lo relacionado con el proyecto.
         
-          .tarjeta.color-acento-botones.p-4.w_t_s
+          .tarjeta.color-acento-botones.p-4.w_t_s.text-white
             h4.text-center Prefacio
             p.text-center Es la página en la que declaras que todas las fuentes han sido debidamente acreditadas y que ninguna sección de tu investigación ha sido copiada. Tus conclusiones son el resultado de tus experimentos y tu estudio.
         
-          .tarjeta.color-acento-botones.p-4.w_t_s
+          .tarjeta.color-acento-botones.p-4.w_t_s.text-white
             h4.text-center Dedicatoria
             p.text-center Cuando un autor desea dedicar su estudio a un ser querido, ésta es una página adicional para hacerlo. Es una sola frase en medio de una página nueva.
         
-          .tarjeta.color-acento-botones.p-4.w_t_s
+          .tarjeta.color-acento-botones.p-4.w_t_s.text-white
             h4.text-center Agradecimiento
             p.text-center En la sección de agradecimientos, se dan las gracias a las personas, organizaciones y partes que le ayudaron en el proceso o le inspiraron a iniciarlo.
         
-          .tarjeta.color-acento-botones.p-4.w_t_s
+          .tarjeta.color-acento-botones.p-4.w_t_s.text-white
             h4.text-center Índice
             p.text-center Es el lugar donde se enumeran los números de página junto a los títulos de las secciones y subsecciones. Haz una página para describir los símbolos que hayas utilizado. Si el informe técnico tiene gráficos y tablas, también requieren una página nueva. Los símbolos e ilustraciones deben figurar en una página nueva.
         
-          .tarjeta.color-acento-botones.p-4.w_t_s
+          .tarjeta.color-acento-botones.p-4.w_t_s.text-white
             h4.text-center Introducción
             p.text-center Se exponen los objetivos del informe y se sugiere cómo debe tratarse el tema del mismo. La introducción lleva directamente al informe. 
 
-          .tarjeta.color-acento-botones.p-4.w_t_s
+          .tarjeta.color-acento-botones.p-4.w_t_s.text-white
             h4.text-center Cuerpo
             p.text-center Las secciones del cuerpo están numeradas y encabezadas. Estas secciones organizan y dividen los distintos temas principales en un orden razonable. 
 
-          .tarjeta.color-acento-botones.p-4.w_t_s
+          .tarjeta.color-acento-botones.p-4.w_t_s.text-white
             h4.text-center Conclusión
             p.text-center El objetivo de la conclusión es sintetizar todo lo que se ha tratado en el proyecto. Menciona los hallazgos de cada capítulo, los objetivos que se cumplieron y el grado de cumplimiento de los mismos. Discute las consecuencias de los hallazgos, así como la importancia de la investigación. 
 
-          .tarjeta.color-acento-botones.p-4.w_t_s
+          .tarjeta.color-acento-botones.p-4.w_t_s.text-white
             h4.text-center Referencias
             p.text-center La sección de referencias contiene las fuentes de información publicadas y citadas en el libro. 
 
-          .tarjeta.color-acento-botones.p-4.w_t_s
+          .tarjeta.color-acento-botones.p-4.w_t_s.text-white
             h4.text-center Bibliografía
             p.text-center Se indican otras fuentes de información, como sitios web que no se mencionan en el texto pero que son útiles para obtener antecedentes o lecturas adicionales. 
 

@@ -2,14 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span 1
       h1 Equipos de cómputo
 
     .bg-fondo1
       .row.justify-content-center.align-items-center.mb-5
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema1/img1.png', alt='Imágen decorativa')    
 
         .col-lg-11
@@ -29,7 +29,7 @@
             p Aunque nunca se construyó un modelo de funcionamiento de la Máquina Analítica, las notas detalladas que Charles Babbage desarrolló desde 1834 hasta su muerte en 1871 describen una arquitectura informática que parecía viable y completa. La máquina analítica estaba destinada a servir como dispositivo informático programable de propósito general. El diseño era totalmente mecánico y debía estar construido en gran parte de latón. La máquina analítica estaba diseñada para ser accionada por un eje accionado por una máquina de vapor.
         
           .col-md-5
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema1/img2.svg', alt='Imágen decorativa')
 
         .row(titulo="1945")
@@ -40,7 +40,7 @@
             p La arquitectura de ENIAC era capaz de realizar complejas secuencias de pasos de procesamiento, incluyendo bucles, ramas y subrutinas. El sistema tenía 20 acumuladores de 10 dígitos que funcionaban como los registros de los computadores modernos. Inicialmente no tenía ninguna memoria más allá de los acumuladores. Si se necesitaban valores intermedios para utilizarlos en cálculos posteriores, los datos tenían que escribirse en tarjetas perforadas y volver a leerse cuando se necesitaban. El ENIAC podía realizar unas 385 multiplicaciones por segundo.	
         
           .col-md-5
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema1/img3.svg', alt='Imágen decorativa')
 
         .row(titulo="1947-1958")
@@ -55,7 +55,7 @@
 
         
           .col-md-5
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema1/img4.svg', alt='Imágen decorativa')
 
         .row(titulo="1971")
@@ -67,7 +67,7 @@
 
         
           .col-md-5
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema1/img5.svg', alt='Imágen decorativa')
 
         .row(titulo="1981")
@@ -80,7 +80,7 @@
 
         
           .col-md-5
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema1/img6.svg', alt='Imágen decorativa')
 
         .row(titulo="1984")
@@ -92,7 +92,7 @@
             p Al igual que el 8088, el 80286 era un procesador de 16 bits y mantenía la compatibilidad con el 8088: el código del 8088 podía ejecutarse sin modificaciones en el 80286. El 80286 tenía un bus de datos de 16 bits y 24 líneas de dirección que soportaban un espacio de direcciones de 16 megabytes. El ancho del bus de datos externo era de 16 bits, lo que mejoraba el rendimiento del acceso a los datos respecto al bus de 8 bits del 8088. La tasa de ejecución de instrucciones (instrucciones por ciclo de reloj) era aproximadamente el doble que la del 8088 en muchas aplicaciones. Esto significa que, a la misma velocidad de reloj, el 80286 sería dos veces más rápido que el 8088. El PC AT original sincronizaba el procesador a 6 MHz y una versión posterior funcionaba a 8 MHz. La variante de 6 MHz del 80286 alcanzaba una tasa de ejecución de instrucciones de unos 0,9 MIPS, aproximadamente tres veces la del 8088.
         
           .col-md-5
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema1/img7.svg', alt='Imágen decorativa')
 
         .row(titulo="2007")
@@ -104,7 +104,7 @@
             p El iPhone funcionaba con el sistema operativo OS X, el mismo que utilizaban los computadores Macintosh de la época.
         
           .col-md-5
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema1/img8.svg', alt='Imágen decorativa')
 
         .row(titulo="2015")
@@ -116,12 +116,12 @@
             p La ley de Moore resultó ser impresionantemente precisa durante esos 10 años. En 1975, revisó la tasa de crecimiento prevista para los 10 años siguientes para duplicar el número de componentes por circuito integrado cada dos años, en lugar de anualmente. Este ritmo se mantuvo durante décadas, hasta aproximadamente 2010. En los últimos años, la tasa de crecimiento parece haber disminuido ligeramente. En 2015, Brian Krza- nich, consejero delegado de Intel, declaró que el ritmo de crecimiento de la empresa había disminuido hasta duplicarse cada dos años y medio aproximadamente.
         
           .col-md-5
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema1/img9.svg', alt='Imágen decorativa')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-8.col-lg-3
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema1/img10.svg', alt='Imágen decorativa').img10-tm1
 
       .col-lg-7
@@ -129,7 +129,7 @@
           p.texto-blanco.mb-0 Esta evolución repasó algunas máquinas clásicas de la historia de los dispositivos de cálculo automatizado y se centró en los principales avances que incorporó cada una de ellas. La máquina analítica de Babbage se incluye aquí por los numerosos saltos de ingenio que representa su diseño. Los demás sistemas se analizaron porque incorporaron importantes avances tecnológicos y realizaron una valiosa labor en el mundo real a lo largo de su vida.
 
     separador
-    #t_1_1.titulo-segundo.color-acento-botones
+    #t_1_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
        h2 1.1 Características externas
 
     .row.justify-content-center.align-items-center.mb-5
@@ -210,7 +210,7 @@
             p.texto-blanco Un puerto de módem, también llamado puerto RJ-11, se utiliza para conectar líneas telefónicas de acceso telefónico a los ordenadores. Un puerto de módem se parece a un puerto de red, pero no es tan amplio.
 
     separador
-    #t_1_2.titulo-segundo.color-acento-botones
+    #t_1_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
        h2 1.2 Componentes mecánicos
 
     .bg-fondo4
@@ -250,7 +250,7 @@
             p.texto-blanco La fuente de alimentación del ordenador, también conocida como fuente de alimentación (PSU), es una caja instalada en una esquina de la caja del ordenador que recibe y convierte la corriente de la casa para que los componentes del interior de la caja puedan utilizarla. La mayoría de las fuentes de alimentación tienen un interruptor selector de voltaje Duval. en la parte posterior de la caja del ordenador donde se puede cambiar el voltaje de entrada a la fuente de alimentación si es necesario-115 V se utiliza en los Estados Unidos y 220 V se utiliza en otros países.
 
     separador
-    #t_1_3.titulo-segundo.color-acento-botones
+    #t_1_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
        h2 1.3 Periféricos
 
     .row.justify-content-center.align-items-center.mb-5

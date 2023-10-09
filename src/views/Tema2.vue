@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span 2
       h1 Mantenimiento preventivo
@@ -28,7 +28,7 @@
           .tarjeta-gris1.p-4
             .row.align-items-center
               .col-3.col-md-2.col-lg-1
-                figure
+                figure(data-aos="fade-right")
                   img(src='@/assets/curso/temas/tema2/img3.svg', alt='Imágen decorativa').img3-4-tm2
               
               .col-lg-11.col-md-10
@@ -37,7 +37,7 @@
           .tarjeta-gris2.p-4
             .row.align-items-center
               .col-3.col-md-2.col-lg-1
-                figure
+                figure(data-aos="fade-right")
                   img(src='@/assets/curso/temas/tema2/img4.svg', alt='Imágen decorativa').img3-4-tm2
               
               .col-lg-11.col-md-10
@@ -46,14 +46,14 @@
           .tarjeta-gris3.p-4
             .row.align-items-center
               .col-3.col-md-2.col-lg-1
-                figure
+                figure(data-aos="fade-right")
                   img(src='@/assets/curso/temas/tema2/img3.svg', alt='Imágen decorativa').img3-4-tm2
               
               .col-lg-11.col-md-10
                 b Garantizar un equipo de aspecto presentable en todo momento.
 
         .col-8.col-lg-4
-          figure
+          figure(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema2/img2.svg', alt='Imágen decorativa').img2-tm2
 
       .row.justify-content-center.align-items-center.mb-5
@@ -61,7 +61,7 @@
           .bg-6.p-4
             .row
               .col-9.col-lg-7
-                figure
+                figure(data-aos="fade-right")
                   img(src='@/assets/curso/temas/tema2/img5.svg', alt='Imágen decorativa')
             
         .col-lg-9
@@ -75,7 +75,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-7.col-lg-4
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema2/img6.svg', alt='Imágen decorativa')
 
       .col-lg-6
@@ -123,7 +123,7 @@
     .bg-fondo3
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10
-          figure
+          figure(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema2/img7.svg', alt='Imágen decorativa')
 
     separador
@@ -134,12 +134,12 @@
     p.mb-5 Además de las rutinas de mantenimiento programadas, se utilizan muchos tipos de dispositivos para proporcionar indicadores que ayuden a los técnicos de mantenimiento a identificar o adelantarse a los problemas que puedan estar desarrollándose. Algunos de ellos son:
 
     .row.justify-content-center.align-items-center.mb-5
-      figure
+      figure(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema2/img8.svg', alt='Imágen decorativa')
 
     .bg-fondo4          
       .row.justify-content-center.align-items-center.mb-5
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema2/img9.png', alt='Imágen decorativa')    
 
         .col-lg-11
@@ -156,7 +156,7 @@
           SlyderA(tipo="b")
             .row.justify-content-center.align-items-center
               .col-md-4
-                figure
+                figure(data-aos="fade-right")
                   img(src='@/assets/curso/temas/tema2/img10.svg', alt='Imágen decorativa')
 
               .col-md-6.mb-4.mb-md-0
