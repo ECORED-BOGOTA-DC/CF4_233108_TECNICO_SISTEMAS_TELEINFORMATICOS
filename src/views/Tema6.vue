@@ -157,42 +157,212 @@
               img(src='@/assets/curso/temas/tema6/img10.svg', alt='Texto que describa la imagen')
         
           div(x="14%" y="42%" )
-            .h5.mb-2 titulo
-            p 
+            .h5.mb-2 Planificar la gestión del calendario
+            p La base de un buen cronograma del proyecto consiste en establecer los procedimientos, las políticas de la empresa y las directrices de documentación que regirán el proyecto. El plan de gestión del cronograma describe los recursos disponibles para el proyecto y las contingencias que pueden surgir. También enumera las partes interesadas en el plan, detalla las personas que deben aprobar el calendario y enumera a otras personas que deben recibir una copia.
         
           div(x="38%" y="8%" )
-            .h5.mb-2 titulo
-            p 
+            .h5.mb-2 Definir las actividades del proyecto
+            p Esto puede ser tan sencillo como crear una lista de tareas que deben completarse para entregar el proyecto. En el caso de proyectos complejos, puede ser útil organizar estas tareas en forma de at, un gráfico que visualiza las tareas del proyecto y sus subtareas y que permita mantenerse organizado en el trabajo.
 
           div(x="62%" y="42%" )
-            .h5.mb-2 titulo
-            p 
+            .h5.mb-2 Determinar las dependencias
+            p Una vez se tienen todas las actividades del proyecto enumeradas, se debe pensar en cada una de ellas cuidadosamente para identificar qué tareas dependen de otras para ser completadas. Es importante definir correctamente todas las dependencias del proyecto para poder programar con precisión y evitar retrasos en el proyecto.
         
           div(x="86%" y="8%" )
-            .h5.mb-2 titulo
-            p 
+            .h5.mb-2 Secuenciar las actividades
+            p Una vez establecidas las dependencias entre las actividades, se pueden secuenciar. En este punto, no está asignando ningún tiempo a sus actividades en términos de horas de trabajo o fechas de entrega. En su lugar, se centra en el orden en el que deben realizarse todas las actividades del proyecto para que se cree el flujo más eficiente.
 
           div(x="14%" y="92%" )
-            .h5.mb-2 titulo
-            p 
+            .h5.mb-2 Estimar los recursos
+            p Cada actividad del proyecto requerirá recursos en forma de personal, costes de subcontratación, herramientas (físicas y/o digitales, como programas de software) y espacio de trabajo. Es importante tener en cuenta otros recursos específicos de su sector o proyecto y estimar los recursos necesarios para cada actividad del proyecto.
         
           div(x="38%" y="56%" )
-            .h5.mb-2 titulo
-            p 
+            .h5.mb-2 Estimar la duración
+            p Este paso es bastante obvio pero muy importante. ¿Cuánto durará cada actividad del proyecto? Si se subestima, se retrasará el calendario y, en última instancia, se frustrará al cliente. Una estimación excesiva podría dejar a los miembros del equipo o a otros recursos sin hacer nada mientras esperan a que se completen las tareas anteriores. La mejor manera de estimar la duración es utilizar los datos de trabajos anteriores similares.
 
           div(x="62%" y="92%" )
-            .h5.mb-2 titulo
-            p 
+            .h5.mb-2 Desarrollar el calendario del proyecto
+            p Llegados a este punto, se debería tener toda la información necesaria para elaborar el calendario del proyecto. Teniendo en cuenta la duración y los requisitos de recursos de cada actividad, así como sus dependencias y la secuencia adecuada, se pueden asignar fechas de inicio y de vencimiento para cada actividad.
         
           div(x="86%" y="56%" )
-            .h5.mb-2 titulo
-            p 
+            .h5.mb-2 Seguimiento y control
+            p A diferencia del resto de los pasos de la programación del proyecto, el paso 8 es continuo. Como gestor de proyectos, deberá supervisar y controlar el calendario del proyecto durante toda su duración. Este paso implica la realización de informes del proyecto y la evaluación del progreso del mismo con respecto al calendario, la gestión del rendimiento y la comunicación con el equipo.
 
-    
-       
-    
 
+    .row.justify-content-center.align-items-center.mt-5
+      .cajon.color-acento-contenido.p-4
+          p Es importante que cuando haya que hacer cambios en el calendario, se aseguren de llevar a cabo y se comuniquen de acuerdo con el plan establecido en el Paso 1. A lo largo del proyecto, se asegurará de que cada actividad se ajuste al calendario y determinará si es necesario adoptar medidas correctivas en caso de que se produzcan retrasos.
+
+    separador
+    #t_6_4.titulo-segundo.color-acento-botones
+       h2 6.4 Formatos
+
+    .row.justify-content-center.align-items-center
+      .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img11.svg')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 Los formatos de la documentación técnica se refieren a cualquier documento que explique el uso, la funcionalidad, la creación o la arquitectura de un producto. Hay que pensar en esos formatos como una guía práctica para los usuarios, los nuevos empleados, los administradores y cualquier otra persona que necesite saber cómo funciona un producto. Pero, aunque parezca bastante sencillo, los resultados rara vez lo son.
+
+      p.mt-5 Los formatos de la documentación técnica no consisten sólo en capturar información. Se trata de presentarla de forma que sea fácil de leer, utilizable y realmente útil para la audiencia. A continuación, muestra una breve guía para hacer formatos de documentación técnica que sean realmente útiles.
+
+    .row.justify-content-center.align-items-center
+      ImagenInfograficaB.color-acento-botones
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/temas/tema6/img12.svg', alt='Texto que describa la imagen')
+      
+        div(x="30.5%" y="50%" )
+          ul.lista-ul--color.lista-ul--separador
+            li 
+              i.fas.fa-check-circle
+              | Utilizar plantillas o “esquemas” para un diseño coherente en la página.
+
+            li 
+              i.fas.fa-check-circle
+              | Crear una estructura de navegación sencilla y lógica
+
+        div(x="50%" y="50%" )
+          ul.lista-ul--color.lista-ul--separador
+            li 
+              i.fas.fa-check-circle
+              | Empezar con un borrador.
+
+            li 
+              i.fas.fa-check-circle
+              | Utilizar la regla del 30/90 para obtener comentarios.
+
+            li 
+              i.fas.fa-check-circle
+              | Obtenga revisiones de sus compañeros y haga revisiones.
+
+            li 
+              i.fas.fa-check-circle
+              | Edita, edita y edita un poco más.
+
+    separador
+    #t_6_5.titulo-segundo.color-acento-botones
+       h2 6.5 Reportes técnicos
+
+    .row.justify-content-center.align-items-center.mb-5
+      figure
+        img(src='@/assets/curso/temas/tema6/img13.png', alt='Imágen decorativa')    
+
+      .col-lg-11
+        .tarjeta.tarjeta-gris-degrade.p-3
+          p.mb-0 Un informe técnico debe ser claro, completo y conciso, con conceptos claramente expuestos y hechos presentados de forma lógica. La escritura técnica se caracteriza por un tema que requiere una presentación de la información precisa y directa. Esto permite al lector reconocer el mensaje exacto que el escritor intenta expresar. En la siguiente infografía, se describen genéricamente algunas características de un excelente informe técnico:
+
+    .row.justify-content-center.align-items-center
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema6/img14.svg', alt='imagen decorativa')
+
+      .col-lg-8
+        .row.justify-content-center.align-items-center.bg3-tema6
+          .col-1
+          .col-10
+            p.mt-3 Pueden incluir datos, criterios de diseño, técnicas, revisiones bibliográficas, historial de estudios, tablas extensas, ilustraciones/imágenes y explicaciones de intentos fallidos.
+
+        .row.justify-content-center.align-items-center.bg4-tema6
+          .col-1
+          .col-10
+            p.mt-3 Pueden publicarse antes que la literatura de la revista correspondiente y contener información adicional o diferente a la del siguiente artículo de la revista.
+
+        .row.justify-content-center.align-items-center.bg5-tema6.p-2
+          .col-1
+          .col-10
+            p.mt-3 Como el patrocinador ya sabe que puede tener acceso restringido, puede haber menos información de fondo.
+
+        .row.justify-content-center.align-items-center.bg6-tema6.p-3
+          .col-1
+          .col-10
+            p.mt-3 Los informes técnicos están clasificados y controlados para la exportación.
+
+        .row.justify-content-center.align-items-center.bg7-tema6.p-3
+          .col-1
+          .col-10
+            p Como parte de la información de identificación, puede haber abreviaturas y códigos complejos.
+
+
+    .row.justify-content-center.align-items-center.mt-5
+      .col-10.bg8-tema6
+        .row.justify-content-center.align-items-center
+          .col-4
+            figure
+              img(src='@/assets/curso/temas/tema6/bg8.svg', alt='imagen decorativa')
+          .col-8
+            p <b>Enfoque descendente:</b> estructurar el informe completo de principio a fin, desde el título a los subtítulos y la conclusión, y añadir los detalles en las secciones correspondientes. El enfoque descendente crea un flujo estructurado para su proceso mental, lo que ayuda a la gestión del tiempo.
+
+    .row.justify-content-center.align-items-center.mt-5
+      .col-10.bg8-tema6
+        .row.justify-content-center.align-items-center
+          .col-8
+            p <b>Entrega evolutiva:</b> este método es adecuado para alguien a quien le gusta ir con la corriente. A medida que el proyecto se desarrolla, el autor escribe y toma decisiones. La entrega evolutiva amplía las capacidades de pensamiento. Cuando surge una nueva idea o inspiración, se puede incluso añadir y modificar ciertas áreas.
+          .col-4
+            figure
+              img(src='@/assets/curso/temas/tema6/bg9.svg', alt='imagen decorativa')
+
+    .row.justify-content-center.align-items-center.bg9-tema6.mt-5
+      .col-lg-3
+        figure
+          img(src='@/assets/curso/temas/tema6/img15.svg', alt='imagen decorativa')
+
+      .col-lg-9
+        SlyderF(columnas="col-lg-6 col-xl-6")
+          .tarjeta.color-acento-botones.p-4.w_t_s
+            h4.text-center Portada
+            p.text-center La portada es la cara del proyecto. Por lo tanto, debe tener detalles como el título, el nombre del autor y el nombre de la organización junto con su símbolo. Debe ser un diseño sencillo pero atractivo.
         
+          .tarjeta.color-acento-botones.p-4.w_t_s
+            h4.text-center Página del título
+            p.text-center En la página del título se indica el número de palabras. Con frecuencia se exige la longitud de las palabras y el recuento de palabras del texto principal. En la página del título también se informa al lector sobre el estado del proyecto. Esta página también incluye el nombre del mentor o supervisor.
+        
+          .tarjeta.color-acento-botones.p-4.w_t_s
+            h4.text-center Resumen
+            p.text-center Proporciona una descripción clara y breve del proyecto.  Está escrito de manera que una persona que sólo lea el resumen pueda enterarse de todo lo relacionado con el proyecto.
+        
+          .tarjeta.color-acento-botones.p-4.w_t_s
+            h4.text-center Prefacio
+            p.text-center Es la página en la que declaras que todas las fuentes han sido debidamente acreditadas y que ninguna sección de tu investigación ha sido copiada. Tus conclusiones son el resultado de tus experimentos y tu estudio.
+        
+          .tarjeta.color-acento-botones.p-4.w_t_s
+            h4.text-center Dedicatoria
+            p.text-center Cuando un autor desea dedicar su estudio a un ser querido, ésta es una página adicional para hacerlo. Es una sola frase en medio de una página nueva.
+        
+          .tarjeta.color-acento-botones.p-4.w_t_s
+            h4.text-center Agradecimiento
+            p.text-center En la sección de agradecimientos, se dan las gracias a las personas, organizaciones y partes que le ayudaron en el proceso o le inspiraron a iniciarlo.
+        
+          .tarjeta.color-acento-botones.p-4.w_t_s
+            h4.text-center Índice
+            p.text-center Es el lugar donde se enumeran los números de página junto a los títulos de las secciones y subsecciones. Haz una página para describir los símbolos que hayas utilizado. Si el informe técnico tiene gráficos y tablas, también requieren una página nueva. Los símbolos e ilustraciones deben figurar en una página nueva.
+        
+          .tarjeta.color-acento-botones.p-4.w_t_s
+            h4.text-center Introducción
+            p.text-center Se exponen los objetivos del informe y se sugiere cómo debe tratarse el tema del mismo. La introducción lleva directamente al informe. 
+
+          .tarjeta.color-acento-botones.p-4.w_t_s
+            h4.text-center Cuerpo
+            p.text-center Las secciones del cuerpo están numeradas y encabezadas. Estas secciones organizan y dividen los distintos temas principales en un orden razonable. 
+
+          .tarjeta.color-acento-botones.p-4.w_t_s
+            h4.text-center Conclusión
+            p.text-center El objetivo de la conclusión es sintetizar todo lo que se ha tratado en el proyecto. Menciona los hallazgos de cada capítulo, los objetivos que se cumplieron y el grado de cumplimiento de los mismos. Discute las consecuencias de los hallazgos, así como la importancia de la investigación. 
+
+          .tarjeta.color-acento-botones.p-4.w_t_s
+            h4.text-center Referencias
+            p.text-center La sección de referencias contiene las fuentes de información publicadas y citadas en el libro. 
+
+          .tarjeta.color-acento-botones.p-4.w_t_s
+            h4.text-center Bibliografía
+            p.text-center Se indican otras fuentes de información, como sitios web que no se mencionan en el texto pero que son útiles para obtener antecedentes o lecturas adicionales. 
+
+    
+          
+
+
+                 
 
 </template>
 
