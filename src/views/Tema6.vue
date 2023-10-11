@@ -114,7 +114,7 @@
           h5 Figura 2.
           span Ejemplo de una hoja de vida para un equipo de computo  
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema6/img7.svg', alt='imagen decorativa')
+          img(src='@/assets/curso/temas/tema6/img7.svg', alt='Muestra ejemplo de una hoja de vida para un equipo de computo, incluye: Nombre, Tipo de equipo, Marca, Modelo, Serial o lote, Ubicacion(sede, regional, Centro zonal), Fecha de ingreso, Responsable del equipo, Operacion realizada, Mantenimiento( preventivos, correctivo, calificacion), Fecha realizacion de calibracion, Numenro certificado de calibracion, Fecha de verificacion intermedias, observaciones.')
           figcaption <b>Nota.</b> Tomado de ICBF (2022)
 
     .row.justify-content-center.align-items-center.mt-5.mb-3

@@ -275,7 +275,7 @@
 
       .col-10.col-lg-6
         figure
-          img(src='@/assets/curso/temas/tema1/img17.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema1/img17.svg', alt='la imagen muestra los distintos ranuras de un computador portátil descritos en la parte inferior')
 
     p.mb-5(data-aos="fade-right") Ahora bien, existen otros periféricos adicionales como:
 
