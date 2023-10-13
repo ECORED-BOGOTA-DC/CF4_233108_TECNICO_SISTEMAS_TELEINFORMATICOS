@@ -170,9 +170,7 @@
 
               .col-md-6.mb-4.mb-md-0
                 h4.mb-5 <b style= 'color:#5573C6;'>Sobrecalentamiento</b>
-                p No se recomienda realizar comprobaciones periódicas de los dispositivos semiconductores. La mejor comprobación del rendimiento de estos dispositivos es el funcionamiento real en el equipo. Para garantizar la precisión de las mediciones, con algunos de los equipos electrónicos de prueba y medición suele ser necesario comprobar los ajustes eléctricos después de cada 1.000 horas de funcionamiento o cada seis meses, si se utilizan con poca frecuencia. Además, la sustitución de componentes puede hacer necesario a veces el ajuste de los circuitos afectados. 
-
-                p Los manuales de servicio del equipo suelen ofrecer información sobre las comprobaciones de funcionamiento y los ajustes que pueden ser útiles para localizar ciertos problemas en el equipo y corregirlos.
+                p Debe prestarse especial atención a las piezas dañadas por el calor, pues el sobrecalentamiento suele indicar otro problema en el equipo. Por lo tanto, es importante que se corrija la causa del sobrecalentamiento para evitar que se repita el daño.
 
             .row.justify-content-center.align-items-center
               .col-md-4

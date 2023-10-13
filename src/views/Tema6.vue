@@ -15,7 +15,7 @@
         p Todas las empresas de todos los sectores necesitan documentación técnica. No importa si está orientada al consumidor, como las instrucciones para montar una cómoda, o a su personal interno sobre las mejores prácticas para archivar facturas: todo proceso estandarizado necesita una documentación adecuada. Los documentos técnicos muestran al usuario una descripción del producto o proceso, le explican lo que hay por delante y le enseñan a superar cada paso o reto, lo que le lleva al resultado deseado.
 
         .cajon.cajon-tema6.p-4(data-aos="flip-up")
-          p Todos los tipos de documentación técnica se dividen en tres categorías principales: documentación de productos, documentación de procesos y documentos de ventas y marketing. A continuación, se detallan los dos primeros.
+          p Todos los tipos de documentación técnica se dividen en tres categorías principales: documentación de productos, documentación de procesos y documentos de ventas y <i>marketing</i>. A continuación, se detallan los dos primeros.
 
     TabsB.color-primario.mt-5
       .py-4.py-md-5(titulo="Documentación de producto")
@@ -44,7 +44,7 @@
               | Preguntas frecuentes (FAQ) o base de conocimientos.
 
           .cajon.cajon-tema6.p-4(data-aos="flip-up")
-            p Para la documentación del producto, se recomienda aprovechar el software de escritura técnica y las herramientas de documentación de software para crear una documentación fácil de usar y de ayuda.
+            p Para la documentación del producto, se recomienda aprovechar el <i>software</i> de escritura técnica y las herramientas de documentación de <i>software</i> para crear una documentación fácil de usar y de ayuda.
 
       .py-4.py-md-5(titulo="Documentación de procesos")
         .row
@@ -98,7 +98,7 @@
           img(src='@/assets/curso/temas/tema6/img6.svg', alt='imagen decorativa')
       .col-lg-8
         .cajon.cajon-tema6.p-4(data-aos="flip-up")
-          p Una hoja de datos técnicos (TDS) se utiliza tanto con fines informativos como publicitarios. Desde el punto de vista informativo, una TDS contiene consejos útiles sobre el producto, por ejemplo: cómo utilizarlo, de qué está hecho, qué cosas hay que tener en cuenta al utilizar el producto, y su nombre oficial y las especificaciones estándar de la industria. Desde el punto de vista del marketing, puede contener fotos e ilustraciones en color, así como secciones enteras en las que se describen los beneficios que el producto aportará al usuario final .
+          p Una hoja de datos técnicos (TDS) se utiliza tanto con fines informativos como publicitarios. Desde el punto de vista informativo, una TDS contiene consejos útiles sobre el producto, por ejemplo: cómo utilizarlo, de qué está hecho, qué cosas hay que tener en cuenta al utilizar el producto, y su nombre oficial y las especificaciones estándar de la industria. Desde el punto de vista del <i>marketing</i>, puede contener fotos e ilustraciones en color, así como secciones enteras en las que se describen los beneficios que el producto aportará al usuario final.
 
         p.mt-3 Una TDS no debe confundirse con una hoja de datos de seguridad de los materiales (MSDS). El objetivo de la MSDS es informar específicamente al usuario final de los peligros que puede presentar el producto. Este no es el objetivo de la TDS, aunque puede incluir varias consideraciones de seguridad. Además, las hojas de datos de seguridad de los materiales deben seguir una plantilla determinada guiada por una norma industrial, mientras que una hoja de datos técnicos puede presentarse a discreción del fabricante del producto y contener la información que considere oportuna. Muchos países exigen que un material o producto tenga una ficha de datos de seguridad; la mayoría no exige una ficha técnica.
 
@@ -147,46 +147,38 @@
        h2 6.3 Planes
 
     .row.justify-content-center.align-items-center
-      p El proceso de programación de un plan de mantenimiento puede dividirse en ocho pasos manejables. 
+      p El proceso de programación de un plan de mantenimiento puede dividirse en ocho pasos manejables:
 
     .bg-fondo_tema6 
       .row.justify-content-center.align-items-center
-        ImagenInfograficaB.color-acento-botones
+        ImagenInfografica.color-adicional-1
           template(v-slot:imagen)
             figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema6/img10.svg', alt='Texto que describa la imagen')
         
-          div(x="14%" y="42%" )
-            .h5.mb-2 Planificar la gestión del calendario
-            p La base de un buen cronograma del proyecto consiste en establecer los procedimientos, las políticas de la empresa y las directrices de documentación que regirán el proyecto. El plan de gestión del cronograma describe los recursos disponibles para el proyecto y las contingencias que pueden surgir. También enumera las partes interesadas en el plan, detalla las personas que deben aprobar el calendario y enumera a otras personas que deben recibir una copia.
+          .tarjeta.color-adicional-1.p-4(x="14%" y="42%" numero="+")
+            p.mb-2.text-white La base de un buen cronograma del proyecto consiste en establecer los procedimientos, las políticas de la empresa y las directrices de documentación que regirán el proyecto. El plan de gestión del cronograma describe los recursos disponibles para el proyecto y las contingencias que pueden surgir. También enumera las partes interesadas en el plan, detalla las personas que deben aprobar el calendario y enumera a otras personas que deben recibir una copia.
         
-          div(x="38%" y="8%" )
-            .h5.mb-2 Definir las actividades del proyecto
-            p Esto puede ser tan sencillo como crear una lista de tareas que deben completarse para entregar el proyecto. En el caso de proyectos complejos, puede ser útil organizar estas tareas en forma de at, un gráfico que visualiza las tareas del proyecto y sus subtareas y que permita mantenerse organizado en el trabajo.
+          .tarjeta.color-adicional-1.p-4(x="38%" y="8%" numero="+")
+            p.mb-2.text-white Esto puede ser tan sencillo como crear una lista de tareas que deben completarse para entregar el proyecto. En el caso de proyectos complejos, puede ser útil organizar estas tareas en forma de at, un gráfico que visualiza las tareas del proyecto y sus subtareas y que permita mantenerse organizado en el trabajo.
 
-          div(x="62%" y="42%" )
-            .h5.mb-2 Determinar las dependencias
-            p Una vez se tienen todas las actividades del proyecto enumeradas, se debe pensar en cada una de ellas cuidadosamente para identificar qué tareas dependen de otras para ser completadas. Es importante definir correctamente todas las dependencias del proyecto para poder programar con precisión y evitar retrasos en el proyecto.
+          .tarjeta.color-adicional-1.p-4(x="62%" y="42%" numero="+")
+            p.mb-2.text-white Una vez se tienen todas las actividades del proyecto enumeradas, se debe pensar en cada una de ellas cuidadosamente para identificar qué tareas dependen de otras para ser completadas. Es importante definir correctamente todas las dependencias del proyecto para poder programar con precisión y evitar retrasos en el proyecto.
         
-          div(x="86%" y="8%" )
-            .h5.mb-2 Secuenciar las actividades
-            p Una vez establecidas las dependencias entre las actividades, se pueden secuenciar. En este punto, no está asignando ningún tiempo a sus actividades en términos de horas de trabajo o fechas de entrega. En su lugar, se centra en el orden en el que deben realizarse todas las actividades del proyecto para que se cree el flujo más eficiente.
+          .tarjeta.color-adicional-1.p-4(x="86%" y="8%" numero="+")
+            p.mb-2.text-white Una vez establecidas las dependencias entre las actividades, se pueden secuenciar. En este punto, no está asignando ningún tiempo a sus actividades en términos de horas de trabajo o fechas de entrega. En su lugar, se centra en el orden en el que deben realizarse todas las actividades del proyecto para que se cree el flujo más eficiente.
 
-          div(x="14%" y="92%" )
-            .h5.mb-2 Estimar los recursos
-            p Cada actividad del proyecto requerirá recursos en forma de personal, costes de subcontratación, herramientas (físicas y/o digitales, como programas de software) y espacio de trabajo. Es importante tener en cuenta otros recursos específicos de su sector o proyecto y estimar los recursos necesarios para cada actividad del proyecto.
+          .tarjeta.color-adicional-1.p-4(x="14%" y="92%" numero="+")
+            p.mb-2.text-white Cada actividad del proyecto requerirá recursos en forma de personal, costes de subcontratación, herramientas (físicas y/o digitales, como programas de <i>software</i>) y espacio de trabajo. Es importante tener en cuenta otros recursos específicos de su sector o proyecto y estimar los recursos necesarios para cada actividad del proyecto.
         
-          div(x="38%" y="56%" )
-            .h5.mb-2 Estimar la duración
-            p Este paso es bastante obvio pero muy importante. ¿Cuánto durará cada actividad del proyecto? Si se subestima, se retrasará el calendario y, en última instancia, se frustrará al cliente. Una estimación excesiva podría dejar a los miembros del equipo o a otros recursos sin hacer nada mientras esperan a que se completen las tareas anteriores. La mejor manera de estimar la duración es utilizar los datos de trabajos anteriores similares.
+          .tarjeta.color-adicional-1.p-4(x="38%" y="56%" numero="+")
+            p.mb-2.text-white Este paso es bastante obvio pero muy importante. ¿Cuánto durará cada actividad del proyecto? Si se subestima, se retrasará el calendario y, en última instancia, se frustrará al cliente. Una estimación excesiva podría dejar a los miembros del equipo o a otros recursos sin hacer nada mientras esperan a que se completen las tareas anteriores. La mejor manera de estimar la duración es utilizar los datos de trabajos anteriores similares.
 
-          div(x="62%" y="92%" )
-            .h5.mb-2 Desarrollar el calendario del proyecto
-            p Llegados a este punto, se debería tener toda la información necesaria para elaborar el calendario del proyecto. Teniendo en cuenta la duración y los requisitos de recursos de cada actividad, así como sus dependencias y la secuencia adecuada, se pueden asignar fechas de inicio y de vencimiento para cada actividad.
+          .tarjeta.color-adicional-1.p-4(x="62%" y="92%" numero="+")
+            p.mb-2.text-white Llegados a este punto, se debería tener toda la información necesaria para elaborar el calendario del proyecto. Teniendo en cuenta la duración y los requisitos de recursos de cada actividad, así como sus dependencias y la secuencia adecuada, se pueden asignar fechas de inicio y de vencimiento para cada actividad.
         
-          div(x="86%" y="56%" )
-            .h5.mb-2 Seguimiento y control
-            p A diferencia del resto de los pasos de la programación del proyecto, el paso 8 es continuo. Como gestor de proyectos, deberá supervisar y controlar el calendario del proyecto durante toda su duración. Este paso implica la realización de informes del proyecto y la evaluación del progreso del mismo con respecto al calendario, la gestión del rendimiento y la comunicación con el equipo.
+          .tarjeta.color-adicional-1.p-4(x="86%" y="56%" numero="+")
+            p.mb-2.text-white A diferencia del resto de los pasos de la programación del proyecto, el paso 8 es continuo. Como gestor de proyectos, deberá supervisar y controlar el calendario del proyecto durante toda su duración. Este paso implica la realización de informes del proyecto y la evaluación del progreso del mismo con respecto al calendario, la gestión del rendimiento y la comunicación con el equipo.
 
 
     .row.justify-content-center.align-items-center.mt-5
@@ -253,7 +245,7 @@
         .tarjeta.tarjeta-gris-degrade.p-3(data-aos="fade-up")
           p.mb-0 Un informe técnico debe ser claro, completo y conciso, con conceptos claramente expuestos y hechos presentados de forma lógica. La escritura técnica se caracteriza por un tema que requiere una presentación de la información precisa y directa. Esto permite al lector reconocer el mensaje exacto que el escritor intenta expresar. En la siguiente infografía, se describen genéricamente algunas características de un excelente informe técnico:
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-4
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema6/img14.svg', alt='imagen decorativa')
@@ -283,6 +275,11 @@
           .col-1
           .col-10
             p Como parte de la información de identificación, puede haber abreviaturas y códigos complejos.
+
+    .row.justify-content-center.align-items-center.mb-5
+      p Un informe bien escrito y con un contenido simplificado es más fácil de leer y aumenta la confianza del lector en lo que dice el informe. Es fácil reconocer un informe sólido, pues tiene un título claro e informativo y un formato lógico para el lector, con títulos que indican la información de cada sección y los diagramas están bien diseñados y etiquetados. En todo desarrollo de este tipo de documentos se debe tener en cuenta su enfoque y estructura.
+
+      p En cuanto al enfoque hay dos maneras de redactar un informe técnico. La que se escoja dependerá de lo que se necesite o convenga. Las dos formas son:
 
 
     .row.justify-content-center.align-items-center.mt-5

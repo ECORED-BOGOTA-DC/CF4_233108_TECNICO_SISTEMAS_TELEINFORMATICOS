@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span 3
-      h1 Mantenimiento de equipos informáticos
+      h1 Sistemas operativos
 
     .row.justify-content-center.align-items-center.mb-5
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
@@ -29,11 +29,13 @@
         .cajon.color-primario.p-4.mb-3(data-aos="flip-up")
           p.mb-4 La principal forma en que el SO hace esto es a través de una técnica general que se llama virtualización. Es decir, el SO toma un recurso físico (como el procesador, o la memoria, o un disco) y lo transforma en una forma virtual más genérica, potente y fácil de usar. Por eso, a veces se hace referencia al sistema operativo como una máquina virtual.
 
-        p(data-aos="fade-left") Por supuesto, para permitir que los usuarios le digan al SO qué hacer y así hacer uso de las características de la máquina virtual (como ejecutar un programa, o asignar memoria, o acceder a un archivo) el SO también proporciona algunas interfaces (APIs) que se pueden llamar. Un SO típico, de hecho, exporta unos cientos de llamadas al sistema que están disponibles para las aplicaciones. Dado que el SO proporciona estas llamadas para ejecutar programas, acceder a la memoria y a los dispositivos, y otras acciones relacionadas, a veces, se dice que el SO proporciona una biblioteca estándar a las aplicaciones.
+        p(data-aos="fade-left") Por supuesto, para permitir que los usuarios le digan al SO qué hacer y así hacer uso de las características de la máquina virtual (como ejecutar un programa, o asignar memoria, o acceder a un archivo) el SO también proporciona algunas interfaces (API) que se pueden llamar. Un SO típico, de hecho, exporta unos cientos de llamadas al sistema que están disponibles para las aplicaciones. Dado que el SO proporciona estas llamadas para ejecutar programas, acceder a la memoria y a los dispositivos, y otras acciones relacionadas, a veces, se dice que el SO proporciona una biblioteca estándar a las aplicaciones.
 
       .col-lg-4
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/img3.svg', alt='Imágen decorativa')
+
+    p.mb-5 Dado que el SO proporciona estas llamadas para ejecutar programas, acceder a la memoria y a los dispositivos, y otras acciones relacionadas, a veces, se dice que el SO proporciona una biblioteca estándar a las aplicaciones.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-5
@@ -59,6 +61,8 @@
       figure(data-aos="fade-right")
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/123456789" title="Comunicación de marketing digital" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    p.mb-5 Para ejecutar programas, y detenerlos, y para decirle al SO qué programas ejecutar, es necesario que haya algunas interfaces (API) para comunicar lo que se desea al SO. Sobre estas APIs se hablará. A lo largo del componente, pues, de hecho, son la principal forma en que la mayoría de los usuarios interactúan con los sistemas operativos.
 
     .row.justify-content-center.align-items-center.mb-5
       .bloque-texto-g.color-adicional-1.p-3.p-sm-4.p-md-5
@@ -111,6 +115,9 @@
         p.mb-0 El <i>software</i> del sistema operativo que suele gestionar el disco se denomina sistema de archivos, por lo que se encarga de almacenar los archivos que el usuario crea de forma fiable y eficiente en los discos del sistema. A diferencia de las abstracciones proporcionadas por el SO para la CPU y la memoria, el SO no crea un disco privado y virtualizado para cada aplicación. Más bien, se asume que, a menudo, los usuarios querrán compartir información que está en archivo; de ahí el ejemplo que se expone a continuación.
 
     .bg-fondo5
+
+      p.mb-5 A diferencia de las abstracciones proporcionadas por el SO para la CPU y la memoria, el SO no crea un disco privado y virtualizado para cada aplicación. Más bien, se asume que, a menudo, los usuarios querrán compartir información que está en archivo; de ahí el ejemplo que se expone a continuación.
+
       .row.justify-content-center.align-items-center.mb-5
         .col-10.col-lg-4.mb-4
           figure(data-aos="fade-right")
@@ -172,7 +179,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img16.svg')})`}"
           )
           .bloque-texto-g1__texto.p-4(data-aos="flip-down")
-            p.mb-0 Ahora, una vez, estudiado las características de un SO, se hace necesario conocer los software utilitarios, como herramientas de soporte y mejora en la ejecución de programas o en la realización de una función específica. Existen tanto licenciados como aquellos de código abierto. Se expone en qué consiste cada una de estas categorías.
+            p.mb-0 Ahora, una vez, estudiado las características de un SO, se hace necesario conocer los <i>software</i> utilitarios, como herramientas de soporte y mejora en la ejecución de programas o en la realización de una función específica. Existen tanto licenciados como aquellos de código abierto. Se expone en qué consiste cada una de estas categorías.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-8.col-lg-4.mb-3
@@ -192,7 +199,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema3/img18.svg', alt='Imágen decorativa')
 
-            p <b>Desventaja:</b> como este tipo de licencia es tan libre, no ofrece ninguna supervisión real. Esto significa que cuando se descarga un título de <i>software</i> bajo una licencia propietaria, es el desarrollador quien establece las reglas sobre lo que se puede y no se puede hacer con él. Además, como este tipo de licencia no está reconocido por la ley, es posible que se le pida que acepte un extenso conjunto de términos y condiciones.
+            p <b>Desventaja:</b> las licencias de código abierto no ofrecen garantías ni soporte para solucionar los problemas que puedan surgir. Además, como el <i>software</i> de código abierto suele ser desarrollado y distribuido por múltiples desarrolladores, los problemas a veces se pierden.
 
           .row(titulo="Código con licencias")
             p El licenciamiento, también conocido como licenciamiento propietario, es un formato de licenciamiento de forma libre.
@@ -216,7 +223,7 @@
                   img(src='@/assets/curso/temas/tema3/img20.svg', alt='Imágen decorativa')
               
               .col-lg-9
-                p <b>Ventajas:</b> este tipo de licencia de <i>software</i> puede ser ventajoso porque ofrece opciones. Se puede optar por la versión sin cuotas, a menudo conocida como “freemium”.
+                p <b>Ventajas:</b> este tipo de licencia de <i>software</i> puede ser ventajoso porque ofrece opciones. Se puede optar por la versión sin cuotas, a menudo conocida como “<i>freemium</i>”.
 
                 p <b>Desventaja:</b> a menudo, las versiones gratuitas de <i>software</i> disponibles bajo este formato son limitadas en términos de capacidad. Sólo ofrece una versión básica de lo que ofrece la versión comercial, basada en la suscripción.
 
@@ -258,20 +265,20 @@
             ul.lista-ul--color.fa-ul2
               li 
                 i.fas.fa-check-circle
-                p.mb-0 <b>Kernel:</b> el componente base del sistema operativo. Sin él, el SO no funciona. El núcleo gestiona los recursos del sistema y se comunica con el hardware. Es responsable de la gestión de la memoria, los procesos y los archivos.
+                p.mb-0 <b>Kernel:</b> el componente base del sistema operativo. Sin él, el SO no funciona. El núcleo gestiona los recursos del sistema y se comunica con el <i>hardware</i>. Es responsable de la gestión de la memoria, los procesos y los archivos.
               li 
                 i.fas.fa-check-circle
-                p.mb-0 <b>Espacio de usuario del sistema:</b> la capa administrativa para las tareas a nivel de sistema, como la configuración y la instalación de software. Incluye el shell, o línea de comandos, los demonios, los procesos que se ejecutan en segundo plano y el entorno de escritorio.
+                p.mb-0 <b>Espacio de usuario del sistema:</b> la capa administrativa para las tareas a nivel de sistema, como la configuración y la instalación de <i>software</i>. Incluye el shell, o línea de comandos, los demonios, los procesos que se ejecutan en segundo plano y el entorno de escritorio.
               li 
                 i.fas.fa-check-circle
-                p.mb-0 <b>Aplicaciones:</b> un tipo de software que permite realizar una tarea. Las aplicaciones incluyen desde herramientas de escritorio y lenguajes de programación hasta suites empresariales multiusuario. La mayoría de las distribuciones de Linux ofrecen una base de datos central para buscar y descargar aplicaciones adicionales.
+                p.mb-0 <b>Aplicaciones:</b> un tipo de <i>software</i> que permite realizar una tarea. Las aplicaciones incluyen desde herramientas de escritorio y lenguajes de programación hasta suites empresariales multiusuario. La mayoría de las distribuciones de Linux ofrecen una base de datos central para buscar y descargar aplicaciones adicionales.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         .cajon.color-primario.p-4(data-aos="flip-up")
-          p.mb-0 Sumado a esto, se debe tener presente también que los softwares licenciados y utilidades de monitoreo le ayudan a gestionar los recursos de los equipos con los que se cuenta dentro de la red de una organización.
+          p.mb-0 Sumado a esto, se debe tener presente también que los <i>software</i>s licenciados y utilidades de monitoreo le ayudan a gestionar los recursos de los equipos con los que se cuenta dentro de la red de una organización.
 
-        p El software de monitorización está diseñado para hacer un seguimiento de las operaciones y actividades de los usuarios que trabajan en los sistemas de la empresa. Básicamente, supervisa las operaciones que realizan los usuarios en su sistema y proporciona servicios de información al administrador del sistema o de la red. Este software de supervisión también se conoce como software de vigilancia informática. Entre estos se encuentran:
+        p El <i>software</i> de monitorización está diseñado para hacer un seguimiento de las operaciones y actividades de los usuarios que trabajan en los sistemas de la empresa. Básicamente, supervisa las operaciones que realizan los usuarios en su sistema y proporciona servicios de información al administrador del sistema o de la red. Este <i>software</i> de supervisión también se conoce como <i>software</i> de vigilancia informática. Entre estos se encuentran:
 
       .col-lg-4
         figure
@@ -283,7 +290,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img24.svg')})`}"
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
-          p.mb-0 Básicamente, supervisa las operaciones que realizan los usuarios en su sistema y proporciona servicios de información al administrador del sistema o de la red. Este software de supervisión también se conoce como software de vigilancia informática. Entre estos se encuentran:
+          p.mb-0 Básicamente, supervisa las operaciones que realizan los usuarios en su sistema y proporciona servicios de información al administrador del sistema o de la red. Este <i>software</i> de supervisión también se conoce como <i>software</i> de vigilancia informática. Entre estos se encuentran:
 
       .row.justify-content-center.align-items-center.my-5
         .tarjeta.tarjeta--blanca.bg-linea-tiempo.p-5
@@ -291,7 +298,7 @@
             .row.justify-content-center.align-items-center
               .col-md-6.mb-4.mb-md-0
                 h4.mb-5 <b style= 'color:#5573C6;'>Visor de escritorio de empleados</b>
-                p El software de monitorización de computadores es una herramienta de monitorización ligera, pero potente, que registra todas las actividades del escritorio de los empleados y presenta una transmisión en directo. Funciona como una cámara de vigilancia que se fija sobre la pantalla de los empleados. Instala un agente de vigilancia en el computador del empleado de forma remota o manual. A partir de entonces, el equipo estará bajo vigilancia completa en cualquier momento.
+                p El <i>software</i> de monitorización de computadores es una herramienta de monitorización ligera, pero potente, que registra todas las actividades del escritorio de los empleados y presenta una transmisión en directo. Funciona como una cámara de vigilancia que se fija sobre la pantalla de los empleados. Instala un agente de vigilancia en el computador del empleado de forma remota o manual. A partir de entonces, el equipo estará bajo vigilancia completa en cualquier momento.
               
               .col-md-4
                 figure
@@ -299,7 +306,7 @@
             
             .row.justify-content-center.align-items-center
               .col-md-6.mb-4.mb-md-0
-                h4.mb-5 <b style= 'color:#5573C6;'><i>ActiveTrak</i></b>
+                h4.mb-5 <b style= 'color:#5573C6;'>ActiveTrak</b>
                 p Es una herramienta de monitorización de aspecto elegante que instala el Agente en cada computador remoto y le presenta el estado en vivo de cada computador. Proporciona horas productivas e improductivas, capturas de pantalla de las actividades y tiene la capacidad de monitorizar en tiempo real. Con la ayuda de la pantalla de productividad, puede evaluar el rendimiento de los empleados sobre una base diaria, semanal, mensual o anual. También proporciona una lista del empleado más productivo y la lista de los sitios web más visitados por los usuarios.
               
               .col-md-4
@@ -308,7 +315,7 @@
 
             .row.justify-content-center.align-items-center
               .col-md-6.mb-4.mb-md-0
-                h4.mb-5 <b style= 'color:#5573C6;'><i>Flexispy</i></b>
+                h4.mb-5 <b style= 'color:#5573C6;'>Flexispy</b>
                 p La mayoría de las herramientas de monitorización son únicamente útiles para los sistemas informáticos, pero Flexispy es una de esas herramientas que soporta la monitorización de dispositivos móviles como smartphones y tablets también. Usted puede optar por monitorear sus teléfonos inteligentes basados en Android y iPhone y grabar la comunicación de audio.
               
               .col-md-4
@@ -317,8 +324,8 @@
 
             .row.justify-content-center.align-items-center
               .col-md-6.mb-4.mb-md-0
-                h4.mb-5 <b style= 'color:#5573C6;'><i>SoftActivity</i></b>
-                p Es una herramienta de monitorización que graba la pantalla de tu computador, la comunicación en Skype, Gmail, Messenger, etc. Realiza capturas de pantalla constantes y genera un vídeo. Guarda el vídeo y lo puedes ver más tarde. También puedes ver la grabación en directo desde cualquier computador. La interfaz del software es bastante directa y permite al usuario instalar el agente directamente en los computadores de los empleados. Puede grabar las pantallas, las pulsaciones de teclas, los sitios web visitados y las conversaciones de chat. Cuando se alista el computador del empleado, se muestra en una lista en la que se puede elegir enviar una notificación cuando se requiera.
+                h4.mb-5 <b style= 'color:#5573C6;'>SoftActivity</b>
+                p Es una herramienta de monitorización que graba la pantalla de tu computador, la comunicación en Skype, Gmail, Messenger, etc. Realiza capturas de pantalla constantes y genera un vídeo. Guarda el vídeo y lo puedes ver más tarde. También puedes ver la grabación en directo desde cualquier computador. La interfaz del <i>software</i> es bastante directa y permite al usuario instalar el agente directamente en los computadores de los empleados. Puede grabar las pantallas, las pulsaciones de teclas, los sitios web visitados y las conversaciones de chat. Cuando se alista el computador del empleado, se muestra en una lista en la que se puede elegir enviar una notificación cuando se requiera.
 
               .col-md-4
                 figure
@@ -326,8 +333,8 @@
 
             .row.justify-content-center.align-items-center
               .col-md-6.mb-4.mb-md-0
-                h4.mb-5 <b style= 'color:#5573C6;'><i>Kickidler</i></b>
-                p Es otra herramienta de monitorización que graba las pantallas en directo del empleado. Puede obtener la información sobre lo que sus empleados están haciendo, qué sitios web están visitando o qué aplicación están utilizando. El software muestra el período exacto en que su empleado fue productivo y cuántos descansos se tomó.
+                h4.mb-5 <b style= 'color:#5573C6;'>Kickidler</b>
+                p Es otra herramienta de monitorización que graba las pantallas en directo del empleado. Puede obtener la información sobre lo que sus empleados están haciendo, qué sitios web están visitando o qué aplicación están utilizando. El <i>software</i> muestra el período exacto en que su empleado fue productivo y cuántos descansos se tomó.
               
               .col-md-4
                 figure
@@ -335,7 +342,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .cajon.color-primario.p-4(data-aos="flip-up")
-        p.mb-0 Después de conocer los beneficios del software de monitorización de computadores y las breves reseñas presentadas anteriormente, se puede elegir fácilmente el software que sea eficiente, beneficioso y adecuado para la organización. 
+        p.mb-0 Después de conocer los beneficios del <i>software</i> de monitorización de computadores y las breves reseñas presentadas anteriormente, se puede elegir fácilmente el <i>software</i> que sea eficiente, beneficioso y adecuado para la organización. 
 
 
     separador
@@ -430,7 +437,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img37.svg')})`}"
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
-          p.mb-0 Adicionalmente, el mundo de la seguridad de los sistemas se ha puesto patas arriba por dos nuevos ataques relacionados. El primero se llama Meltdown, y el segundo Spectre. Fueron descubiertos casi al mismo tiempo por cuatro grupos diferentes de investigadores/ingenieros, y han llevado a un profundo cuestionamiento de las protecciones fundamentales ofrecidas por el hardware de los ordenadores y el SO anterior.
+          p.mb-0 Adicionalmente, el mundo de la seguridad de los sistemas se ha puesto patas arriba por dos nuevos ataques relacionados. El primero se llama <i>Meltdown</i>, y el segundo <i>Spectre</i>. Fueron descubiertos casi al mismo tiempo por cuatro grupos diferentes de investigadores/ingenieros, y han llevado a un profundo cuestionamiento de las protecciones fundamentales ofrecidas por el <i>hardware</i> de los ordenadores y el SO anterior.
 
     .row.align-items-center.mb-5
       .col-lg-4.mb-5
@@ -443,7 +450,7 @@
             .row.justify-content-center.align-items-center
               .col-md-6.mb-4.mb-md-0
                 h4.mb-5 <b style= 'color:#5573C6;'>¿Qué es?</b>
-                p La debilidad general explotada en cada uno de estos ataques es que las CPUs que se encuentran en los sistemas modernos realizan todo tipo de trucos locos entre bastidores para mejorar el rendimiento. Una clase de técnica que se encuentra en el centro del problema es la llamada ejecución especulativa, en la que la CPU adivina qué instrucciones se ejecutarán pronto en el futuro, y comienza a ejecutarlas antes de tiempo. Si las conjeturas son correctas, el programa se ejecuta más rápido; si no, la CPU deshace sus efectos en el estado de la arquitectura (por ejemplo, los registros) y lo intenta de nuevo, esta vez siguiendo el camino correcto.
+                p La debilidad general explotada en cada uno de estos ataques es que las CPU que se encuentran en los sistemas modernos realizan todo tipo de trucos locos entre bastidores para mejorar el rendimiento. Una clase de técnica que se encuentra en el centro del problema es la llamada ejecución especulativa, en la que la CPU adivina qué instrucciones se ejecutarán pronto en el futuro, y comienza a ejecutarlas antes de tiempo. Si las conjeturas son correctas, el programa se ejecuta más rápido; si no, la CPU deshace sus efectos en el estado de la arquitectura (por ejemplo, los registros) y lo intenta de nuevo, esta vez siguiendo el camino correcto.
               
               .col-md-4
                 figure
@@ -477,7 +484,7 @@
         p(data-aos="fade-left") Lamentablemente, KPTI no resuelve todos los problemas de seguridad expuestos anteriormente, sólo algunos de ellos. Y las soluciones simples, como desactivar la especulación, no tendrían mucho sentido, porque los sistemas funcionarían miles de veces más lento. Por lo tanto, es un momento interesante para estar vivo, si la seguridad de los sistemas es lo tuyo.
 
         .cajon.color-primario.p-4(data-aos="flip-up")
-          p.mb-0 Para entender realmente estos ataques, se hace necesario aprender sobre la arquitectura de los ordenadores modernos, como se encuentra en los libros avanzados sobre el tema, centrándose en la especulación y en todos los mecanismos necesarios para implementarla. Definitivamente, leer sobre los ataques Meltdown y Spectre, en los sitios web mencionados anteriormente; de hecho, también incluyen un manual útil sobre la especulación, por lo que quizás no sea un mal lugar para empezar .
+          p.mb-0 Para entender realmente estos ataques, se hace necesario aprender sobre la arquitectura de los ordenadores modernos, como se encuentra en los libros avanzados sobre el tema, centrándose en la especulación y en todos los mecanismos necesarios para implementarla. Definitivamente, leer sobre los ataques <i>Meltdown</i> y <i>Spectre</i>, en los sitios web mencionados anteriormente; de hecho, también incluyen un manual útil sobre la especulación, por lo que quizás no sea un mal lugar para empezar.
 
 
 

@@ -21,16 +21,13 @@
           img(src='@/assets/curso/temas/tema5/img2.svg', alt='Texto que describa la imagen')
     
       div(x="22%" y="14%")
-        .h5.mb-2 Establecimiento de la avería
         p Antes de emprender cualquier otra acción, es importante establecer la presencia de un fallo en un equipo. En algunos casos, se puede informar de que un sistema es defectuoso, pero puede tratarse de un funcionamiento defectuoso o se puede informar de un fallo del sistema con muy poca información o con información errónea. Es esencial que se realice una prueba de funcionamiento para comprobar el rendimiento real del sistema con respecto a su especificación, y que se anoten todos los síntomas de fallo.
 
         p También es importante comprobar con el operador del equipo el historial del mismo y los trabajos de reparación y mantenimiento realizados anteriormente por cualquier otra persona. A veces, un trabajo incompleto o un mal manejo del equipo por parte de un trabajador inexperto podría resultar desastroso y desafiar todos los esfuerzos por reparar el equipo.
 
       div(x="53%" y="15%")
-        .h5.mb-2 Localización de la avería
         p El procedimiento comprenderá un estudio de la bibliografía relativa a la revisión, el mantenimiento y las reparaciones, y la localización de la causa de la avería, primero en un subsistema y, finalmente, en un único componente del subsistema.
       div(x="87%" y="15%")
-        .h5.mb-2 Corrección de averías
         p Consiste en sustituir o reparar el componente defectuoso. Esto debe ir siempre seguido de una comprobación exhaustiva del funcionamiento de todo el sistema.
 
     separador
@@ -170,7 +167,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img12.svg')})`}"
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
-          p.mb-0 El manual de instrucciones o manual del usuario o del operador proporciona la información necesaria para el funcionamiento del equipo, las instrucciones de puesta en marcha y parada, los conceptos generales de diseño, las especificaciones y el procedimiento de instalación. Las instrucciones de mantenimiento a nivel de operador, incluidos los manuales de mantenimiento preventivo, son útiles para realizar diagnósticos preliminares y establecer programas de mantenimiento preventivo .
+          p.mb-0 El manual de instrucciones o manual del usuario o del operador proporciona la información necesaria para el funcionamiento del equipo, las instrucciones de puesta en marcha y parada, los conceptos generales de diseño, las especificaciones y el procedimiento de instalación. Las instrucciones de mantenimiento a nivel de operador, incluidos los manuales de mantenimiento preventivo, son útiles para realizar diagnósticos preliminares y establecer programas de mantenimiento preventivo.
 
     separador
     #t_5_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -225,8 +222,8 @@
 
       .col-lg-7
         LineaTiempoD.color-acento-botones
-          .row(numero="1" titulo="Proceso de adquisición")
-            .col-md-12.mb-4.mb-md-0.text-small
+          .row(numero="1" titulo="Examen inicial")
+            .col-md-12.mb-4.mb-md-0
               p Examine cuidadosamente el equipo por todos sus lados para ver la información pertinente dada por el fabricante en los paneles. Las precauciones de seguridad suelen estar impresas en los paneles con la siguiente nomenclatura:
 
               ul.lista-ul--color.lista-ul--separador.fa-ul2
@@ -250,14 +247,14 @@
 
           .row(numero="2" titulo="Alimentación")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Asegúrese de los requisitos de alimentación del equipo. Algunos equipos funcionan con baterías mientras que otros pueden funcionar con la red eléctrica. Identifique la tensión de alimentación de la red, es decir, si es de 110 voltios, 60 Hz o 220 voltios, 50 Hz y la tensión máxima que puede aplicarse desde la fuente de alimentación. Determine los conductores de alimentación (si el enchufe no está presente o si se sospecha que está mal cableado) y el cable de tierra. La conexión a tierra de protección mediante el conductor de tierra del cable de alimentación es esencial para un funcionamiento seguro.
+              p Asegúrese de los requisitos de alimentación del equipo. Algunos equipos funcionan con baterías, mientras que otros pueden funcionar con la red eléctrica. Identifique la tensión de alimentación de la red, es decir, si es de 110 voltios, 60 Hz o 220 voltios, 50 Hz y la tensión máxima que puede aplicarse desde la fuente de alimentación. Determine los conductores de alimentación (si el enchufe no está presente o si se sospecha que está mal cableado) y el cable de tierra. La conexión a tierra de protección mediante el conductor de tierra del cable de alimentación es esencial para un funcionamiento seguro.
 
           .row(numero="3" titulo="Conexión a tierra")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Casi todos los equipos electrónicos modernos que funcionan con la red eléctrica se conectan a tierra a través del conductor de tierra del cable de alimentación. Para evitar descargas eléctricas, el cable de alimentación debe conectarse a un receptáculo correctamente cableado antes de conectarlo a los terminales de entrada o salida del producto.
+              p Casi todos los equipos electrónicos modernos que funcionan con la red eléctrica se conectan a tierra a través del conductor de tierra del cable de alimentación. Para evitar descargas eléctricas, el cable de alimentación debe conectarse a un receptáculo correctamente cableado antes de conectarlo a los terminales de entrada o salida del producto.
 
           .row(numero="4" titulo="Manual de servicio")(data-aos="fade-right")
-            .col-md-12.mb-4.mb-md-0.text-small
+            .col-md-12.mb-4.mb-md-0
               p Antes de encender el equipo para un examen preliminar, estudie detenidamente el “Manual de servicio” y busque los siguientes términos en el manual:
 
               ul.lista-ul--color.lista-ul--separador.fa-ul2
@@ -275,28 +272,28 @@
 
           .row(numero="5" titulo="Desconectar")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Desconecte la alimentación del equipo antes de intentar retirar los paneles del armario para evitar el riesgo de descarga eléctrica. En algunos equipos, existen potenciales peligrosos en varios puntos del equipo. Cuando el equipo funcione con las cubiertas retiradas, no toque las conexiones o los componentes expuestos. Algunos transistores tienen tensiones presentes en sus carcasas. Desconecte siempre la alimentación antes de limpiar el equipo o sustituir piezas.
+              p Desconecte la alimentación del equipo antes de intentar retirar los paneles del armario para evitar el riesgo de descarga eléctrica. En algunos equipos, existen potenciales peligrosos en varios puntos del equipo. Cuando el equipo funcione con las cubiertas retiradas, no toque las conexiones o los componentes expuestos. Algunos transistores tienen tensiones presentes en sus carcasas. Desconecte siempre la alimentación antes de limpiar el equipo o sustituir piezas.
 
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-7
         LineaTiempoD.color-acento-botones
           .row(numero="6" titulo="Desmontar")
-            .col-md-12.mb-4.mb-md-0.text-small
+            .col-md-12.mb-4.mb-md-0
               p Los manuales de servicio suelen proporcionar información para desmontar los paneles del equipo y acceder a las distintas placas de circuitos y componentes individuales. Dichas instrucciones deben seguirse al pie de la letra, ya que, de lo contrario, al abrir los tornillos equivocados, los conjuntos internos a veces se desprenden resultando en daños a las partes frágiles.
 
           .row(numero="7" titulo="Cuidado en la manipulación")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Cuando se retira la cubierta del equipo del chasis del mismo, quedan expuestos los bordes metálicos desnudos que pueden rayar la superficie de trabajo. Tenga cuidado de que los bordes y esquinas afilados del chasis no rayen la superficie de trabajo. Los paneles metálicos pintados de los equipos suelen ser vulnerables a los arañazos. Evite la manipulación brusca de los paneles.
+              p Cuando se retira la cubierta del equipo del chasis del mismo, quedan expuestos los bordes metálicos desnudos que pueden rayar la superficie de trabajo. Tenga cuidado de que los bordes y esquinas afilados del chasis no rayen la superficie de trabajo. Los paneles metálicos pintados de los equipos suelen ser vulnerables a los arañazos. Evite la manipulación brusca de los paneles.
 
           .row(numero="8" titulo="Carga estática")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Los circuitos integrados de la familia lógica CMOS utilizados en algunos equipos pueden resultar dañados por una descarga incontrolada de electricidad estática. Antes de manipular cualquiera de las placas de circuito, sujete firmemente el chasis del equipo para eliminar cualquier diferencia de carga estática entre su cuerpo y el equipo.
-              p.text-small Manipule todas las placas de circuito por los bordes. Los circuitos CMOS operan con corrientes en el rango de los nano amperios y las vías de fuga causadas por los aceites de la piel, el polvo de la suciedad, etc. pueden causar un rendimiento inexacto del circuito en algunos equipos.
+              p Los circuitos integrados de la familia lógica CMOS utilizados en algunos equipos pueden resultar dañados por una descarga incontrolada de electricidad estática. Antes de manipular cualquiera de las placas de circuito, sujete firmemente el chasis del equipo para eliminar cualquier diferencia de carga estática entre su cuerpo y el equipo.
+              p Manipule todas las placas de circuito por los bordes. Los circuitos CMOS operan con corrientes en el rango de los nano amperios y las vías de fuga causadas por los aceites de la piel, el polvo de la suciedad, etc. pueden causar un rendimiento inexacto del circuito en algunos equipos.
 
 
           .row(numero="9" titulo="Comprobación de asentamiento")
-            .col-md-12.mb-4.mb-md-0.text-small
+            .col-md-12.mb-4.mb-md-0
               p Después de retirar la cubierta del equipo, inspeccione todos los tornillos expuestos para comprobar su apriete. Compruebe que todas las placas de circuito impreso están firmemente asentadas en sus conectores o están en posición. Compruebe el estado de todos los cables externos, especialmente en busca de roturas o grietas y signos de torsión. Si se observa algún daño grave, el cable debe ser sustituido inmediatamente.
 
       .col-10.col-lg-5
@@ -318,7 +315,7 @@
               img(src="@/assets/curso/temas/tema5/img19.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Conozca su equipo
-            p.mb-0 Con este tipo de reportes, los gerentes podrán supervisar específicamente, la labor de cada vendedor y de esta manera, saber en qué les va bien y en cuáles actos hay que mejorar. Aquí también, va a encontrar si su fuerza de ventas está entendiendo sus estrategias y le sea más fácil incentivarlos a aumentar su productividad.
+            p.mb-0 Si no se conoce el equipo hasta el punto de poder analizar su funcionamiento, interpretar sus indicadores y leer y descifrar las impresiones, será difícil aislar los problemas.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
@@ -327,7 +324,7 @@
               img(src="@/assets/curso/temas/tema5/img20.png", alt="alt")
           .crd_hover_txt--body.bg-flip-2
             h4.mb-3 Piensa antes de actuar
-            p.mb-0 Con estos reportes semanales, podrá encontrar las dificultades que pueda tener algún o algunos vendedores y evitar que se pierdan los clientes fijos. Reportar semanalmente, le permite tener un equipo de ventas fortalecido y bien direccionado, con las correcciones necesarias para lograr las metas de ventas propuestas.
+            p.mb-0 No empiece directamente a sustituir piezas, desmontar varias partes, etc., sin pensar y analizar las posibles causas del problema. Una forma desorganizada de solucionar los problemas conduce a más problemas y puede llevar un tiempo inusualmente largo.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
@@ -336,7 +333,7 @@
               img(src="@/assets/curso/temas/tema5/img21.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Establecimiento de proceso
-            p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.   
+            p.mb-0.text-small Establezca un procedimiento general de localización de averías. Dependiendo del conocimiento que se tenga del equipo, de la disponibilidad de las herramientas adecuadas, de los equipos de prueba, de las piezas de repuesto y del tiempo, hay que desarrollar un procedimiento general de resolución de problemas. Puede ser una reparación a nivel de componentes o un mantenimiento a nivel de placa. En este último caso, las placas defectuosas se reparan posteriormente o se envían al fabricante para su reparación.  
 
     separador
     #t_5_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -359,7 +356,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img23.svg')})`}"
           )
           .bloque-texto-g1__texto.p-4(data-aos="flip-down")
-            p.mb-0 A la hora de seleccionar piezas de repuesto equivalentes, hay que tener en cuenta que el tamaño y la forma física de un componente pueden afectar a veces a su rendimiento en el equipo, sobre todo a altas frecuencias. Por lo tanto, es imperativo que todas las piezas de repuesto sean sustituciones directas, a menos que se establezca que un componente diferente no afectará negativamente al rendimiento del equipo .
+            p.mb-0 A la hora de seleccionar piezas de repuesto equivalentes, hay que tener en cuenta que el tamaño y la forma física de un componente pueden afectar a veces a su rendimiento en el equipo, sobre todo a altas frecuencias. Por lo tanto, es imperativo que todas las piezas de repuesto sean sustituciones directas, a menos que se establezca que un componente diferente no afectará negativamente al rendimiento del equipo.
 
 
     .row.justify-content-center.align-items-center
@@ -400,7 +397,7 @@
 
 
     .row.justify-content-center.align-items-center.mt-5
-      p A veces se realizan cambios en los equipos para adaptarlos a componentes mejorados, a medida que los fabricantes los ponen a disposición. La información sobre estas modificaciones suele ser publicada por ellos como ‘addenda’ al manual de servicio. Cuando se observe alguna discrepancia entre un componente mencionado en el diagrama del circuito y el realmente presente en el equipo, busque la hoja de modificaciones. En caso de duda, puede ponerse en contacto con el fabricante para que le aclare las dudas .
+      p A veces se realizan cambios en los equipos para adaptarlos a componentes mejorados, a medida que los fabricantes los ponen a disposición. La información sobre estas modificaciones suele ser publicada por ellos como ‘addenda’ al manual de servicio. Cuando se observe alguna discrepancia entre un componente mencionado en el diagrama del circuito y el realmente presente en el equipo, busque la hoja de modificaciones. En caso de duda, puede ponerse en contacto con el fabricante para que le aclare las dudas.
 
       p A continuación, se describe cada una de las etapas del proceso de corrección:
 

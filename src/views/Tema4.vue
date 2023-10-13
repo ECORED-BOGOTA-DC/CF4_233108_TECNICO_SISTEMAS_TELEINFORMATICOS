@@ -13,7 +13,7 @@
 
       .col-lg-11
         .tarjeta.tarjeta-gris-degrade.p-3(data-aos="fade-up")
-          p.mb-0 El desgaste físico con el paso del tiempo y la acción de los elementos ambientales es inevitable, tanto en el caso de las instalaciones como de los equipos. El objetivo del mantenimiento es prolongar la vida de los equipos/sistemas y aumentar el tiempo medio entre fallos (MTBF) Algunosde los objetivos generales de un programa de gestión del mantenimiento son:
+          p.mb-0 El desgaste físico con el paso del tiempo y la acción de los elementos ambientales es inevitable, tanto en el caso de las instalaciones como de los equipos. El objetivo del mantenimiento es prolongar la vida de los equipos/sistemas y aumentar el tiempo medio entre fallos (MTBF) Algunos de los objetivos generales de un programa de gestión del mantenimiento son:
 
     .row.justify-content-center.align-items-center.mb-5
       SlyderF(columnas="col-lg-6 col-xl-4")
@@ -123,7 +123,7 @@
 
       .col-lg-8
         .tarjeta-verde.p-5(data-aos="fade-left")
-          b Los grandes establecimientos como los servicios de defensa, los departamentos de telecomunicaciones y los hospitales no pueden depender únicamente de los servicios ofrecidos por los fabricantes. A menudo, estos servicios suelen ser caros y pueden no estar disponibles cuando se necesitan durante una avería de emergencia del sistema. Por lo tanto, es necesario crear instalaciones de servicio internas y sólo en el caso de una avería muy compleja se solicitan los servicios de los fabricantes .
+          b Los grandes establecimientos como los servicios de defensa, los departamentos de telecomunicaciones y los hospitales no pueden depender únicamente de los servicios ofrecidos por los fabricantes. A menudo, estos servicios suelen ser caros y pueden no estar disponibles cuando se necesitan durante una avería de emergencia del sistema. Por lo tanto, es necesario crear instalaciones de servicio internas y sólo en el caso de una avería muy compleja se solicitan los servicios de los fabricantes.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -183,7 +183,7 @@
 
             .col-md-6.mb-4.mb-md-0
               h4.mb-5 <b style= 'color:#5573C6;'>Servicio de terceros</b>
-              p Puede ser una alternativa al servicio prestado por el fabricante. Este servicio se suele utilizar para los equipos más comunes, especialmente los productos electrónicos de consumo, para los que las empresas han creado un gran número de centros de mantenimiento. En el caso de los equipos profesionales, la disponibilidad de piezas de repuesto, software y equipos de prueba especializados debe tenerse en cuenta antes de entregar cualquier equipo al servicio de terceros, ya que el apoyo del fabricante puede ser una cuestión importante.
+              p Puede ser una alternativa al servicio prestado por el fabricante. Este servicio se suele utilizar para los equipos más comunes, especialmente los productos electrónicos de consumo, para los que las empresas han creado un gran número de centros de mantenimiento. En el caso de los equipos profesionales, la disponibilidad de piezas de repuesto, <i>software</i> y equipos de prueba especializados debe tenerse en cuenta antes de entregar cualquier equipo al servicio de terceros, ya que el apoyo del fabricante puede ser una cuestión importante.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-5
@@ -210,6 +210,8 @@
             p.texto-blanco En el caso de equipos de gran complejidad técnica en los que se necesita un servicio externo para el mantenimiento preventivo, es preferible suscribir un contrato de sólo mantenimiento preventivo. Este tipo de contratos se justifica cuando la frecuencia de las reparaciones y/o los costes no justifican la necesidad de un contrato de servicio completo.
 
     .row.mb-5
+      p.mb-3 Disposiciones generales del contrato. En el contrato con los proveedores de servicios para el mantenimiento de los equipos deben incorporarse las siguientes disposiciones esenciales:
+      
       .col-lg-6
         ul.lista-ul--color.fa-ul2
           li(data-aos="fade-up")
@@ -261,7 +263,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img18.svg')})`}"
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
-          p.mb-0 Luego, de comprender las opciones de servicio se hace necesario también entender los elementos de protección personal, ya que unas condiciones de trabajo seguras ayudan a evitar lesiones a las personas y daños a los equipos informáticos. Un espacio de trabajo seguro está limpio, organizado y adecuadamente iluminado. Por tanto, todo el mundo debe entender y seguir los procedimientos de seguridad. El siguiente recurso expone algunas precauciones básicas, pautas de seguridad y herramientas esenciales que suelen usarse cuando se trabaja con un computador son:
+          p.mb-0 Luego, de comprender las opciones de servicio, se hace necesario también entender los elementos de protección personal, ya que unas condiciones de trabajo seguras ayudan a evitar lesiones a las personas y daños a los equipos informáticos. Un espacio de trabajo seguro está limpio, organizado y adecuadamente iluminado. Por tanto, todo el mundo debe entender y seguir los procedimientos de seguridad. El siguiente recurso expone algunas precauciones básicas, pautas de seguridad y herramientas esenciales que suelen usarse cuando se trabaja con un computador son:
 
     .row.justify-content-center.align-items-center.my-5
       .bg-tarjeta3      
@@ -458,7 +460,7 @@
       .col-lg-8
         p(data-aos="fade-left") ITIL (Information Technology Infrastructure Library) es un conjunto de prácticas detalladas para la ITSM (gestión de servicios de TI) que se centra en alinear los servicios de TI con las necesidades del negocio. ITIL describe procesos, procedimientos, tareas y listas de comprobación que no son específicos de una organización, pero que pueden ser aplicados por una organización para establecer la integración con la estrategia de la organización, ofrecer valor y mantener un nivel mínimo de competencia.
 
-        p(data-aos="fade-left") ITIL 4 se basa en las versiones anteriores del marco introduciendo un nuevo modelo operativo digital de extremo a extremo, que ha sido diseñado para ayudar a los equipos de TI a crear, entregar y operar productos y servicios técnicos que se ajusten a la estrategia empresarial más amplia de su organización. Este modelo se denomina “sistema de valor del servicio” o “SVS”. Gunawan, H. (2019). En el siguiente recurso se puede apreciar el paso a paso de esta operación.
+        p(data-aos="fade-left") ITIL 4 se basa en las versiones anteriores del marco, introduciendo un nuevo modelo operativo digital de extremo a extremo, que ha sido diseñado para ayudar a los equipos de TI a crear, entregar y operar productos y servicios técnicos que se ajusten a la estrategia empresarial más amplia de su organización. Este modelo se denomina “sistema de valor del servicio” o “SVS”. Gunawan, H. (2019). En el siguiente recurso se puede apreciar el paso a paso de esta operación.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-4
@@ -490,7 +492,7 @@
           .row(numero="3" titulo="Pruebas de aceptación (inspección de entrada)")
             p Es necesario un procedimiento formal de aceptación para garantizar que la entrada en servicio de todos los equipos se controla adecuadamente. Las pruebas de aceptación y la puesta en servicio de los equipos incluyen las pruebas eléctricas y mecánicas iniciales, las pruebas de seguridad radiológica adecuadas y la calibración. A continuación, se realizan controles para verificar el cumplimiento de las especificaciones técnicas y funcionales. También es necesario realizar comprobaciones para garantizar el cumplimiento de las normas y reglamentos adecuados, especialmente en el caso de los equipos médicos y los que se van a utilizar en condiciones peligrosas. Hay que comprobar que los manuales técnicos, los repuestos y los accesorios están completos y son funcionales. Debe prepararse y firmarse un certificado de prueba de aceptación formal.
 
-          .row(numero="4" titulo="Praesent")
+          .row(numero="4" titulo="Control del inventario")
             p Una vez firmado el certificado de aceptación del equipo, este debe incluirse en el inventario mantenido en forma de “Registro de bienes”. En el inventario debe incluirse la siguiente información:
 
             ul.lista-ul--color.fa-ul2.mb-3
@@ -560,7 +562,7 @@
         .cajon.color-primario.p-4(data-aos="flip-up")
           p.mb-0 La documentación es un requisito esencial en un laboratorio de servicio y mantenimiento. Ayuda a supervisar los programas y a obtener datos en los que basar las decisiones de mantenimiento de los equipos. Además, la documentación permite generar informes para los distintos departamentos de usuarios y la administración y puede utilizarse para demostrar el cumplimiento de los requisitos del gobierno y otros organismos reguladores y para cumplir los requisitos de gestión de riesgos. Es necesario disponer de pruebas adecuadas y aceptables de las reparaciones, inspecciones y calibraciones en caso de que la planta se vea involucrada en un caso de responsabilidad. Aunque la documentación exhaustiva suele considerarse segura, su coste es elevado, ya que incluye el tiempo dedicado a registrar y archivar la información, así como el espacio de almacenamiento físico para los registros.
 
-    p.mb-5(data-aos="fade-left") Los registros informatizados pueden reducir en gran medida el tiempo y el espacio necesarios para la documentación, por lo que son preferibles. Sin embargo, es necesario garantizar la exactitud y la seguridad de la información almacenada en el ordenador. También es una buena práctica tener copias de seguridad periódicas de todos los datos en un medio de almacenamiento adecuado .
+    p.mb-5(data-aos="fade-left") Los registros informatizados pueden reducir en gran medida el tiempo y el espacio necesarios para la documentación, por lo que son preferibles. Sin embargo, es necesario garantizar la exactitud y la seguridad de la información almacenada en el ordenador. También es una buena práctica tener copias de seguridad periódicas de todos los datos en un medio de almacenamiento adecuado.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -575,7 +577,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-botones.mb-3
           h5 Figura 1.
-          span Ejemplo de evaluación del valor de un activo de información
+          span Sistema de mantenimiento
 
         figure
           img(src='@/assets/curso/temas/tema4/img41.svg', alt='Imágen decorativa')

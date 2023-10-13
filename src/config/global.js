@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Gestión de hardware y software',
+    componenteFormativo: 'Gestión de <i>hardware</i> y <i>software</i>',
     descripcionCurso:
-      'En este componente se aborda los conceptos de la administración del software y el hardware desde el conocimiento de los sistemas básicos de un computador, el sistema operativo y sus características y, finalmente, cómo se puede plantear una programación de posibles mantenimientos.',
+      'En este componente se aborda los conceptos de la administración del <i>software</i> y el <i>hardware</i> desde el conocimiento de los sistemas básicos de un computador, el sistema operativo y sus características y, finalmente, cómo se puede plantear una programación de posibles mantenimientos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -243,7 +243,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Bluetooth',
+      termino: '<i>Bluetooth</i>',
       significado:
         'tecnología inalámbrica de corto alcance que permite conectar dos dispositivos en una pequeña red personal.',
     },
@@ -304,7 +304,7 @@ export default {
     {
       termino: 'SO',
       significado:
-        'sistema operativo. Es el software que gestiona directamente el hardware y los recursos de un sistema, como la CPU, la memoria y el almacenamiento. El sistema operativo se sitúa entre las aplicaciones y el <i>hardware</i> y establece las conexiones entre todo el <i>software</i> y los recursos físicos que hacen el trabajo.',
+        'sistema operativo. Es el <i>software</i> que gestiona directamente el <i>hardware</i> y los recursos de un sistema, como la CPU, la memoria y el almacenamiento. El sistema operativo se sitúa entre las aplicaciones y el <i>hardware</i> y establece las conexiones entre todo el <i>software</i> y los recursos físicos que hacen el trabajo.',
     },
     {
       termino: 'TDS',
