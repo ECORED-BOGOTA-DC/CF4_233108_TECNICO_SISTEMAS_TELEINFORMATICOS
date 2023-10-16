@@ -447,7 +447,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jesús Antonio Vecino Valero',
+          cargo: 'Diseño web',
+          centro:
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información.',
+        },
+        {
+          nombre: 'Adriana Marcela Suarez Eljure',
           cargo: 'Diseño web',
           centro:
             'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información.',
@@ -459,13 +465,13 @@ export default {
             'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información.',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Lady Adriana Ariza Luque',
           cargo: 'Animación y Producción audiovisual',
           centro:
             'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información.',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animación y Producción audiovisual',
           centro:
             'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información.',
@@ -475,6 +481,24 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
+        {
+          nombre: 'Zuleidy María Ruiz Torres',
+          cargo: 'Validación de recursos educativos digitales',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Luis Gabriel Urueta Alvarez',
+          cargo: 'Validación de recursos educativos digitales',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
         {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
@@ -489,7 +513,8 @@ export default {
         },
         {
           nombre: 'Leyson Fabian Castaño Pérez',
-          cargo: 'Validación de recursos educativos digitales',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación LMS',
           centro:
             'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },

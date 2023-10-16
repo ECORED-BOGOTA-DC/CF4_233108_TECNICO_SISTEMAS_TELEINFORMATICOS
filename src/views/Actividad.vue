@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Conceptos de Gestión
-        p.mb-4 Fortalecer la apropiación de los conceptos sobre las estrategias de gestión de hardware y software con el fin de diferenciar cómo se puede plantear una programación de posibles mantenimientos.
+        p.mb-4 Fortalecer la apropiación de los conceptos sobre las estrategias de gestión de hardware y <i>software</i> con el fin de diferenciar cómo se puede plantear una programación de posibles mantenimientos.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
