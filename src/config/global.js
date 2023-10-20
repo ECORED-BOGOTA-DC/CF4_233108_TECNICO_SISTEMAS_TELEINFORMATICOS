@@ -392,13 +392,13 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
           cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Liliana Victoria Morales Guadrón',
-          cargo: 'Responsable Línea de Producción Distrito Capital.',
+          cargo: 'Responsable Línea de Producción',
           centro:
             'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información.',
         },
@@ -415,18 +415,23 @@ export default {
         },
         {
           nombre: 'Miroslava González Hernández',
-          cargo: 'Diseñadora y evaluadora Instruccional',
+          cargo: 'Diseño instruccional',
           centro:
             'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios.',
         },
         {
           nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Asesora pedagógica y metodológica',
+          cargo: 'Asesoría metodológica y pedagógica',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología.',
         },
         {
           nombre: 'Sandra Patricia Hoyos Sepúlveda',
-          cargo: 'Corrección de estilo',
+          cargo: 'Corrector de estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología.',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable equipo de desarrollo curricular',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología.',
         },
         {
@@ -437,7 +442,7 @@ export default {
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
-          cargo: 'Asesor metodológico',
+          cargo: 'Asesoría metodológica y pedagógica',
           centro:
             'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información.',
         },

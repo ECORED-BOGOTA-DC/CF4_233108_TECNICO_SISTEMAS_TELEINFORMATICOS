@@ -9,7 +9,7 @@
           figure
             img(src="@/assets/template/opcion-multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
+        .titulo-segundo.color-acento-botones
           h2 Conceptos de Gestión
         p.mb-4 Fortalecer la apropiación de los conceptos sobre las estrategias de gestión de hardware y <i>software</i> con el fin de diferenciar cómo se puede plantear una programación de posibles mantenimientos.
         .tarjeta.actividad.p-3

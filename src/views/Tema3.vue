@@ -60,7 +60,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-down")
       figure(data-aos="fade-right")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/123456789" title="Comunicación de marketing digital" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/lGLzCzgrcF8" title="Virtualización CPU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-5 Para ejecutar programas, y detenerlos, y para decirle al SO qué programas ejecutar, es necesario que haya algunas interfaces (API) para comunicar lo que se desea al SO. Sobre estas APIs se hablará. A lo largo del componente, pues, de hecho, son la principal forma en que la mayoría de los usuarios interactúan con los sistemas operativos.
 
