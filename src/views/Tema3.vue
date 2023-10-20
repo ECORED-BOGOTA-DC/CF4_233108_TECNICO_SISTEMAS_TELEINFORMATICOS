@@ -87,7 +87,7 @@
       .row.justify-content-center.align-items-center.mb-5(data-aos="flip-down")
         figure(data-aos="fade-right")
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/123456789" title="Comunicación de marketing digital" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/Yr6DUp-I_bk" title="Virtualización de la memoria" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.bg-titulo2.align-items-center.p-2.mb-4
       h3.mb-3.mt-2.texto-derecha Concurrencia
