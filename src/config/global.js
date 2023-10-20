@@ -393,7 +393,7 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizábal Gutiérrez',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
@@ -453,13 +453,13 @@ export default {
       autores: [
         {
           nombre: 'Jesús Antonio Vecino Valero',
-          cargo: 'Diseño web',
+          cargo: 'Diseñador web',
           centro:
             'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información.',
         },
         {
           nombre: 'Adriana Marcela Suarez Eljure',
-          cargo: 'Diseño web',
+          cargo: 'Diseñador web',
           centro:
             'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información.',
         },
