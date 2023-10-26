@@ -125,7 +125,7 @@
     .row.justify-content-center.align-items-center
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img8.svg')})`}"
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img8.png')})`}"
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 A grandes rasgos, la obsolescencia tecnológica puede considerarse como una devaluación de un artículo debido al progreso tecnológico y, por lo tanto, suele producirse cuando una nueva tecnología o producto sustituye a otro más antiguo que no tiene por qué ser necesariamente disfuncional. La literatura tiene muchos ejemplos: el telégrafo, la máquina de vapor y los faxes, entre otros.
@@ -192,7 +192,7 @@
     .row.justify-content-center.align-items-center
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img11.svg')})`}"
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img8.png')})`}"
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 Los formatos de la documentación técnica se refieren a cualquier documento que explique el uso, la funcionalidad, la creación o la arquitectura de un producto. Hay que pensar en esos formatos como una guía práctica para los usuarios, los nuevos empleados, los administradores y cualquier otra persona que necesite saber cómo funciona un producto. Pero, aunque parezca bastante sencillo, los resultados rara vez lo son.
@@ -248,7 +248,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-4
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema6/img14.svg', alt='imagen decorativa')
+          img(src='@/assets/curso/temas/tema6/img14.png', alt='imagen decorativa')
 
       .col-lg-8
         .row.justify-content-center.align-items-center.bg3-tema6

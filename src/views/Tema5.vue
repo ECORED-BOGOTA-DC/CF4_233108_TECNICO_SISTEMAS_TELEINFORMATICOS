@@ -10,7 +10,7 @@
     .row.justify-content-center.align-items-center
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img1.svg')})`}"
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img1.png')})`}"
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 Así como se espera tener un mantenimiento preventivo en los equipos y en una organización como tal, en ocasiones, se tendrán situaciones en que las medidas deben ser correctivas, lo que permite luego, una oportunidad para mejorar el plan inicial de mantenimiento. El proceso de localización de averías comprende los siguientes pasos:
@@ -157,14 +157,14 @@
           p Después de comprobar las cosas obvias, si no se encuentra una pista sobre la avería, es el momento de consultar el manual de servicio y tratar de entender, en primer lugar, el resultado que se debería obtener y, en segundo lugar, el resultado que se está obteniendo. Al hacer esto, ya sea por medición u observación, el técnico que realiza la búsqueda de la avería se guía hasta el componente defectuoso.
       .col-10.col-lg-4
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema5/img11.svg', alt='imagen decorativa')
+          img(src='@/assets/curso/temas/tema5/img11.png', alt='imagen decorativa')
 
       p.mt-5 A veces, los manuales de servicio no están disponibles. Sin duda, basándose en la experiencia de otros sistemas similares, el técnico puede intentar reparar la avería. Sin embargo, si el sistema es desconocido, proceder a las pruebas sin saber exactamente cómo funciona el sistema puede llevar a menudo a conclusiones incorrectas y, en algunos casos, a provocar fallos adicionales. Por lo tanto, es conveniente procurar el manual de servicio, en la medida de lo posible, antes de intentar localizar una avería grave en el sistema. Sin embargo, si no puede conseguir el diagrama esquemático, en algunos casos, será necesario realizar algo de ingeniería inversa para dibujar el diagrama del circuito. El tiempo será bien empleado, ya que habrá aprendido algo en el proceso que puede aplicarse a otros problemas del equipo. Su éxito en la búsqueda y reparación de la avería, será mucho más probable cuando entienda cómo funciona un dispositivo.
     
     .row.justify-content-center.align-items-center
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img12.svg')})`}"
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img12.png')})`}"
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 El manual de instrucciones o manual del usuario o del operador proporciona la información necesaria para el funcionamiento del equipo, las instrucciones de puesta en marcha y parada, los conceptos generales de diseño, las especificaciones y el procedimiento de instalación. Las instrucciones de mantenimiento a nivel de operador, incluidos los manuales de mantenimiento preventivo, son útiles para realizar diagnósticos preliminares y establecer programas de mantenimiento preventivo.
@@ -218,7 +218,7 @@
     .row.justify-content-center.align-items-center.mt-5
       .col-10.col-lg-5
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema5/img17.svg', alt='imagen decorativa')
+          img(src='@/assets/curso/temas/tema5/img17.png', alt='imagen decorativa')
 
       .col-lg-7
         LineaTiempoD.color-acento-botones
@@ -298,7 +298,7 @@
 
       .col-10.col-lg-5
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema5/img18.svg', alt='imagen decorativa')
+          img(src='@/assets/curso/temas/tema5/img18.png', alt='imagen decorativa')
 
 
     .row.justify-content-center.align-items-center.mt-5.mb-3
@@ -342,7 +342,7 @@
     .row.justify-content-center.align-items-center
       .col-10.col-lg-4
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema5/img22.svg', alt='imagen decorativa')
+          img(src='@/assets/curso/temas/tema5/img22.png', alt='imagen decorativa')
 
       .col-lg-8
         p Una vez establecida la avería y localizado el componente defectuoso, se requieren técnicas especiales para llevar a cabo las reparaciones. Para ello, es necesario, conseguir piezas de repuesto.
@@ -353,7 +353,7 @@
       .col-lg-12
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g1__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img23.svg')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img23.png')})`}"
           )
           .bloque-texto-g1__texto.p-4(data-aos="flip-down")
             p.mb-0 A la hora de seleccionar piezas de repuesto equivalentes, hay que tener en cuenta que el tamaño y la forma física de un componente pueden afectar a veces a su rendimiento en el equipo, sobre todo a altas frecuencias. Por lo tanto, es imperativo que todas las piezas de repuesto sean sustituciones directas, a menos que se establezca que un componente diferente no afectará negativamente al rendimiento del equipo.
@@ -413,7 +413,7 @@
         
           .col-md-4
             figure(data-aos="fade-right")
-              img(src='@/assets/curso/temas/tema5/img25.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema5/img25.png', alt='Texto que describa la imagen')
 
       .py-4.py-md-5(titulo="Sustitución de componentes" )
         .row
@@ -424,7 +424,7 @@
 
           .col-md-4
             figure(data-aos="fade-right")
-              img(src='@/assets/curso/temas/tema5/img26.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema5/img26.png', alt='Texto que describa la imagen')
 
         .row
           p Los transistores de potencia suelen estar montados en el radiador de calor. Después de sustituir un transistor de potencia, compruebe que el colector no está en cortocircuito con la tierra antes de aplicar la alimentación. Los interruptores utilizados en el equipo, si se encuentran defectuosos, no suelen ser reparables y deben ser sustituidos como una unidad.
@@ -436,7 +436,7 @@
           
           .col-md-4
             figure(data-aos="fade-right")
-              img(src='@/assets/curso/temas/tema5/img27.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema5/img27.png', alt='Texto que describa la imagen')
 
           .col-md-8.mb-4.mb-md-0
             p Después de sustituir cualquier componente eléctrico, se debe comprobar a fondo el rendimiento o la calibración de ese circuito en particular. Dado que las fuentes de alimentación se utilizan para el funcionamiento de todos los circuitos, debe comprobarse todo el equipo para evaluar si se ha trabajado en esta sección o si se ha sustituido el transformador de potencia. Para evitar el ajuste innecesario de otras partes del circuito, ajústelo sólo si no se cumple la tolerancia indicada en cada parte de `CHECK’.
@@ -471,7 +471,7 @@
         
           .col-md-4
             figure(data-aos="fade-right")
-              img(src='@/assets/curso/temas/tema5/img28.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema5/img28.png', alt='Texto que describa la imagen')
 
         .row 
           ul.lista-ul--color.lista-ul--separador.fa-ul2

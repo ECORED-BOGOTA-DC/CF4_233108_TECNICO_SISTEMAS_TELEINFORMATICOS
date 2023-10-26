@@ -33,14 +33,14 @@
 
       .col-lg-4
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema3/img3.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema3/img3.png', alt='Imágen decorativa')
 
     p.mb-5 Dado que el SO proporciona estas llamadas para ejecutar programas, acceder a la memoria y a los dispositivos, y otras acciones relacionadas, a veces, se dice que el SO proporciona una biblioteca estándar a las aplicaciones.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-5
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema3/img4.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema3/img4.png', alt='Imágen decorativa')
 
       .col-lg-6
         .tarjeta-gris.p-4(data-aos="fade-left")
@@ -67,7 +67,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .bloque-texto-g.color-adicional-1.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img5.svg')})`}"
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img5.png')})`}"
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 También se puede notar que la posibilidad de ejecutar varios programas a la vez plantea todo tipo de preguntas nuevas. Por ejemplo, si dos programas quieren ejecutarse en un momento determinado, ¿cuál debería ejecutarse? Esta pregunta se responde con una política del SO; las políticas se utilizan en muchos lugares diferentes dentro de un SO para responder a este tipo de preguntas, y por ello se estudiarán mientras se aprende sobre los mecanismos básicos que implementan los sistemas operativos (como la capacidad de ejecutar múltiples programas a la vez). De ahí el papel del SO como gestor de recursos.
@@ -108,7 +108,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       figure(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema3/img8.svg', alt='Imágen decorativa')
+        img(src='@/assets/curso/temas/tema3/img8.png', alt='Imágen decorativa')
 
     .row.justify-content-center.align-items-center.mb-5
       .cajon.color-primario.p-4(data-aos="flip-up")
@@ -176,7 +176,7 @@
       .col-lg-12
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g1__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img16.svg')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img16.png')})`}"
           )
           .bloque-texto-g1__texto.p-4(data-aos="flip-down")
             p.mb-0 Ahora, una vez, estudiado las características de un SO, se hace necesario conocer los <i>software</i> utilitarios, como herramientas de soporte y mejora en la ejecución de programas o en la realización de una función específica. Existen tanto licenciados como aquellos de código abierto. Se expone en qué consiste cada una de estas categorías.
@@ -184,7 +184,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-8.col-lg-4.mb-3
         figure
-          img(src='@/assets/curso/temas/tema3/img17.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema3/img17.png', alt='Imágen decorativa')
 
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul2")
@@ -282,12 +282,12 @@
 
       .col-lg-4
         figure
-          img(src='@/assets/curso/temas/tema3/img23.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema3/img23.png', alt='Imágen decorativa')
 
     .row.justify-content-center.align-items-center.mb-5
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img24.svg')})`}"
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img24.png')})`}"
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 Básicamente, supervisa las operaciones que realizan los usuarios en su sistema y proporciona servicios de información al administrador del sistema o de la red. Este <i>software</i> de supervisión también se conoce como <i>software</i> de vigilancia informática. Entre estos se encuentran:
@@ -302,7 +302,7 @@
               
               .col-md-4
                 figure
-                  img(src='@/assets/curso/temas/tema3/img25.svg', alt='Imágen decorativa')
+                  img(src='@/assets/curso/temas/tema3/img25.png', alt='Imágen decorativa')
             
             .row.justify-content-center.align-items-center
               .col-md-6.mb-4.mb-md-0
@@ -311,7 +311,7 @@
               
               .col-md-4
                 figure
-                  img(src='@/assets/curso/temas/tema3/img26.svg', alt='Imágen decorativa')
+                  img(src='@/assets/curso/temas/tema3/img26.png', alt='Imágen decorativa')
 
             .row.justify-content-center.align-items-center
               .col-md-6.mb-4.mb-md-0
@@ -329,7 +329,7 @@
 
               .col-md-4
                 figure
-                  img(src='@/assets/curso/temas/tema3/img28.svg', alt='Imágen decorativa')
+                  img(src='@/assets/curso/temas/tema3/img28.png', alt='Imágen decorativa')
 
             .row.justify-content-center.align-items-center
               .col-md-6.mb-4.mb-md-0
@@ -362,7 +362,7 @@
           ImagenInfografica.color-adicional-1s
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema3/img30.svg', alt='Imágen decorativa')
+                img(src='@/assets/curso/temas/tema3/img30.png', alt='Imágen decorativa')
 
             .tarjeta.color-adicional-1.p-4(x="42%" y="95%" numero="")
               h5.texto-blanco Crear un sistema cómodo y fácil de usar
@@ -398,7 +398,7 @@
 
       .col-10.col-lg-4
         figure
-          img(src='@/assets/curso/temas/tema3/img32.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema3/img32.png', alt='Imágen decorativa')
 
     p.mb-5(data-aos="fade-right") Sin embargo, los atacantes inteligentes son … inteligentes…, e incluso cuando el código inyectado no puede ser añadido explícitamente por el atacante, secuencias de código arbitrarias pueden ser ejecutadas por el código malicioso. La idea se conoce, en su forma más general, como programación orientada al retorno (ROP), y realmente es bastante brillante. 
 
@@ -434,7 +434,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img37.svg')})`}"
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img37.png')})`}"
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 Adicionalmente, el mundo de la seguridad de los sistemas se ha puesto patas arriba por dos nuevos ataques relacionados. El primero se llama <i>Meltdown</i>, y el segundo <i>Spectre</i>. Fueron descubiertos casi al mismo tiempo por cuatro grupos diferentes de investigadores/ingenieros, y han llevado a un profundo cuestionamiento de las protecciones fundamentales ofrecidas por el <i>hardware</i> de los ordenadores y el SO anterior.
@@ -454,7 +454,7 @@
               
               .col-md-4
                 figure
-                  img(src='@/assets/curso/temas/tema3/img38.svg', alt='Imágen decorativa')
+                  img(src='@/assets/curso/temas/tema3/img38.png', alt='Imágen decorativa')
 
             .row.justify-content-center.align-items-center
               .col-md-6.mb-4.mb-md-0
@@ -463,7 +463,7 @@
               
               .col-md-4
                 figure
-                  img(src='@/assets/curso/temas/tema3/img39.svg', alt='Imágen decorativa')
+                  img(src='@/assets/curso/temas/tema3/img39.png', alt='Imágen decorativa')
 
             .row.justify-content-center.align-items-center
               .col-md-6.mb-4.mb-md-0
@@ -472,13 +472,13 @@
               
               .col-md-4
                 figure
-                  img(src='@/assets/curso/temas/tema3/img40.svg', alt='Imágen decorativa')
+                  img(src='@/assets/curso/temas/tema3/img40.png', alt='Imágen decorativa')
 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-4
         figure
-          img(src='@/assets/curso/temas/tema3/img41.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema3/img41.png', alt='Imágen decorativa')
 
       .col-lg-8
         p(data-aos="fade-left") Lamentablemente, KPTI no resuelve todos los problemas de seguridad expuestos anteriormente, sólo algunos de ellos. Y las soluciones simples, como desactivar la especulación, no tendrían mucho sentido, porque los sistemas funcionarían miles de veces más lento. Por lo tanto, es un momento interesante para estar vivo, si la seguridad de los sistemas es lo tuyo.

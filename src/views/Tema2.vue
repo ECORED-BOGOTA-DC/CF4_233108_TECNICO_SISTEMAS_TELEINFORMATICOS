@@ -54,7 +54,7 @@
 
         .col-8.col-lg-4
           figure(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema2/img2.svg', alt='Imágen decorativa').img2-tm2
+            img(src='@/assets/curso/temas/tema2/img2.png', alt='Imágen decorativa').img2-tm2
 
       .row.justify-content-center.align-items-center.mb-5
         .col-4.col-lg-2
@@ -191,7 +191,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-4
         figure
-          img(src='@/assets/curso/temas/tema2/img13.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema2/img13.png', alt='Imágen decorativa')
 
       .col-lg-8
         p(data-aos="fade-left") La suciedad y el polvo son grandes enemigos de los circuitos electrónicos. La acumulación de polvo en las placas de circuitos impresos, formadas por dispositivos integrados y otros dispositivos de estado sólido, provoca el mal funcionamiento de los circuitos de varias maneras.
@@ -208,7 +208,7 @@
       .col-lg-11
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g1__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img14.svg')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img14.png')})`}"
           )
           .bloque-texto-g1__texto.p-4(data-aos="flip-down")
             p.mb-0 Llevar un plan de trabajo siempre es buena idea a la hora de realizar los mantenimientos preventivos, sobre todo con la manipulación de los componentes electrónicos, los cuales pueden generar una descarga electrostática. 
@@ -216,7 +216,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-4
         figure
-          img(src='@/assets/curso/temas/tema2/img15.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema2/img15.png', alt='Imágen decorativa')
 
       .col-lg-8
         p(data-aos="fade-left") La protección contra las descargas electrostáticas (ESD) forma parte de los requisitos de Inmunidad CEM (Compatibilidad Electromagnética) Se trata de la capacidad de los equipos de funcionar correctamente en su entorno electromagnético limitando la recepción de energía electromagnética que pueda causar daños físicos. La ESD puede ser conducida bajo la forma de un voltaje transitorio o puede ser radiada debido a su rápido tiempo de subida: los armónicos potentes generarán un comportamiento errático por parte de la aplicación al acoplarse con otras señales. Las placas de circuito impreso deben estar protegidas contra los efectos de las descargas electrostáticas.

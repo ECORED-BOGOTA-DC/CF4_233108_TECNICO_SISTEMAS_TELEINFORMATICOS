@@ -30,7 +30,7 @@
         
           .col-md-5
             figure(data-aos="fade-right")
-              img(src='@/assets/curso/temas/tema1/img2.svg', alt='Imágen decorativa')
+              img(src='@/assets/curso/temas/tema1/img2.png', alt='Imágen decorativa')
 
         .row(titulo="1945")
           .col-md-7.mb-4.mb-md-0
@@ -56,7 +56,7 @@
         
           .col-md-5
             figure(data-aos="fade-right")
-              img(src='@/assets/curso/temas/tema1/img4.svg', alt='Imágen decorativa')
+              img(src='@/assets/curso/temas/tema1/img4.png', alt='Imágen decorativa')
 
         .row(titulo="1971")
           .col-md-7.mb-4.mb-md-0
@@ -81,7 +81,7 @@
         
           .col-md-5
             figure(data-aos="fade-right")
-              img(src='@/assets/curso/temas/tema1/img6.svg', alt='Imágen decorativa')
+              img(src='@/assets/curso/temas/tema1/img6.png', alt='Imágen decorativa')
 
         .row(titulo="1984")
           .col-md-7.mb-4.mb-md-0
@@ -93,7 +93,7 @@
         
           .col-md-5
             figure(data-aos="fade-right")
-              img(src='@/assets/curso/temas/tema1/img7.svg', alt='Imágen decorativa')
+              img(src='@/assets/curso/temas/tema1/img7.png', alt='Imágen decorativa')
 
         .row(titulo="2007")
           .col-md-7.mb-4.mb-md-0
@@ -105,7 +105,7 @@
         
           .col-md-5
             figure(data-aos="fade-right")
-              img(src='@/assets/curso/temas/tema1/img8.svg', alt='Imágen decorativa')
+              img(src='@/assets/curso/temas/tema1/img8.png', alt='Imágen decorativa')
 
         .row(titulo="2015")
           .col-md-7.mb-4.mb-md-0
@@ -122,7 +122,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-8.col-lg-3
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema1/img10.svg', alt='Imágen decorativa').img10-tm1
+          img(src='@/assets/curso/temas/tema1/img10.png', alt='Imágen decorativa').img10-tm1
 
       .col-lg-7
         .tarjeta-azul1.p-5
@@ -136,7 +136,7 @@
       .col-lg-11
         .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img11.svg')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img11.png')})`}"
           )
           .bloque-texto-g__texto.p-4(data-aos="flip-down")
             p.mb-0 La carcasa de un computador de cualquier tipo se denomina a veces chasis y alberga la fuente de alimentación, la placa base, el procesador, los módulos de memoria, las tarjetas de expansión, el disco duro, la unidad óptica y otras unidades. Una carcasa de computador puede ser una carcasa de torre, una carcasa de sobremesa que se coloca plana en un escritorio, una carcasa todo en uno (que se utiliza con un computador todo en uno) o una carcasa móvil que se utiliza con computadores portátiles y tabletas. 
@@ -148,7 +148,7 @@
 
       .col-lg-5
         figure
-          img(src='@/assets/curso/temas/tema1/img12.svg', alt='Imágen decorativa').img12-tm1
+          img(src='@/assets/curso/temas/tema1/img12.png', alt='Imágen decorativa').img12-tm1
 
     .bg-fondo3
       .row.justify-content-center.align-items-center.mb-5
@@ -238,7 +238,7 @@
         ImagenInfografica.color-primario.mb-5
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema1/img15.svg', alt='Imágen decorativa')
+              img(src='@/assets/curso/temas/tema1/img15.png', alt='Imágen decorativa')
 
           .tarjeta.color-adicional-1.p-3(x="13%" y="102%" numero="+")
             p.texto-blanco Una placa base tiene ranuras de expansión para ser utilizadas por las tarjetas de expansión. Una tarjeta de expansión, también llamada tarjeta adaptadora, es una placa de circuito que proporciona más puertos que los proporcionados por la placa base. La imagen muestra una tarjeta de video que proporciona tres puertos para este fin. Observe el ventilador y el disipador de calor de la tarjeta, que ayudan a evitar que se sobrecaliente. La tendencia actual es que la mayoría de los puertos de un sistema sean proporcionados por la placa base (llamados puertos de la placa) y que se utilicen menos las tarjetas de expansión.	 
@@ -259,7 +259,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img16.svg')})`}"
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img16.png')})`}"
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 Un portátil está diseñado para ser transportable y puede ser tan potente como un ordenador de sobremesa. Más de la mitad de los computadores personales que se compran hoy en día son portátiles, y casi el 30% de los computadores personales que se utilizan actualmente son de esta categoría. Los portátiles utilizan la misma tecnología que los ordenadores de sobremesa, pero con modificaciones para consumir menos energía, ocupar menos espacio y funcionar en movimiento.
@@ -278,7 +278,7 @@
 
       .col-10.col-lg-6
         figure
-          img(src='@/assets/curso/temas/tema1/img17.svg', alt='la imagen muestra los distintos ranuras de un computador portátil descritos en la parte inferior')
+          img(src='@/assets/curso/temas/tema1/img17.png', alt='la imagen muestra los distintos ranuras de un computador portátil descritos en la parte inferior')
 
         .row.mb-5
           .col-auto.posicion-boton
@@ -289,7 +289,7 @@
     ModalA(:abrir-modal.sync="modal1")
       .row.align-items-center
         figure
-          img(src='@/assets/curso/temas/tema1/img17-1.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema1/img17-1.png', alt='Imágen decorativa')
 
 
     p.mb-5(data-aos="fade-right") Ahora bien, existen otros periféricos adicionales como:

@@ -64,7 +64,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img8.svg')})`}"
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img8.png')})`}"
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 Con la introducción de equipos electrónicos en casi todos los campos de actividad, se considera esencial que las organizaciones desarrollen una política sólida de mantenimiento de equipos para garantizar la continuidad del servicio de los mismos. Los objetivos de la gestión del mantenimiento de los equipos son los siguientes:
@@ -91,7 +91,7 @@
 
         .col-8.col-lg-4
           figure
-            img(src='@/assets/curso/temas/tema4/img9.svg', alt='Imágen decorativa').img9-tm4
+            img(src='@/assets/curso/temas/tema4/img9.png', alt='Imágen decorativa').img9-tm4
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.mb-5
@@ -119,7 +119,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-7.col-lg-4(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema4/img10.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema4/img10.png', alt='Imágen decorativa')
 
       .col-lg-8
         .tarjeta-verde.p-5(data-aos="fade-left")
@@ -134,7 +134,7 @@
 
       .col-10.col-lg-4
         figure
-          img(src='@/assets/curso/temas/tema4/img11.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema4/img11.png', alt='Imágen decorativa')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -161,7 +161,7 @@
           .row.justify-content-center.align-items-center
             .col-md-4
               figure
-                img(src='@/assets/curso/temas/tema4/img14.svg', alt='Imágen decorativa')
+                img(src='@/assets/curso/temas/tema4/img14.png', alt='Imágen decorativa')
 
             .col-md-6.mb-4.mb-md-0
               h4.mb-5 <b style= 'color:#5573C6;'>Servicio interno</b>
@@ -170,7 +170,7 @@
           .row.justify-content-center.align-items-center
             .col-md-4
               figure
-                img(src='@/assets/curso/temas/tema4/img15.svg', alt='Imágen decorativa')
+                img(src='@/assets/curso/temas/tema4/img15.png', alt='Imágen decorativa')
 
             .col-md-6.mb-4.mb-md-0
               h4.mb-5 <b style= 'color:#5573C6;'>Servicio del fabricante</b>
@@ -179,7 +179,7 @@
           .row.justify-content-center.align-items-center
             .col-md-4
               figure
-                img(src='@/assets/curso/temas/tema4/img16.svg', alt='Imágen decorativa')
+                img(src='@/assets/curso/temas/tema4/img16.png', alt='Imágen decorativa')
 
             .col-md-6.mb-4.mb-md-0
               h4.mb-5 <b style= 'color:#5573C6;'>Servicio de terceros</b>
@@ -260,7 +260,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img18.svg')})`}"
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img18.png')})`}"
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 Luego, de comprender las opciones de servicio, se hace necesario también entender los elementos de protección personal, ya que unas condiciones de trabajo seguras ayudan a evitar lesiones a las personas y daños a los equipos informáticos. Un espacio de trabajo seguro está limpio, organizado y adecuadamente iluminado. Por tanto, todo el mundo debe entender y seguir los procedimientos de seguridad. El siguiente recurso expone algunas precauciones básicas, pautas de seguridad y herramientas esenciales que suelen usarse cuando se trabaja con un computador son:
@@ -408,7 +408,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-10.col-lg-4.mt-5.mb-3
           figure
-            img(src='@/assets/curso/temas/tema4/img29.svg', alt='Imágen decorativa')
+            img(src='@/assets/curso/temas/tema4/img29.png', alt='Imágen decorativa')
 
         .col-lg-8.mt-4
           SlyderF(columnas="col-lg-6 col-xl-4")
@@ -455,7 +455,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-4(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema4/img36.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema4/img36.png', alt='Imágen decorativa')
 
       .col-lg-8
         p(data-aos="fade-left") ITIL (Information Technology Infrastructure Library) es un conjunto de prácticas detalladas para la ITSM (gestión de servicios de TI) que se centra en alinear los servicios de TI con las necesidades del negocio. ITIL describe procesos, procedimientos, tareas y listas de comprobación que no son específicos de una organización, pero que pueden ser aplicados por una organización para establecer la integración con la estrategia de la organización, ofrecer valor y mantener un nivel mínimo de competencia.
@@ -556,7 +556,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-4
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema4/img39.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema4/img39.png', alt='Imágen decorativa')
 
       .col-lg-8
         .cajon.color-primario.p-4(data-aos="flip-up")
@@ -585,7 +585,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img42.svg')})`}"
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img42.png')})`}"
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 El laboratorio de servicios tiene que llevar a cabo múltiples actividades, como la inspección de los equipos que llegan, su instalación y su incorporación al inventario; la reparación de los equipos defectuosos recibidos en el laboratorio y la realización de actividades de mantenimiento preventivo. En aras de un funcionamiento y una gestión eficaces de los activos de una organización, es necesario llevar un registro informático adecuado de todas estas actividades. 
