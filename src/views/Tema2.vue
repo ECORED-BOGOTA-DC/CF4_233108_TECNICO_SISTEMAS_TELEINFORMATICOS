@@ -236,7 +236,7 @@
         ImagenInfografica
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema2/img16.svg', alt='Imágen decorativa')
+              img(src='@/assets/curso/temas/tema2/img16.svg', alt='Protección de piezas eléctricas o electrónicas:<br>Requisitos estrictos<br>Eficacia de la protección con una baja tensión de cerrado (VCL).<br>Transparencia de la protección con una baja corriente de fuga (IRM).<br>Integridad de la señal con una capacitancia baja y un ancho de banda amplio.<br>Puntos principales<br>El dispositivo de protección ESD externo no debe afectar al rendimiento del sistema, incluyendo la tensión de funcionamiento, el ancho de banda y el consumo de energía.<br>El dispositivo de protección ESD externo debe proteger el circuito contra eventos ESD a nivel de sistema mediante el bloqueo de los transitorios de sobretensión ESD.')
 
           .tarjeta.color-adicional-1.p-4(x="5%" y="42%" numero="")
             p.texto-blanco Eficacia de la protección con una baja tensión de cerrado (VCL).

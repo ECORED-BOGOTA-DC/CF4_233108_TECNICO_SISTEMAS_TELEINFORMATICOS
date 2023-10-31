@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="Interfaz de usuario gráfica, Aplicación<br>Descripción generada automáticamente")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Muestra el esquema de la síntesis del componente formativo, gestión de “hardware” y “software”, que se establece en dos bloques, conocimiento base y mantenimiento del equipo.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

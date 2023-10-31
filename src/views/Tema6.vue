@@ -89,7 +89,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8
           figure(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema6/img5.svg', alt='imagen decorativa')
+            img(src='@/assets/curso/temas/tema6/img5.svg', alt='Ejemplo de una ficha técnica. Tomado de Yumpu (2015)  Una hoja de datos técnicos (TDS) se utiliza tanto con fines informativos como publicitarios')
 
 
     .row.justify-content-center.align-items-center

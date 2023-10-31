@@ -580,7 +580,7 @@
           span Sistema de mantenimiento
 
         figure
-          img(src='@/assets/curso/temas/tema4/img41.svg', alt='Imágen decorativa')
+          img(src='@/assets/curso/temas/tema4/img41.svg', alt='Muestra el sistema de man tenimiento des el verbal or written y word order')
 
     .row.justify-content-center.align-items-center.mb-5
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
