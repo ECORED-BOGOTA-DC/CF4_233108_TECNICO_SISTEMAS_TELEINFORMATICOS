@@ -62,7 +62,32 @@
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/lGLzCzgrcF8" title="Virtualización CPU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    p.mb-5 Para ejecutar programas, y detenerlos, y para decirle al SO qué programas ejecutar, es necesario que haya algunas interfaces (API) para comunicar lo que se desea al SO. Sobre estas APIs se hablará. A lo largo del componente, pues, de hecho, son la principal forma en que la mayoría de los usuarios interactúan con los sistemas operativos.
+    .row.bg-titulo2.align-items-center.p-2.mb-4
+      h3.mb-3.mt-2.texto-derecha Comportamiento CPU
+
+    .row.justify-content-center.align-items-center
+      .col-9
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/tema3/video.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0.text-white
+                  h3.mb-1 Comportamiento CPU
+                  p.text-small Estimado aprendiz se recomienda revisar el siguiente video para dar continuidad a la información.
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('https://www.youtube.com/watch?v=ORUDW3qk0Js')" target="_blank")
+                    i.fas.fa-link.p-2
+                    span Ver video
+                    
+
+        .cajon.color-primario.p-4(data-aos="flip-up")
+          p.mb-0 Para ejecutar programas, y detenerlos, y para decirle al SO qué programas ejecutar, es necesario que haya algunas interfaces (API) para comunicar lo que se desea al SO. Sobre estas APIs se hablará. A lo largo del componente, pues, de hecho, son la principal forma en que la mayoría de los usuarios interactúan con los sistemas operativos.
+
+      .col-3
+        figure
+          img(src='@/assets/curso/temas/tema3/img37.svg', alt='imagen decorativa')
 
     .row.justify-content-center.align-items-center.mb-5
       .bloque-texto-g.color-adicional-1.p-3.p-sm-4.p-md-5
