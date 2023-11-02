@@ -77,7 +77,7 @@
                   h3.mb-1 Comportamiento CPU
                   p.text-small Estimado aprendiz se recomienda revisar el siguiente video para dar continuidad a la información.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('https://www.youtube.com/watch?v=ORUDW3qk0Js')" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=ORUDW3qk0Js" target="_blank")
                     i.fas.fa-link.p-2
                     span Ver video
                     
