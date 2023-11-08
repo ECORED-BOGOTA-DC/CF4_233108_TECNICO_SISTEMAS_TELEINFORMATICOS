@@ -300,6 +300,8 @@
             figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema6/bg9.svg', alt='imagen decorativa')
 
+    p.my-5 La estructura, por su parte, en un informe técnico, debe tener un formato claramente definido que sea fácil de seguir y que explique el objetivo del mismo. Revise una lista de las páginas que debe incluir.
+
     .row.justify-content-center.align-items-center.bg9-tema6.mt-5
       .col-10.col-lg-3
         figure(data-aos="fade-right")

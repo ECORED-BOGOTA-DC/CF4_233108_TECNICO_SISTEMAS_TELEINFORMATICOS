@@ -244,7 +244,7 @@
             p.texto-blanco Una placa base tiene ranuras de expansión para ser utilizadas por las tarjetas de expansión. Una tarjeta de expansión, también llamada tarjeta adaptadora, es una placa de circuito que proporciona más puertos que los proporcionados por la placa base. La imagen muestra una tarjeta de video que proporciona tres puertos para este fin. Observe el ventilador y el disipador de calor de la tarjeta, que ayudan a evitar que se sobrecaliente. La tendencia actual es que la mayoría de los puertos de un sistema sean proporcionados por la placa base (llamados puertos de la placa) y que se utilicen menos las tarjetas de expansión.	 
 
           .tarjeta.color-adicional-1.p-3(x="38%" y="102%" numero="+")
-            p.texto-blanco Una placa base de sobremesa dispone de ranuras de memoria, denominadas ranuras DIMM (módulo de memoria dual en línea), para alojar módulos de memoria. Un módulo de memoria instalado en una ranura DIMM y tres ranuras DIMM vacías. La memoria, también llamada RAM (Random Access Memory) es el almacenamiento temporal de datos e instrucciones mientras son procesados por la CPU. Las tarjetas de vídeo también contienen algunos chips de RAM integrados para la memoria de vídeo
+            p.texto-blanco Una placa base de sobremesa dispone de ranuras de memoria, denominadas ranuras DIMM (módulo de memoria dual en línea), para alojar módulos de memoria. Un módulo de memoria instalado en una ranura DIMM y tres ranuras DIMM vacías. La memoria, también llamada RAM (Random Access Memory) es el almacenamiento temporal de datos e instrucciones mientras son procesados por la CPU. Las tarjetas de vídeo también contienen algunos chips de RAM integrados para la memoria de vídeo.
 
           .tarjeta.color-adicional-1.p-3(x="63%" y="102%" numero="+")
             p.texto-blanco Un sistema puede tener uno o más discos duros y una unidad óptica. Un disco duro, también llamado unidad de disco duro (HDD), es un almacenamiento permanente que se utiliza para guardar datos y programas. Por ejemplo, el sistema operativo Windows 10 y las aplicaciones se instalan en el disco duro. Todas las unidades de un sistema se instalan en una pila de bahías de unidades en la parte delantera de la caja. El disco duro más grande es una unidad magnética y el más pequeño es una unidad de estado sólido (SSD). Cada unidad tiene dos conexiones para cables: El cable de alimentación se conecta a la fuente de alimentación, y otro cable, utilizado para los datos y las instrucciones, se conecta a la placa base.
@@ -304,7 +304,7 @@
           
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema1/img18.svg', alt='Imágen decorativa')
+                img(src='@/assets/curso/temas/tema1/img18.png', alt='Imágen decorativa')
 
           .row
             .col-md-6.mb-4.mb-md-0

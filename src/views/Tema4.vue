@@ -518,7 +518,7 @@
                 i.fas.fa-check-circle
                 p.mb-0 Ubicación del equipo: departamento, sección, persona (usuario) responsable.
 
-            .cajon.color-primario.p-4(data-aos="flip-up")
+            .cajon.color-primario.p-4
               p.mb-0 Es probable que los requisitos de un inventario exhaustivo sólo puedan cumplirse mediante el uso de un sistema informático.
 
           .row(numero="5" titulo="Formación del usuario")

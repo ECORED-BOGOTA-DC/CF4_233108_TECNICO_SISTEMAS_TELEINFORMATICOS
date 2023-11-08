@@ -141,7 +141,7 @@
 
     .bg-fondo5
 
-      p.mb-5 A diferencia de las abstracciones proporcionadas por el SO para la CPU y la memoria, el SO no crea un disco privado y virtualizado para cada aplicación. Más bien, se asume que, a menudo, los usuarios querrán compartir información que está en archivo; de ahí el ejemplo que se expone a continuación.
+      p.mb-5 A diferencia de las abstracciones proporcionadas por el SO para la CPU y la memoria, el SO no crea un disco privado y virtualizado para cada aplicación. Más bien, se asume que, a menudo, los usuarios querrán compartir información que está en archivo; de ahí el ejemplo que se expone a continuación:
 
       .row.justify-content-center.align-items-center.mb-5
         .col-10.col-lg-4.mb-4
@@ -182,7 +182,7 @@
                   img(src='@/assets/curso/temas/tema3/img14.svg', alt='Imágen decorativa').img-numeros
 
               .col-lg-8
-                p.mb-lg-0.mb-5 Cuando se haya terminado, se puede ejecutar el nuevo ejecutable (por ejemplo, ./main). De este modo, se comparten los archivos entre diferentes procesos.
+                p.mb-lg-0.mb-5 Cuando se haya terminado, se puede ejecutar el nuevo ejecutable (por ejemplo, ./main).
 
               .col-10.col-md-8.col-lg-2
                 figure
